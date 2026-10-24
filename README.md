@@ -1,4 +1,4 @@
-# 🏍️ GPLX A1 - Ôn Thi Giấy Phép Lái Xe 200 Câu
+# 🏍️ GPLX A1 - 200 Câu
 
 <p align="center">
   <img src="app/assets/images/app_logo.png" alt="Logo GPLX A1" width="128" height="128" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />

@@ -165,7 +165,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  'Trắc Nghiệm Lái Xe A1 · v1.0.0',
+                  'GPLX A1 - 200 Câu · v1.0.0',
                   style: AppTypography.bodySmall.copyWith(fontWeight: FontWeight.w600),
                 ),
                 const SizedBox(height: 2),

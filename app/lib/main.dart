@@ -23,7 +23,7 @@ void main() async {
   );
 }
 
-/// Ứng dụng Trắc Nghiệm Lái Xe A1 - 100% Offline
+/// Ứng dụng GPLX A1 - 200 Câu - 100% Offline
 class A1QuizApp extends StatelessWidget {
   final LocalStorageService storageService;
   final QuestionRepository questionRepository;
