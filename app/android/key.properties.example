@@ -1,0 +1,8 @@
+# Template cấu hình khóa ký Release khi xuất AAB đưa lên Google Play Console
+# Đổi tên file này thành key.properties (và đặt cùng thư mục android/)
+# Lưu ý: Tuyệt đối KHÔNG commit file key.properties chứa mật khẩu thật lên Git repository công khai!
+
+keyAlias=upload
+keyPassword=YOUR_KEY_PASSWORD
+storePassword=YOUR_STORE_PASSWORD
+storeFile=upload-keystore.jks

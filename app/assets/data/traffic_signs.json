@@ -1,0 +1,1667 @@
+[
+  {
+    "code": "P.101",
+    "name": "Đường cấm",
+    "group": "cam",
+    "image": "assets/images/signs/P_101.png",
+    "description": "Báo đường cấm tất cả các loại phương tiện (cơ giới và thô sơ) đi lại cả hai hướng, trừ các xe được ưu tiên theo quy định.",
+    "is_in_exam": true,
+    "tips": "Biển cấm tuyệt đối mọi loại xe (kể cả xe máy, xe đạp). Chỉ có xe ưu tiên làm nhiệm vụ (cứu hỏa, quân sự, công an, cứu thương) mới được đi vào."
+  },
+  {
+    "code": "P.102",
+    "name": "Cấm đi ngược chiều",
+    "group": "cam",
+    "image": "assets/images/signs/P_102.png",
+    "description": "Báo đường cấm tất cả các loại xe (cơ giới và thô sơ) đi vào theo chiều đặt biển, trừ các xe được ưu tiên theo quy định.",
+    "is_in_exam": true,
+    "tips": "Đi vào đường có biển này là lỗi 'Đi ngược chiều của đường một chiều' — một trong những câu hỏi điểm liệt quan trọng nhất trong đề thi A1!"
+  },
+  {
+    "code": "P.103a",
+    "name": "Cấm xe ô tô",
+    "group": "cam",
+    "image": "assets/images/signs/P_103a.png",
+    "description": "Báo đường cấm các loại xe cơ giới kể cả mô tô 3 bánh có thùng đi qua, trừ mô tô hai bánh, xe gắn máy và các xe được ưu tiên theo quy định.",
+    "is_in_exam": true,
+    "tips": "BẪY THI A1 RẤT HAY GẶP: Biển này cấm ô tô nhưng KHÔNG CẤM xe mô tô 2 bánh và xe gắn máy! Người điều khiển xe máy A1 vẫn được phép đi vào."
+  },
+  {
+    "code": "P.103b",
+    "name": "Cấm ô tô rẽ phải",
+    "group": "cam",
+    "image": "assets/images/signs/P_103b.png",
+    "description": "Báo đường cấm các loại xe cơ giới kể cả mô tô 3 bánh có thùng rẽ phải, trừ mô tô hai bánh, xe gắn máy và các xe ưu tiên.",
+    "is_in_exam": true,
+    "tips": "Chỉ cấm ô tô rẽ phải. Mô tô 2 bánh và xe máy vẫn được rẽ phải bình thường."
+  },
+  {
+    "code": "P.103c",
+    "name": "Cấm ô tô rẽ trái",
+    "group": "cam",
+    "image": "assets/images/signs/P_103c.png",
+    "description": "Báo đường cấm các loại xe cơ giới kể cả mô tô 3 bánh có thùng rẽ trái, trừ mô tô hai bánh, xe gắn máy và các xe ưu tiên.",
+    "is_in_exam": true,
+    "tips": "Theo QCVN 41:2019, biển cấm ô tô rẽ trái này KHÔNG cấm ô tô quay đầu xe, và xe mô tô 2 bánh vẫn được rẽ trái."
+  },
+  {
+    "code": "P.104",
+    "name": "Cấm xe mô tô",
+    "group": "cam",
+    "image": "assets/images/signs/P_104.png",
+    "description": "Báo đường cấm các loại xe mô tô đi qua, trừ các xe mô tô được ưu tiên theo quy định. Biển không có giá trị cấm xe gắn máy.",
+    "is_in_exam": true,
+    "tips": "BẪY THI CỰC KỲ PHỔ BIẾN: Biển cấm mô tô (có hình người ngồi trên xe máy) thì CẤM mô tô nhưng KHÔNG CẤM xe gắn máy (dưới 50cm3) và xe đạp!"
+  },
+  {
+    "code": "P.105",
+    "name": "Cấm ô tô và mô tô",
+    "group": "cam",
+    "image": "assets/images/signs/P_105.png",
+    "description": "Báo đường cấm tất cả các loại xe cơ giới và xe mô tô đi qua trừ xe gắn máy và các xe ưu tiên theo quy định.",
+    "is_in_exam": true,
+    "tips": "Biển kết hợp cấm cả ô tô lẫn mô tô 2 bánh, 3 bánh. Nhưng xe gắn máy dưới 50cc vẫn được đi vào."
+  },
+  {
+    "code": "P.106a",
+    "name": "Cấm xe ô tô tải",
+    "group": "cam",
+    "image": "assets/images/signs/P_106a.png",
+    "description": "Báo đường cấm các loại ô tô tải có khối lượng chuyên chở lớn hơn 1,5 tấn (theo QCVN 41:2019), trừ các xe được ưu tiên.",
+    "is_in_exam": true,
+    "tips": "Biển cấm tải KHÔNG cấm ô tô con và KHÔNG cấm xe mô tô 2 bánh."
+  },
+  {
+    "code": "P.106b",
+    "name": "Cấm ô tô tải có tải trọng lớn hơn",
+    "group": "cam",
+    "image": "assets/images/signs/P_106b.png",
+    "description": "Báo đường cấm các loại xe ô tô tải có khối lượng chuyên chở lớn hơn giá trị số ghi trên biển (tính bằng tấn).",
+    "is_in_exam": true,
+    "tips": "Chỉ cấm xe tải có trọng tải chuyên chở vượt con số ghi trên biển (ví dụ 2.5T)."
+  },
+  {
+    "code": "P.107",
+    "name": "Cấm ô tô khách và ô tô tải",
+    "group": "cam",
+    "image": "assets/images/signs/P_107.png",
+    "description": "Báo đường cấm ô tô chở khách và các loại ô tô tải có khối lượng chuyên chở lớn hơn 1,5 tấn đi qua.",
+    "is_in_exam": true,
+    "tips": "Cấm xe khách và tải, ô tô con và xe mô tô vẫn đi bình thường."
+  },
+  {
+    "code": "P.108",
+    "name": "Cấm ô tô kéo rơ-moóc",
+    "group": "cam",
+    "image": "assets/images/signs/P_108.png",
+    "description": "Báo đường cấm các loại xe cơ giới kéo theo rơ-moóc kể cả xe mô tô kéo rơ-moóc.",
+    "is_in_exam": false,
+    "tips": "Cấm tất cả phương tiện kéo theo rơ-moóc."
+  },
+  {
+    "code": "P.109",
+    "name": "Cấm máy kéo",
+    "group": "cam",
+    "image": "assets/images/signs/P_109.png",
+    "description": "Báo đường cấm các loại máy kéo kể cả máy kéo bánh hơi và máy kéo bánh xích đi qua.",
+    "is_in_exam": false,
+    "tips": "Biển cấm máy kéo thì cấm máy kéo, ô tô con và xe máy không bị cấm."
+  },
+  {
+    "code": "P.110a",
+    "name": "Cấm xe đạp",
+    "group": "cam",
+    "image": "assets/images/signs/P_110a.png",
+    "description": "Báo đường cấm xe đạp đi qua. Biển không có giá trị cấm người dắt xe đạp.",
+    "is_in_exam": false,
+    "tips": "Người dắt xe đạp đi bộ trên hè vẫn được phép."
+  },
+  {
+    "code": "P.110b",
+    "name": "Cấm xe đạp thồ",
+    "group": "cam",
+    "image": "assets/images/signs/P_110b.png",
+    "description": "Báo đường cấm xe đạp thồ đi qua. Biển không cấm người dắt xe đạp thồ.",
+    "is_in_exam": false,
+    "tips": "Chỉ cấm xe đạp chở hàng thồ cồng kềnh."
+  },
+  {
+    "code": "P.111a",
+    "name": "Cấm xe gắn máy",
+    "group": "cam",
+    "image": "assets/images/signs/P_111a.png",
+    "description": "Báo đường cấm xe gắn máy (dưới 50cm3) đi qua. Biển không có giá trị cấm xe đạp.",
+    "is_in_exam": true,
+    "tips": "QUY TẮC VÀNG THI SÁT HẠCH: Biển cấm xe gắn máy (hình xe không có người lái) thì CẤM cả xe gắn máy lẫn xe mô tô! Nhưng biển cấm mô tô (hình có người) lại KHÔNG cấm xe gắn máy!"
+  },
+  {
+    "code": "P.111b",
+    "name": "Cấm xe ba gác máy",
+    "group": "cam",
+    "image": "assets/images/signs/P_111b.png",
+    "description": "Báo đường cấm xe ba gác máy đi qua.",
+    "is_in_exam": false,
+    "tips": "Áp dụng cho xe 3 bánh gắn động cơ chở hàng."
+  },
+  {
+    "code": "P.111c",
+    "name": "Cấm xe ba gác máy có thùng",
+    "group": "cam",
+    "image": "assets/images/signs/P_111c.png",
+    "description": "Báo đường cấm xe ba gác máy loại có thùng chuyên dùng vận chuyển hàng hóa.",
+    "is_in_exam": false,
+    "tips": "Thường gặp trên các tuyến phố nội đô hẹp."
+  },
+  {
+    "code": "P.111d",
+    "name": "Cấm xe xích lô máy",
+    "group": "cam",
+    "image": "assets/images/signs/P_111d.png",
+    "description": "Báo đường cấm xe xích lô máy đi qua.",
+    "is_in_exam": false,
+    "tips": "Phân biệt với xích lô đạp thường."
+  },
+  {
+    "code": "P.112",
+    "name": "Cấm người đi bộ",
+    "group": "cam",
+    "image": "assets/images/signs/P_112.png",
+    "description": "Báo đường cấm người đi bộ qua lại trên đoạn đường này.",
+    "is_in_exam": true,
+    "tips": "Biển này thường đặt tại đường cao tốc, cầu vượt vượt sông hoặc hầm chui chỉ dành cho xe cơ giới."
+  },
+  {
+    "code": "P.113",
+    "name": "Cấm xe người kéo, đẩy",
+    "group": "cam",
+    "image": "assets/images/signs/P_113.png",
+    "description": "Báo đường cấm các loại xe thô sơ do người kéo, đẩy đi qua.",
+    "is_in_exam": false,
+    "tips": "Không cấm xe nôi trẻ em hoặc xe lăn người khuyết tật."
+  },
+  {
+    "code": "P.114",
+    "name": "Cấm xe súc vật kéo",
+    "group": "cam",
+    "image": "assets/images/signs/P_114.png",
+    "description": "Báo đường cấm các loại xe súc vật kéo hoặc súc vật cưỡi, thồ đi qua.",
+    "is_in_exam": false,
+    "tips": "Áp dụng cả xe ngựa, xe bò."
+  },
+  {
+    "code": "P.115",
+    "name": "Hạn chế tải trọng toàn bộ xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_115.png",
+    "description": "Báo đường cấm các loại xe cơ giới và thô sơ có tải trọng toàn bộ (cả xe và hàng) vượt quá giá trị ghi trên biển.",
+    "is_in_exam": true,
+    "tips": "Tải trọng toàn bộ = Khối lượng xe + Hàng hóa thực tế đang chở. Nếu vượt số tấn trên biển thì không được vào."
+  },
+  {
+    "code": "P.116",
+    "name": "Hạn chế tải trọng trên trục xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_116.png",
+    "description": "Báo đường cấm các loại xe cơ giới và thô sơ có tải trọng phân bổ trên một trục xe vượt quá trị số ghi trên biển.",
+    "is_in_exam": false,
+    "tips": "Áp dụng để bảo vệ mặt đường và cầu yếu."
+  },
+  {
+    "code": "P.117",
+    "name": "Hạn chế chiều cao xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_117.png",
+    "description": "Báo đường cấm các loại xe cơ giới và thô sơ có chiều cao (kể cả xe và hàng hóa) vượt quá giá trị ghi trên biển.",
+    "is_in_exam": true,
+    "tips": "Thường cắm trước hầm chui, cầu vượt hoặc cổng vòm hạn chế chiều cao."
+  },
+  {
+    "code": "P.118",
+    "name": "Hạn chế chiều ngang xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_118.png",
+    "description": "Báo đường cấm các loại xe cơ giới và thô sơ có chiều ngang toàn bộ (kể cả hàng hóa) vượt quá trị số ghi trên biển.",
+    "is_in_exam": false,
+    "tips": "Biển có hai mũi tên ngang chỉ vào giữa số giới hạn."
+  },
+  {
+    "code": "P.119",
+    "name": "Hạn chế chiều dài ô tô",
+    "group": "cam",
+    "image": "assets/images/signs/P_119.png",
+    "description": "Báo đường cấm các loại xe ô tô kể cả rơ-moóc có chiều dài vượt quá giá trị ghi trên biển.",
+    "is_in_exam": false,
+    "tips": "Áp dụng tại các khúc cua gấp hoặc đường đèo dốc quanh co."
+  },
+  {
+    "code": "P.120",
+    "name": "Hạn chế chiều dài ô tô kéo rơ-moóc",
+    "group": "cam",
+    "image": "assets/images/signs/P_120.png",
+    "description": "Báo đường cấm các loại ô tô kéo rơ-moóc có chiều dài toàn bộ vượt quá trị số trên biển.",
+    "is_in_exam": false,
+    "tips": "Ngăn các tổ hợp xe dài gây tắc nghẽn ở đoạn cua hẹp."
+  },
+  {
+    "code": "P.121",
+    "name": "Cự ly tối thiểu giữa hai xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_121.png",
+    "description": "Báo xe ô tô phải đi cách nhau một khoảng cách tối thiểu tính bằng mét ghi trên biển.",
+    "is_in_exam": true,
+    "tips": "Thường đặt trên cầu hoặc đoạn đường sương mù, trơn trượt cần giữ khoảng cách an toàn."
+  },
+  {
+    "code": "P.122",
+    "name": "Dừng lại (STOP)",
+    "group": "cam",
+    "image": "assets/images/signs/P_122.png",
+    "description": "Buộc các loại xe cơ giới và thô sơ kể cả xe ưu tiên theo quy định phải dừng lại trước biển hoặc trước vạch dừng xe.",
+    "is_in_exam": true,
+    "tips": "ĐẶC BIỆT LƯU Ý: Biển STOP là biển duy nhất buộc CẢ XE ƯU TIÊN (xe cứu hỏa, cứu thương...) cũng phải dừng lại quan sát an toàn mới được đi tiếp!"
+  },
+  {
+    "code": "P.123a",
+    "name": "Cấm rẽ trái",
+    "group": "cam",
+    "image": "assets/images/signs/P_123a.png",
+    "description": "Báo cấm các loại xe rẽ trái ở những đoạn đường giao nhau (không cấm quay đầu xe theo QCVN 41:2019).",
+    "is_in_exam": true,
+    "tips": "ĐIỂM THEN CHỐT THEO QUY CHUẨN MỚI: Biển cấm rẽ trái P.123a KHÔNG CẤM QUAY ĐẦU! Rất nhiều câu hỏi thi lý thuyết sát hạch đánh bẫy điều này."
+  },
+  {
+    "code": "P.123b",
+    "name": "Cấm rẽ phải",
+    "group": "cam",
+    "image": "assets/images/signs/P_123b.png",
+    "description": "Báo cấm các loại xe rẽ phải ở những đoạn đường giao nhau.",
+    "is_in_exam": true,
+    "tips": "Phương tiện chỉ được đi thẳng hoặc rẽ trái/quay đầu (nếu không có biển cấm khác)."
+  },
+  {
+    "code": "P.124a",
+    "name": "Cấm quay đầu xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_124a.png",
+    "description": "Báo cấm các loại xe quay đầu theo kiểu chữ U (biển không cấm rẽ trái).",
+    "is_in_exam": true,
+    "tips": "Biển cấm quay đầu xe thì VẪN ĐƯỢC PHÉP RẼ TRÁI!"
+  },
+  {
+    "code": "P.124b",
+    "name": "Cấm ô tô quay đầu xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_124b.png",
+    "description": "Báo cấm xe ô tô quay đầu xe (mô tô 2 bánh vẫn được quay đầu).",
+    "is_in_exam": true,
+    "tips": "Biển chỉ cấm ô tô quay đầu. Người lái xe máy A1 vẫn được quay đầu xe bình thường."
+  },
+  {
+    "code": "P.124c",
+    "name": "Cấm rẽ trái và quay đầu xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_124c.png",
+    "description": "Báo cấm các loại xe vừa không được rẽ trái, vừa không được quay đầu xe.",
+    "is_in_exam": true,
+    "tips": "Gặp biển này cấm cả 2 hành vi: không được rẽ trái VÀ không được quay đầu."
+  },
+  {
+    "code": "P.124d",
+    "name": "Cấm rẽ phải và quay đầu xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_124d.png",
+    "description": "Báo cấm các loại xe vừa không được rẽ phải, vừa không được quay đầu xe.",
+    "is_in_exam": false,
+    "tips": "Xe chỉ được phép đi thẳng hoặc rẽ trái theo quy định."
+  },
+  {
+    "code": "P.125",
+    "name": "Cấm vượt",
+    "group": "cam",
+    "image": "assets/images/signs/P_125.png",
+    "description": "Báo cấm các loại xe cơ giới vượt nhau, trừ xe mô tô hai bánh và xe gắn máy được phép vượt.",
+    "is_in_exam": true,
+    "tips": "Biển cấm vượt cấm ô tô vượt nhau, nhưng xe mô tô 2 bánh vẫn được phép vượt xe khác nếu an toàn."
+  },
+  {
+    "code": "P.126",
+    "name": "Cấm ô tô tải vượt",
+    "group": "cam",
+    "image": "assets/images/signs/P_126.png",
+    "description": "Báo cấm các loại xe ô tô tải có khối lượng chuyên chở lớn hơn 3.5 tấn vượt các xe cơ giới khác.",
+    "is_in_exam": true,
+    "tips": "Biển này chỉ cấm ô tô tải vượt. Ô tô con và xe mô tô vẫn được vượt bình thường."
+  },
+  {
+    "code": "P.127",
+    "name": "Tốc độ tối đa cho phép",
+    "group": "cam",
+    "image": "assets/images/signs/P_127.png",
+    "description": "Báo tốc độ tối đa cho phép các xe cơ giới chạy trên đoạn đường này (tính theo km/h).",
+    "is_in_exam": true,
+    "tips": "Không được vượt quá con số ghi trên biển trong bất kỳ trường hợp nào."
+  },
+  {
+    "code": "P.128",
+    "name": "Cấm bóp còi",
+    "group": "cam",
+    "image": "assets/images/signs/P_128.png",
+    "description": "Báo cấm các loại xe cơ giới sử dụng còi khi lưu thông qua đoạn đường này.",
+    "is_in_exam": false,
+    "tips": "Thường đặt gần bệnh viện, trường học, khu an dưỡng, cấm còi từ 22h - 5h sáng."
+  },
+  {
+    "code": "P.129",
+    "name": "Trạm kiểm tra tải trọng",
+    "group": "cam",
+    "image": "assets/images/signs/P_129.png",
+    "description": "Báo nơi đặt trạm kiểm tra tải trọng xe, các xe thuộc diện phải dừng lại để kiểm tra.",
+    "is_in_exam": false,
+    "tips": "Dành cho xe tải và xe vận tải hàng hóa."
+  },
+  {
+    "code": "P.130",
+    "name": "Cấm dừng xe và đỗ xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_130.png",
+    "description": "Báo nơi cấm tất cả các loại xe cơ giới và thô sơ dừng xe và đỗ xe ở đoạn đường có đặt biển.",
+    "is_in_exam": true,
+    "tips": "Biển có 2 gạch chéo màu đỏ (hình chữ X): CẤM CẢ DỪNG LẪN ĐỖ (không được dừng xe dù chỉ 1 giây)!"
+  },
+  {
+    "code": "P.131a",
+    "name": "Cấm đỗ xe",
+    "group": "cam",
+    "image": "assets/images/signs/P_131a.png",
+    "description": "Báo nơi cấm các loại xe cơ giới đỗ xe (vẫn được phép dừng xe tạm thời để đón trả khách hoặc xếp dỡ hàng).",
+    "is_in_exam": true,
+    "tips": "Biển chỉ có 1 gạch chéo đỏ: CẤM ĐỖ NHƯNG ĐƯỢC PHÉP DỪNG! (Người lái xe không được rời khỏi vô-lăng)."
+  },
+  {
+    "code": "P.131b",
+    "name": "Cấm đỗ xe ngày lẻ",
+    "group": "cam",
+    "image": "assets/images/signs/P_131b.png",
+    "description": "Báo nơi cấm các loại xe cơ giới đỗ xe vào các ngày lẻ trong tháng.",
+    "is_in_exam": true,
+    "tips": "Có 1 vạch trắng thẳng đứng ở giữa: Cấm đỗ vào các ngày 1, 3, 5, 7, 9... trong tháng."
+  },
+  {
+    "code": "P.131c",
+    "name": "Cấm đỗ xe ngày chẵn",
+    "group": "cam",
+    "image": "assets/images/signs/P_131c.png",
+    "description": "Báo nơi cấm các loại xe cơ giới đỗ xe vào các ngày chẵn trong tháng.",
+    "is_in_exam": true,
+    "tips": "Có 2 vạch trắng thẳng đứng ở giữa: Cấm đỗ vào các ngày 2, 4, 6, 8... trong tháng."
+  },
+  {
+    "code": "P.132",
+    "name": "Nhường đường qua đường hẹp",
+    "group": "cam",
+    "image": "assets/images/signs/P_132.png",
+    "description": "Báo các loại xe cơ giới và thô sơ phải nhường đường cho các loại xe cơ giới đi ngược chiều qua đoạn đường hẹp.",
+    "is_in_exam": true,
+    "tips": "Biển hình tròn viền đỏ, mũi tên đỏ chiều đi của mình: BẠN PHẢI NHƯỜNG ĐƯỜNG cho xe ngược chiều!"
+  },
+  {
+    "code": "P.133",
+    "name": "Hết cấm vượt",
+    "group": "cam",
+    "image": "assets/images/signs/P_133.png",
+    "description": "Báo hiệu đoạn đường hết cấm vượt, các loại xe cơ giới được phép vượt nhau khi đảm bảo an toàn.",
+    "is_in_exam": true,
+    "tips": "Biển hình tròn viền xanh nền trắng, hai xe xám gạch chéo: Hết hiệu lực của biển P.125."
+  },
+  {
+    "code": "P.134",
+    "name": "Hết tốc độ tối đa cho phép",
+    "group": "cam",
+    "image": "assets/images/signs/P_134.png",
+    "description": "Báo hết đoạn đường hạn chế tốc độ tối đa theo biển số P.127.",
+    "is_in_exam": true,
+    "tips": "Số tốc độ màu xám bị gạch chéo: Trở về chạy theo tốc độ quy định chung của tuyến đường."
+  },
+  {
+    "code": "P.135",
+    "name": "Hết tất cả các lệnh cấm",
+    "group": "cam",
+    "image": "assets/images/signs/P_135.png",
+    "description": "Báo hết đoạn đường mà nhiều biển cấm cùng có hiệu lực tác dụng trước đó.",
+    "is_in_exam": true,
+    "tips": "Biển có nhiều vạch chéo màu xám: Giải phóng mọi lệnh cấm trước đó trên đoạn đường."
+  },
+  {
+    "code": "P.136",
+    "name": "Cấm đi thẳng",
+    "group": "cam",
+    "image": "assets/images/signs/P_136.png",
+    "description": "Báo cấm tất cả các phương tiện đi thẳng ở nơi đường giao nhau.",
+    "is_in_exam": false,
+    "tips": "Phương tiện bắt buộc phải rẽ trái hoặc rẽ phải."
+  },
+  {
+    "code": "P.137",
+    "name": "Cấm rẽ trái và rẽ phải",
+    "group": "cam",
+    "image": "assets/images/signs/P_137.png",
+    "description": "Báo cấm tất cả các loại xe rẽ trái hoặc rẽ phải, chỉ được phép đi thẳng.",
+    "is_in_exam": false,
+    "tips": "Tại nơi giao nhau chỉ duy nhất hướng đi thẳng được phép lưu thông."
+  },
+  {
+    "code": "P.138",
+    "name": "Cấm đi thẳng và rẽ trái",
+    "group": "cam",
+    "image": "assets/images/signs/P_138.png",
+    "description": "Báo cấm tất cả các loại xe đi thẳng và rẽ trái, chỉ được phép rẽ phải.",
+    "is_in_exam": false,
+    "tips": "Thường đặt ở đường nhánh dẫn ra đường một chiều bên phải."
+  },
+  {
+    "code": "P.139",
+    "name": "Cấm đi thẳng và rẽ phải",
+    "group": "cam",
+    "image": "assets/images/signs/P_139.png",
+    "description": "Báo cấm tất cả các loại xe đi thẳng và rẽ phải, chỉ được phép rẽ trái.",
+    "is_in_exam": false,
+    "tips": "Thường đặt ở đường nhánh dẫn ra đường một chiều bên trái."
+  },
+  {
+    "code": "P.140",
+    "name": "Cấm xe công nông",
+    "group": "cam",
+    "image": "assets/images/signs/P_140.png",
+    "description": "Báo đường cấm xe công nông và các loại xe tương tự đi qua.",
+    "is_in_exam": false,
+    "tips": "Áp dụng cho xe đầu kéo nhỏ tự chế chở hàng nông nghiệp."
+  },
+  {
+    "code": "W.201a",
+    "name": "Chỗ ngoặt nguy hiểm vòng bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_201a.png",
+    "description": "Báo trước sắp đến một chỗ ngoặt nguy hiểm vòng về phía bên trái.",
+    "is_in_exam": true,
+    "tips": "Phải giảm tốc độ, chú ý bám đúng làn đường bên phải, không lấn làn khi vào cua trái."
+  },
+  {
+    "code": "W.201b",
+    "name": "Chỗ ngoặt nguy hiểm vòng bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_201b.png",
+    "description": "Báo trước sắp đến một chỗ ngoặt nguy hiểm vòng về phía bên phải.",
+    "is_in_exam": true,
+    "tips": "Giảm tốc độ, chú ý các xe đi ngược chiều khuất tầm nhìn từ cua phải."
+  },
+  {
+    "code": "W.202a",
+    "name": "Nhiều chỗ ngoặt nguy hiểm liên tiếp phía trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_202a.png",
+    "description": "Báo trước sắp đến đoạn đường có từ hai chỗ ngoặt nguy hiểm liên tiếp trở lên, cua đầu tiên sang trái.",
+    "is_in_exam": true,
+    "tips": "Đường ngoằn ngoèo liên tục, cấm vượt xe trên đoạn đường có biển này."
+  },
+  {
+    "code": "W.202b",
+    "name": "Nhiều chỗ ngoặt nguy hiểm liên tiếp phía phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_202b.png",
+    "description": "Báo trước sắp đến nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ ngoặt đầu tiên vòng về bên phải.",
+    "is_in_exam": false,
+    "tips": "Cần đi số thấp trên xe số, giữ tốc độ ổn định."
+  },
+  {
+    "code": "W.203a",
+    "name": "Đường bị hẹp cả hai bên",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_203a.png",
+    "description": "Báo trước sắp đến đoạn đường bị co hẹp lại ở cả hai phía trái và phải.",
+    "is_in_exam": true,
+    "tips": "Hai xe chạy ngược chiều phải chủ động giảm tốc và nhường nhau khi qua đoạn hẹp."
+  },
+  {
+    "code": "W.203b",
+    "name": "Đường bị hẹp về phía bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_203b.png",
+    "description": "Báo trước đoạn đường phía trước bị co hẹp phần đường xe chạy về phía bên trái.",
+    "is_in_exam": true,
+    "tips": "Phương tiện làn trái cần quan sát nhường đường và chuyển dần sang phải."
+  },
+  {
+    "code": "W.203c",
+    "name": "Đường bị hẹp về phía bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_203c.png",
+    "description": "Báo trước đoạn đường phía trước bị co hẹp phần đường xe chạy về phía bên phải.",
+    "is_in_exam": true,
+    "tips": "Phương tiện làn phải phải chủ động nhường đường và nhập vào làn trong an toàn."
+  },
+  {
+    "code": "W.204",
+    "name": "Đường hai chiều",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_204.png",
+    "description": "Báo trước đoạn đường phía trước có chiều đi và chiều về chung một lòng đường (hết đường một chiều hoặc hết dải phân cách giữa).",
+    "is_in_exam": true,
+    "tips": "Chú ý: Sau biển này đường sẽ có xe đi ngược chiều, cần đi đúng phần đường bên phải của mình!"
+  },
+  {
+    "code": "W.205a",
+    "name": "Đường giao nhau cùng cấp",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_205a.png",
+    "description": "Báo trước sắp đến nơi giao nhau cùng mức của các tuyến đường cùng cấp (ngã tư).",
+    "is_in_exam": true,
+    "tips": "QUY TẮC NHƯỜNG ĐƯỜNG A1: Tại ngã tư cùng cấp không có vòng xuyến, phải nhường đường cho xe đi đến từ BÊN PHẢI!"
+  },
+  {
+    "code": "W.205b",
+    "name": "Giao nhau cùng cấp ngã ba bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_205b.png",
+    "description": "Báo trước đường giao nhau cùng cấp hình ngã ba với nhánh rẽ về phía bên phải.",
+    "is_in_exam": false,
+    "tips": "Chú ý xe từ ngã rẽ bên phải nhập vào làn."
+  },
+  {
+    "code": "W.205c",
+    "name": "Giao nhau cùng cấp ngã ba bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_205c.png",
+    "description": "Báo trước đường giao nhau cùng cấp hình ngã ba với nhánh rẽ về phía bên trái.",
+    "is_in_exam": false,
+    "tips": "Cảnh báo phương tiện rẽ cắt mặt từ phía bên trái."
+  },
+  {
+    "code": "W.205d",
+    "name": "Giao nhau cùng cấp ngã ba chữ T",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_205d.png",
+    "description": "Báo trước sắp đến đường giao nhau cùng cấp hình chữ T.",
+    "is_in_exam": false,
+    "tips": "Phải giảm tốc độ tối đa vì sắp gặp đường chắn ngang."
+  },
+  {
+    "code": "W.205e",
+    "name": "Giao nhau cùng cấp ngã ba chữ Y",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_205e.png",
+    "description": "Báo trước sắp đến đường giao nhau cùng cấp phân nhánh hình chữ Y.",
+    "is_in_exam": false,
+    "tips": "Xác định hướng đi và bật xi-nhan báo hiệu sớm trước ngã ba."
+  },
+  {
+    "code": "W.206",
+    "name": "Giao nhau chạy theo vòng xuyến",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_206.png",
+    "description": "Báo trước sắp đến nơi giao nhau có đảo an toàn ở giữa và các xe phải đi vòng qua đảo theo chiều mũi tên.",
+    "is_in_exam": true,
+    "tips": "BẪY THI CỰC KỲ QUAN TRỌNG: Khi có biển báo vòng xuyến, phải nhường đường cho xe đến từ BÊN TRÁI!"
+  },
+  {
+    "code": "W.207a",
+    "name": "Giao nhau với đường không ưu tiên",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_207a.png",
+    "description": "Báo trước sắp đến nơi giao nhau với đường không ưu tiên (đường nhánh vuông góc cả 2 bên).",
+    "is_in_exam": true,
+    "tips": "Bạn đang đi trên ĐƯỜNG ƯU TIÊN (nét đậm đứng thẳng), xe trên đường nhánh (nét mảnh cắt ngang) phải nhường cho bạn!"
+  },
+  {
+    "code": "W.207b",
+    "name": "Giao nhau với đường không ưu tiên bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_207b.png",
+    "description": "Báo trước sắp đến nơi giao nhau với đường nhánh không ưu tiên ở phía bên phải.",
+    "is_in_exam": true,
+    "tips": "Bạn đang trên đường ưu tiên, nhưng cần chú ý xe từ đường nhánh bên phải lao ra."
+  },
+  {
+    "code": "W.207c",
+    "name": "Giao nhau với đường không ưu tiên bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_207c.png",
+    "description": "Báo trước sắp đến nơi giao nhau với đường nhánh không ưu tiên ở phía bên trái.",
+    "is_in_exam": true,
+    "tips": "Bạn có quyền ưu tiên qua nơi giao nhau trước xe từ đường nhánh bên trái."
+  },
+  {
+    "code": "W.208",
+    "name": "Giao nhau với đường ưu tiên",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_208.png",
+    "description": "Báo trước sắp đến nơi giao nhau với đường ưu tiên. Xe gặp biển này phải nhường đường cho các xe trên đường ưu tiên.",
+    "is_in_exam": true,
+    "tips": "BẪY THI A1 QUEN THUỘC: Biển tam giác ngược (đỉnh hướng xuống)! Bạn đang ở đường nhánh, BẮT BUỘC PHẢI NHƯỜNG ĐƯỜNG cho xe trên đường lớn đi trước."
+  },
+  {
+    "code": "W.209",
+    "name": "Giao nhau có tín hiệu đèn",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_209.png",
+    "description": "Báo trước nơi giao nhau có đèn điều khiển giao thông (đèn tín hiệu xanh, vàng, đỏ).",
+    "is_in_exam": true,
+    "tips": "Giảm tốc độ, sẵn sàng dừng lại nếu đèn chuyển sang vàng hoặc đỏ."
+  },
+  {
+    "code": "W.210",
+    "name": "Giao nhau với đường sắt có rào chắn",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_210.png",
+    "description": "Báo trước sắp đến nơi giao nhau giữa đường bộ và đường sắt có rào chắn kín hoặc rào chắn nửa kín.",
+    "is_in_exam": true,
+    "tips": "Hình hàng rào chắn rõ rệt: Khi rào chắn bắt đầu đóng hoặc có chuông đèn đỏ báo hiệu, phải dừng cách rào chắn tối thiểu 5m!"
+  },
+  {
+    "code": "W.211a",
+    "name": "Giao nhau với đường sắt không có rào chắn",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_211a.png",
+    "description": "Báo trước sắp đến nơi giao nhau giữa đường bộ và đường sắt không có rào chắn, không có người gác.",
+    "is_in_exam": true,
+    "tips": "Hình đầu tàu hỏa xả khói: CỰC KỲ NGUY HIỂM — Phải dừng xe quan sát hai phía, cách đường ray ngoài cùng tối thiểu 5 mét."
+  },
+  {
+    "code": "W.212",
+    "name": "Cầu hẹp",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_212.png",
+    "description": "Báo trước sắp đến cầu có bề rộng phần xe chạy hẹp, chỉ đủ cho một làn xe hoặc hai xe qua lại khó khăn.",
+    "is_in_exam": true,
+    "tips": "CẤM VƯỢT XE TRÊN CẦU HẸP! Xe đã lên cầu được ưu tiên đi trước."
+  },
+  {
+    "code": "W.213",
+    "name": "Cầu tạm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_213.png",
+    "description": "Báo trước sắp đến cầu tạm thời làm bằng gỗ, thép hoặc phao bắc qua sông suối.",
+    "is_in_exam": false,
+    "tips": "Đi chậm, tuân theo sự chỉ dẫn của người điều hành giao thông tại đầu cầu."
+  },
+  {
+    "code": "W.214",
+    "name": "Cầu xoay - cầu cất",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_214.png",
+    "description": "Báo trước sắp đến cầu có nhịp có thể nâng lên hoặc xoay để cho tàu thuyền qua lại.",
+    "is_in_exam": false,
+    "tips": "Khi cầu đang mở hoặc có đèn đỏ báo, phương tiện tuyệt đối phải dừng lại."
+  },
+  {
+    "code": "W.215a",
+    "name": "Kè, vực sâu phía trước",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_215a.png",
+    "description": "Báo trước sắp đến bờ kè, vực sâu hoặc bến phà thẳng ngay phía trước mặt đường.",
+    "is_in_exam": false,
+    "tips": "Hết sức cẩn thận khi lái xe vào ban đêm hoặc trời mưa sương mù."
+  },
+  {
+    "code": "W.215b",
+    "name": "Kè, vực sâu bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_215b.png",
+    "description": "Báo trước đoạn đường chạy dọc theo bờ sông, hồ, bờ kè hoặc vực sâu phía bên phải.",
+    "is_in_exam": false,
+    "tips": "Không bám quá sát lề đường phía bên phải."
+  },
+  {
+    "code": "W.215c",
+    "name": "Kè, vực sâu bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_215c.png",
+    "description": "Báo trước đoạn đường chạy sát bờ vực hoặc vực sâu bên phía tay trái.",
+    "is_in_exam": false,
+    "tips": "Cẩn trọng khi tránh xe ngược chiều ép làn."
+  },
+  {
+    "code": "W.216",
+    "name": "Đường ngầm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_216.png",
+    "description": "Báo trước sắp đến đoạn đường ngầm tràn qua suối có nguy cơ nước lũ dâng cao cuốn trôi xe.",
+    "is_in_exam": false,
+    "tips": "Nếu nước ngập sâu hoặc chảy xiết thì tuyệt đối không được điều khiển xe máy cố vượt qua."
+  },
+  {
+    "code": "W.217",
+    "name": "Bến phà",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_217.png",
+    "description": "Báo trước sắp đến bến phà, bến đò qua sông.",
+    "is_in_exam": false,
+    "tips": "Tuân thủ hiệu lệnh của nhân viên bến phà, xe chở người ưu tiên qua phà trước xe chở hàng."
+  },
+  {
+    "code": "W.218",
+    "name": "Cửa chui",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_218.png",
+    "description": "Báo trước sắp đến cửa chui qua đường sắt hoặc gầm cầu vượt có kích thước hạn chế.",
+    "is_in_exam": false,
+    "tips": "Chú ý đèn chiếu sáng và giới hạn chiều cao xe."
+  },
+  {
+    "code": "W.219",
+    "name": "Dốc xuống nguy hiểm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_219.png",
+    "description": "Báo trước sắp đến đoạn đường dốc xuống nguy hiểm có độ dốc từ 10% trở lên.",
+    "is_in_exam": true,
+    "tips": "KỸ THUẬT LÁI XE A1: Khi xuống dốc dài, về số thấp (số 1 hoặc số 2), kết hợp phanh trước phanh sau, TUYỆT ĐỐI KHÔNG tắt máy thả trôi xe!"
+  },
+  {
+    "code": "W.220",
+    "name": "Dốc lên nguy hiểm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_220.png",
+    "description": "Báo trước sắp đến đoạn đường dốc lên nguy hiểm liên tục.",
+    "is_in_exam": false,
+    "tips": "Về số phù hợp từ chân dốc, tránh chuyển số giữa dốc dễ chết máy."
+  },
+  {
+    "code": "W.221a",
+    "name": "Đường không bằng phẳng (gồ ghề)",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_221a.png",
+    "description": "Báo trước đoạn đường mặt đường bị lồi lõm, gồ ghề, ổ gà nhiều dễ mất thăng bằng.",
+    "is_in_exam": true,
+    "tips": "Biển có 2 chỗ lồi liên tiếp: Phải giảm tốc độ, giữ vững tay lái để tránh lạng xe ngã đổ."
+  },
+  {
+    "code": "W.221b",
+    "name": "Đường có gờ giảm tốc",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_221b.png",
+    "description": "Báo trước đoạn đường có gờ giảm tốc nhân tạo nhô cao trên mặt đường.",
+    "is_in_exam": true,
+    "tips": "Biển chỉ có 1 gồ nổi duy nhất ở giữa: Sắp đến gờ giảm tốc, cần hạ tốc độ."
+  },
+  {
+    "code": "W.222a",
+    "name": "Đường trơn",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_222a.png",
+    "description": "Báo trước đoạn đường mặt đường có nguy cơ trơn trượt (bùn đất, tuyết, dầu mỡ, mặt đường đổ nhựa mới).",
+    "is_in_exam": true,
+    "tips": "Tránh phanh gấp bằng phanh trước trên xe máy vì rất dễ trượt bánh trước ngã xe!"
+  },
+  {
+    "code": "W.222b",
+    "name": "Lề đường nguy hiểm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_222b.png",
+    "description": "Báo trước lề đường không ổn định, lún sụt hoặc chênh cốt cao so với mặt đường.",
+    "is_in_exam": false,
+    "tips": "Hạn chế đỗ xe hoặc tấp xe quá sát mép lề đường mềm."
+  },
+  {
+    "code": "W.223a",
+    "name": "Vách đá nguy hiểm bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_223a.png",
+    "description": "Báo trước sắp đi sát vách đá dựng đứng nguy hiểm phía bên tay trái.",
+    "is_in_exam": false,
+    "tips": "Cảnh giác đá rơi bất ngờ sau những trận mưa to."
+  },
+  {
+    "code": "W.223b",
+    "name": "Vách đá nguy hiểm bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_223b.png",
+    "description": "Báo trước sắp đi sát vách đá dựng đứng nguy hiểm phía bên tay phải.",
+    "is_in_exam": false,
+    "tips": "Không dừng đỗ xe sát chân vách đá sạt lở."
+  },
+  {
+    "code": "W.224",
+    "name": "Đường người đi bộ cắt ngang",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_224.png",
+    "description": "Báo trước sắp đến nơi có bố trí vạch kẻ đường cho người đi bộ qua đường.",
+    "is_in_exam": true,
+    "tips": "BẮT BUỘC PHẢI NHƯỜNG: Khi có người đi bộ đang qua đường hoặc chuẩn bị qua đường, xe phải giảm tốc độ hoặc dừng lại nhường đường!"
+  },
+  {
+    "code": "W.225",
+    "name": "Trẻ em qua đường",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_225.png",
+    "description": "Báo trước đoạn đường thường có trẻ em đi ngang qua hoặc tụ tập gần đường (trường học, công viên).",
+    "is_in_exam": true,
+    "tips": "Đi chậm, bấm còi cảnh báo khi cần và quan sát kỹ hai bên vỉa hè trường học."
+  },
+  {
+    "code": "W.226",
+    "name": "Người đi xe đạp cắt ngang",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_226.png",
+    "description": "Báo trước nơi có đường dành cho người đi xe đạp cắt ngang qua phần đường xe chạy.",
+    "is_in_exam": false,
+    "tips": "Nhường đường cho xe thô sơ cắt ngang theo luồng."
+  },
+  {
+    "code": "W.227",
+    "name": "Công trường",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_227.png",
+    "description": "Báo trước sắp đến đoạn đường đang có công trường thi công sửa chữa mặt đường.",
+    "is_in_exam": true,
+    "tips": "Phải đi chậm, tuân theo sự hướng dẫn của rào chắn, biển phụ và đèn tín hiệu công trường."
+  },
+  {
+    "code": "W.228a",
+    "name": "Đá lở bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_228a.png",
+    "description": "Báo trước nơi sắp đến đoạn đường có nguy cơ đất đá từ ta luy dương sạt lở phía bên trái.",
+    "is_in_exam": false,
+    "tips": "Đặc biệt nguy hiểm vào mùa mưa lũ miền núi."
+  },
+  {
+    "code": "W.228b",
+    "name": "Đá lở bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_228b.png",
+    "description": "Báo trước nơi sắp đến đoạn đường có nguy cơ đất đá sạt lở phía bên tay phải.",
+    "is_in_exam": false,
+    "tips": "Tập trung quan sát và không vượt xe tại điểm có đá rơi."
+  },
+  {
+    "code": "W.228c",
+    "name": "Sỏi đá bắn lên",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_228c.png",
+    "description": "Báo trước đoạn đường rải đá dăm mới, bánh xe chạy qua làm đá sỏi bắn lên phương tiện đi sau.",
+    "is_in_exam": false,
+    "tips": "Tăng cự ly an toàn với xe đi trước, hạ kính bảo hộ mũ bảo hiểm."
+  },
+  {
+    "code": "W.229",
+    "name": "Dải máy bay lên xuống",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_229.png",
+    "description": "Báo trước đoạn đường chạy sát đường băng sân bay, máy bay bay ở tầm rất thấp.",
+    "is_in_exam": false,
+    "tips": "Không giật mình bởi tiếng gầm động cơ phản lực bất ngờ."
+  },
+  {
+    "code": "W.230",
+    "name": "Gia súc qua đường",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_230.png",
+    "description": "Báo trước đoạn đường thường xuyên có trâu bò, gia súc chăn thả qua đường.",
+    "is_in_exam": false,
+    "tips": "Giảm tốc độ, tránh bóp còi lớn làm gia súc hoảng loạn chạy tạt đầu xe."
+  },
+  {
+    "code": "W.231",
+    "name": "Thú rừng vượt qua đường",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_231.png",
+    "description": "Báo trước đoạn đường đi qua rừng quốc gia, khu bảo tồn thường có động vật hoang dã băng qua.",
+    "is_in_exam": false,
+    "tips": "Hạ tốc độ và quan sát kỹ ranh giới hai bên rừng cây."
+  },
+  {
+    "code": "W.232",
+    "name": "Gió ngang nguy hiểm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_232.png",
+    "description": "Báo trước đoạn đường hay có gió giật ngang rất mạnh (qua cầu vượt biển, thung lũng, đèo hở).",
+    "is_in_exam": false,
+    "tips": "Giữ chắc hai tay lái, giảm tốc để tránh bị gió quật xô lệch hướng lái xe máy."
+  },
+  {
+    "code": "W.233",
+    "name": "Nguy hiểm khác",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_233.png",
+    "description": "Báo trước trên đường có những tình huống nguy hiểm mà chưa có biển báo riêng quy định.",
+    "is_in_exam": true,
+    "tips": "Biển có dấu chấm than (!) ở giữa: Người điều khiển phải hết sức chú ý quan sát xung quanh."
+  },
+  {
+    "code": "W.234",
+    "name": "Giao nhau với đường hai chiều",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_234.png",
+    "description": "Báo trước sắp giao nhau với tuyến đường hai chiều cắt ngang phía trước.",
+    "is_in_exam": false,
+    "tips": "Khác với W.204 (mũi tên đứng dọc), W.234 có mũi tên nằm ngang chỉ cả 2 hướng."
+  },
+  {
+    "code": "W.235",
+    "name": "Đường đôi bắt đầu",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_235.png",
+    "description": "Báo trước sắp bắt đầu đoạn đường đôi (đoạn đường có dải phân cách cố định ở giữa chia 2 chiều riêng biệt).",
+    "is_in_exam": true,
+    "tips": "MẸO THI A1 NHẬN BIẾT: Ly rượu/chướng ngại vật nằm Ở TRÊN -> Bắt đầu đường đôi! Xe đi vào phần đường bên phải."
+  },
+  {
+    "code": "W.236",
+    "name": "Kết thúc đường đôi",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_236.png",
+    "description": "Báo trước sắp kết thúc đoạn đường đôi, chuẩn bị nhập lại thành đường chung hai chiều không có dải phân cách giữa.",
+    "is_in_exam": true,
+    "tips": "MẸO THI A1: Ly rượu/chướng ngại vật nằm Ở DƯỚI -> Hết đoạn đường đôi! Cẩn thận xe đối diện lấn làn."
+  },
+  {
+    "code": "W.237",
+    "name": "Cầu vồng",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_237.png",
+    "description": "Báo trước cầu có độ dốc cao vồng lên hạn chế tầm nhìn của người lái xe.",
+    "is_in_exam": false,
+    "tips": "Cấm vượt xe trên đỉnh cầu vồng vì hoàn toàn bị khuất tầm nhìn đối diện."
+  },
+  {
+    "code": "W.238",
+    "name": "Đường cao tốc phía trước",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_238.png",
+    "description": "Báo trước sắp nhập vào tuyến đường cao tốc phía trước.",
+    "is_in_exam": false,
+    "tips": "Xe máy không có nhiệm vụ khẩn cấp tuyệt đối không được phép đi vào đường cao tốc."
+  },
+  {
+    "code": "W.239",
+    "name": "Đường cáp điện phía trên",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_239.png",
+    "description": "Báo trước có đường dây tải điện cao thế chạy ngang phía trên đường bộ.",
+    "is_in_exam": false,
+    "tips": "Xe chở đồ cồng kềnh chú ý khoảng cách phóng điện an toàn."
+  },
+  {
+    "code": "W.240",
+    "name": "Đường hầm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_240.png",
+    "description": "Báo trước sắp đi vào đường hầm xuyên núi hoặc hầm dìm dưới nước.",
+    "is_in_exam": false,
+    "tips": "BẮT BUỘC BẬT ĐÈN CHIẾU SÁNG ngay cả ban ngày khi vào hầm, không được lùi xe hoặc quay đầu trong hầm."
+  },
+  {
+    "code": "W.241",
+    "name": "Ùn tắc giao thông",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_241.png",
+    "description": "Báo trước đoạn đường phía trước thường xuyên xảy ra tình trạng kẹt xe, ùn ứ kéo dài.",
+    "is_in_exam": false,
+    "tips": "Có thể chủ động chọn lộ trình tránh ùn tắc."
+  },
+  {
+    "code": "W.242a",
+    "name": "Đường sắt giao vuông góc đường đơn",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_242a.png",
+    "description": "Đặt ở nơi đường sắt giao vuông góc với đường bộ (giao cắt trực tiếp với 1 đường ray đơn).",
+    "is_in_exam": true,
+    "tips": "Biển chữ X đơn màu đỏ: Chỉ có 1 đường ray xe lửa cắt ngang."
+  },
+  {
+    "code": "W.242b",
+    "name": "Đường sắt giao vuông góc đường đôi",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_242b.png",
+    "description": "Đặt ở nơi đường bộ giao cắt vuông góc với từ 2 đường ray xe lửa trở lên.",
+    "is_in_exam": true,
+    "tips": "Biển chữ X có thêm 1 ngoặc bên dưới: Nơi giao cắt có từ 2 đường ray tàu hỏa trở lên."
+  },
+  {
+    "code": "W.243a",
+    "name": "Đường ray giao cắt cách 50m",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_243a.png",
+    "description": "Báo trước còn 50m nữa là đến vị trí giao cắt giữa đường sắt và đường bộ.",
+    "is_in_exam": false,
+    "tips": "Biển hình chữ nhật có 1 vạch chéo đỏ: Cách điểm giao cắt 50m."
+  },
+  {
+    "code": "W.243b",
+    "name": "Đường ray giao cắt cách 100m",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_243b.png",
+    "description": "Báo trước còn 100m nữa là đến vị trí giao cắt giữa đường sắt và đường bộ.",
+    "is_in_exam": false,
+    "tips": "Biển có 2 vạch chéo đỏ: Cách điểm giao cắt 100m."
+  },
+  {
+    "code": "W.243c",
+    "name": "Đường ray giao cắt cách 150m",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_243c.png",
+    "description": "Báo trước còn 150m nữa là đến vị trí giao cắt giữa đường sắt và đường bộ.",
+    "is_in_exam": false,
+    "tips": "Biển có 3 vạch chéo đỏ: Cách điểm giao cắt 150m."
+  },
+  {
+    "code": "W.244",
+    "name": "Đoạn đường hay xảy ra tai nạn",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_244.png",
+    "description": "Cảnh báo đoạn đường là điểm đen giao thông thường xuyên xảy ra va chạm, tai nạn.",
+    "is_in_exam": false,
+    "tips": "Đặc biệt tập trung, không lấn làn vượt ẩu."
+  },
+  {
+    "code": "W.245a",
+    "name": "Đi chậm",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_245a.png",
+    "description": "Nhắc nhở người lái xe giảm tốc độ chạy xe an toàn trước khi vào đoạn đường nguy hiểm.",
+    "is_in_exam": true,
+    "tips": "Biển có chữ 'ĐI CHẬM' hoặc 'SLOW': Phải giảm tốc độ ngay khi thấy biển."
+  },
+  {
+    "code": "W.246a",
+    "name": "Chú ý chướng ngại vật - vòng sang hai bên",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_246a.png",
+    "description": "Báo trước có chướng ngại vật ở giữa lòng đường, xe được đi vòng tránh sang cả bên trái hoặc bên phải.",
+    "is_in_exam": false,
+    "tips": "Mũi tên chẽ sang 2 bên: Được phép đi cả 2 phía."
+  },
+  {
+    "code": "W.246b",
+    "name": "Chú ý chướng ngại vật - vòng bên trái",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_246b.png",
+    "description": "Báo có chướng ngại vật phía trước, xe chỉ được phép đi vòng tránh về phía bên trái.",
+    "is_in_exam": false,
+    "tips": "Mũi tên chúc xuống bên trái: Chỉ đi vòng sang trái."
+  },
+  {
+    "code": "W.246c",
+    "name": "Chú ý chướng ngại vật - vòng bên phải",
+    "group": "nguyhiem",
+    "image": "assets/images/signs/W_246c.png",
+    "description": "Báo có chướng ngại vật phía trước, xe chỉ được phép đi vòng tránh về phía bên phải.",
+    "is_in_exam": false,
+    "tips": "Mũi tên chúc xuống bên phải: Chỉ đi vòng sang phải."
+  },
+  {
+    "code": "R.301a",
+    "name": "Hướng đi phải theo (Đi thẳng)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301a.png",
+    "description": "Bắt buộc các loại xe chỉ được đi thẳng ở nơi đường giao nhau (đặt trước ngã ba, ngã tư).",
+    "is_in_exam": true,
+    "tips": "BIỂN HIỆU LỆNH BẮT BUỘC: Nền xanh hình tròn, mũi tên trắng hướng nào THÌ CHỈ ĐƯỢC ĐI HƯỚNG ĐÓ! Gặp R.301a cấm rẽ trái, cấm rẽ phải, cấm quay đầu."
+  },
+  {
+    "code": "R.301b",
+    "name": "Hướng đi phải theo (Rẽ phải)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301b.png",
+    "description": "Bắt buộc các loại xe chỉ được phép rẽ phải ở nơi đường giao nhau.",
+    "is_in_exam": true,
+    "tips": "Chỉ được phép rẽ phải, cấm đi thẳng và cấm rẽ trái."
+  },
+  {
+    "code": "R.301c",
+    "name": "Hướng đi phải theo (Rẽ trái)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301c.png",
+    "description": "Bắt buộc các loại xe chỉ được phép rẽ trái ở nơi đường giao nhau (được phép quay đầu xe).",
+    "is_in_exam": true,
+    "tips": "Được phép rẽ trái và ĐƯỢC PHÉP QUAY ĐẦU XE theo hướng ngược lại."
+  },
+  {
+    "code": "R.301d",
+    "name": "Hướng đi phải theo (Rẽ phải phía sau)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301d.png",
+    "description": "Biển đặt sau ngã ba ngã tư, bắt buộc các xe chỉ được phép rẽ phải ở phạm vi ngã rẽ kế tiếp.",
+    "is_in_exam": true,
+    "tips": "Biển đặt sau ngã ba/ngã tư, có tác dụng đối với nút giao ngay sau biển."
+  },
+  {
+    "code": "R.301e",
+    "name": "Hướng đi phải theo (Rẽ trái phía sau)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301e.png",
+    "description": "Biển đặt sau nơi giao nhau, bắt buộc các xe chỉ được phép rẽ trái ở ngã rẽ kế tiếp.",
+    "is_in_exam": true,
+    "tips": "Được phép rẽ trái hoặc quay đầu xe tại ngã rẽ ngay sau biển."
+  },
+  {
+    "code": "R.301f",
+    "name": "Hướng đi phải theo (Đi thẳng hoặc rẽ phải)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301f.png",
+    "description": "Bắt buộc các loại xe chỉ được đi thẳng hoặc rẽ phải ở nơi đường giao nhau.",
+    "is_in_exam": true,
+    "tips": "CẤM RẼ TRÁI VÀ CẤM QUAY ĐẦU XE!"
+  },
+  {
+    "code": "R.301g",
+    "name": "Hướng đi phải theo (Đi thẳng hoặc rẽ trái)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301g.png",
+    "description": "Bắt buộc các loại xe chỉ được đi thẳng hoặc rẽ trái (được phép quay đầu xe).",
+    "is_in_exam": true,
+    "tips": "Cấm rẽ phải. Được phép quay đầu xe theo hướng an toàn."
+  },
+  {
+    "code": "R.301h",
+    "name": "Hướng đi phải theo (Rẽ trái hoặc rẽ phải)",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_301h.png",
+    "description": "Bắt buộc các loại xe chỉ được rẽ trái hoặc rẽ phải, cấm tuyệt đối đi thẳng.",
+    "is_in_exam": true,
+    "tips": "Thường đặt ở đường cụt hoặc ngã ba chữ T đối diện bức tường lớn."
+  },
+  {
+    "code": "R.302a",
+    "name": "Hướng phải đi vòng chướng ngại vật sang phải",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_302a.png",
+    "description": "Báo các loại xe phải đi vòng sang phía bên phải của dải phân cách hoặc chướng ngại vật.",
+    "is_in_exam": true,
+    "tips": "Mũi tên chéo xuống góc 45 độ sang bên phải: Đi về phía làn bên phải."
+  },
+  {
+    "code": "R.302b",
+    "name": "Hướng phải đi vòng chướng ngại vật sang trái",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_302b.png",
+    "description": "Báo các loại xe phải đi vòng sang phía bên trái của dải phân cách hoặc chướng ngại vật.",
+    "is_in_exam": true,
+    "tips": "Mũi tên chéo xuống góc 45 độ sang bên trái: Đi vòng về phía bên trái."
+  },
+  {
+    "code": "R.303",
+    "name": "Nơi giao nhau chạy theo vòng xuyến",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_303.png",
+    "description": "Báo hiệu các xe đến ngã giao nhau phải chạy vòng quanh đảo an toàn theo chiều kim đồng hồ.",
+    "is_in_exam": true,
+    "tips": "HIỆU LỆNH BẮT BUỘC: Khi đã vào vòng xuyến theo biển này, BẮT BUỘC PHẢI NHƯỜNG ĐƯỜNG CHO XE ĐẾN TỪ BÊN TRÁI!"
+  },
+  {
+    "code": "R.304",
+    "name": "Đường dành cho xe thô sơ",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_304.png",
+    "description": "Báo đường dành riêng cho xe thô sơ (kể cả xe người tàn tật) và người đi bộ.",
+    "is_in_exam": true,
+    "tips": "Xe cơ giới và xe mô tô A1 TUYỆT ĐỐI KHÔNG ĐƯỢC ĐI VÀO."
+  },
+  {
+    "code": "R.305",
+    "name": "Đường dành cho người đi bộ",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_305.png",
+    "description": "Báo đường dành riêng cho người đi bộ qua lại. Các loại xe cơ giới và thô sơ không được phép đi vào.",
+    "is_in_exam": true,
+    "tips": "Phố đi bộ hoặc làn chuyên dụng cho người đi bộ, nghiêm cấm xe máy chạy vào."
+  },
+  {
+    "code": "R.306",
+    "name": "Tốc độ tối thiểu cho phép",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_306.png",
+    "description": "Báo tốc độ tối thiểu cho phép các xe cơ giới chạy. Cấm xe chạy với tốc độ thấp hơn trị số ghi trên biển.",
+    "is_in_exam": true,
+    "tips": "Phân biệt: Biển tròn viền đỏ là TỐI ĐA (P.127). Biển tròn nền xanh số trắng là TỐI THIỂU (R.306)!"
+  },
+  {
+    "code": "R.307",
+    "name": "Hết tốc độ tối thiểu",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_307.png",
+    "description": "Báo hết đoạn đường hạn chế tốc độ tối thiểu theo biển R.306.",
+    "is_in_exam": false,
+    "tips": "Có vạch đỏ chéo qua số: Hết hiệu lực tốc độ tối thiểu."
+  },
+  {
+    "code": "R.403a",
+    "name": "Đường dành cho ô tô",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_403a.png",
+    "description": "Báo bắt đầu đoạn đường dành riêng cho các loại xe ô tô chạy. Các phương tiện khác không được đi vào.",
+    "is_in_exam": true,
+    "tips": "Chỉ có ô tô được vào. Xe máy A1 đi vào sẽ bị xử phạt lỗi đi vào đường cấm!"
+  },
+  {
+    "code": "R.403b",
+    "name": "Đường dành cho ô tô, xe máy",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_403b.png",
+    "description": "Báo đoạn đường dành riêng cho xe ô tô và xe mô tô (kể cả xe gắn máy) lưu thông.",
+    "is_in_exam": true,
+    "tips": "Cả ô tô và xe máy A1 đều được phép đi vào tuyến đường này."
+  },
+  {
+    "code": "R.404a",
+    "name": "Hết đoạn đường dành cho ô tô",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_404a.png",
+    "description": "Báo hết đoạn đường chỉ dành riêng cho xe ô tô.",
+    "is_in_exam": false,
+    "tips": "Đường chuyển sang hỗn hợp cho nhiều loại phương tiện."
+  },
+  {
+    "code": "R.404b",
+    "name": "Hết đoạn đường dành cho ô tô, xe máy",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_404b.png",
+    "description": "Báo hết đoạn đường dành riêng cho xe ô tô và mô tô.",
+    "is_in_exam": false,
+    "tips": "Hình xe ô tô và mô tô bị gạch chéo đỏ."
+  },
+  {
+    "code": "R.411",
+    "name": "Hướng đi trên mỗi làn đường phải theo",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_411.png",
+    "description": "Chỉ dẫn cho người lái xe biết số lượng làn đường và hướng đi bắt buộc trên từng làn theo vạch sơn mũi tên.",
+    "is_in_exam": true,
+    "tips": "Phải chuyển vào đúng làn đường tương ứng với hướng rẽ hoặc đi thẳng trước khi đến vạch dừng ngã tư!"
+  },
+  {
+    "code": "R.412a",
+    "name": "Làn đường dành cho ô tô khách",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_412a.png",
+    "description": "Báo hiệu làn đường chỉ dành riêng cho xe ô tô chở khách chạy.",
+    "is_in_exam": false,
+    "tips": "Xe máy và các xe khác không được đi vào làn này trừ khi chuyển hướng rẽ."
+  },
+  {
+    "code": "R.412b",
+    "name": "Làn đường dành cho ô tô con",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_412b.png",
+    "description": "Báo hiệu làn đường dành riêng cho các loại xe ô tô con.",
+    "is_in_exam": false,
+    "tips": "Xe máy không được đi vào làn của ô tô con."
+  },
+  {
+    "code": "R.412c",
+    "name": "Làn đường dành cho ô tô tải",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_412c.png",
+    "description": "Báo hiệu làn đường dành riêng cho xe ô tô tải.",
+    "is_in_exam": false,
+    "tips": "Dành cho xe tải chạy chậm làn ngoài cùng bên phải."
+  },
+  {
+    "code": "R.412d",
+    "name": "Làn đường dành riêng cho xe mô tô",
+    "group": "hieulenh",
+    "image": "assets/images/signs/R_412d.png",
+    "description": "Báo hiệu làn đường dành riêng cho xe mô tô (kể cả xe gắn máy).",
+    "is_in_exam": true,
+    "tips": "LÀN ĐƯỜNG CỦA BẠN: Người thi bằng A1 phải điều khiển xe lưu thông đúng trong làn đường có biển này!"
+  },
+  {
+    "code": "I.401",
+    "name": "Bắt đầu đường ưu tiên",
+    "group": "chidan",
+    "image": "assets/images/signs/I_401.png",
+    "description": "Báo bắt đầu đoạn đường ưu tiên, các phương tiện đi trên đường này được quyền ưu tiên qua nơi giao nhau.",
+    "is_in_exam": true,
+    "tips": "HÌNH QUẢ TRÁM VÀNG VIỀN TRẮNG: Bạn đang trên đường ưu tiên! Các phương tiện từ hướng khác phải nhường đường cho bạn."
+  },
+  {
+    "code": "I.402",
+    "name": "Hết đoạn đường ưu tiên",
+    "group": "chidan",
+    "image": "assets/images/signs/I_402.png",
+    "description": "Báo hết đoạn đường được quyền ưu tiên, các đoạn tiếp theo tuân theo luật nhường đường thông thường.",
+    "is_in_exam": true,
+    "tips": "Hình quả trám vàng có vạch đen chéo: Hết quyền ưu tiên, cần cẩn trọng quan sát tại ngã tư tiếp theo."
+  },
+  {
+    "code": "I.405a",
+    "name": "Đường cụt phía trước",
+    "group": "chidan",
+    "image": "assets/images/signs/I_405a.png",
+    "description": "Chỉ dẫn phía trước là ngõ cụt, không có lối thông xe.",
+    "is_in_exam": false,
+    "tips": "Không rẽ vào nếu muốn tìm đường đi thông sang phố khác."
+  },
+  {
+    "code": "I.405b",
+    "name": "Đường cụt bên phải",
+    "group": "chidan",
+    "image": "assets/images/signs/I_405b.png",
+    "description": "Chỉ dẫn lối rẽ phía bên phải là đường cụt.",
+    "is_in_exam": false,
+    "tips": "Ngõ cụt rẽ phải."
+  },
+  {
+    "code": "I.405c",
+    "name": "Đường cụt bên trái",
+    "group": "chidan",
+    "image": "assets/images/signs/I_405c.png",
+    "description": "Chỉ dẫn lối rẽ phía bên trái là đường cụt.",
+    "is_in_exam": false,
+    "tips": "Ngõ cụt rẽ trái."
+  },
+  {
+    "code": "I.406",
+    "name": "Được ưu tiên qua đường hẹp",
+    "group": "chidan",
+    "image": "assets/images/signs/I_406.png",
+    "description": "Chỉ dẫn cho người lái xe cơ giới được quyền ưu tiên đi trước trên đoạn đường hẹp khi gặp xe đi ngược chiều.",
+    "is_in_exam": true,
+    "tips": "SO SÁNH BẪY THI A1: Biển tròn viền đỏ (P.132) -> PHẢI NHƯỜNG. Biển vuông xanh mũi tên trắng (I.406) -> ĐƯỢC ƯU TIÊN ĐI TRƯỚC!"
+  },
+  {
+    "code": "I.407a",
+    "name": "Đường một chiều",
+    "group": "chidan",
+    "image": "assets/images/signs/I_407a.png",
+    "description": "Chỉ dẫn đoạn đường chỉ được phép đi theo một chiều mũi tên chỉ (đặt sau nơi giao nhau).",
+    "is_in_exam": true,
+    "tips": "CẤM QUAY ĐẦU XE và CẤM LÙI XE trên đường một chiều!"
+  },
+  {
+    "code": "I.407b",
+    "name": "Đường một chiều (Rẽ phải)",
+    "group": "chidan",
+    "image": "assets/images/signs/I_407b.png",
+    "description": "Chỉ dẫn đoạn đường phía bên phải là đường một chiều.",
+    "is_in_exam": false,
+    "tips": "Khi rẽ phải vào đường này chỉ được đi theo 1 hướng."
+  },
+  {
+    "code": "I.407c",
+    "name": "Đường một chiều (Rẽ trái)",
+    "group": "chidan",
+    "image": "assets/images/signs/I_407c.png",
+    "description": "Chỉ dẫn đoạn đường phía bên trái là đường một chiều.",
+    "is_in_exam": false,
+    "tips": "Khi rẽ trái vào đường này chỉ được lưu thông theo chiều quy định."
+  },
+  {
+    "code": "I.408",
+    "name": "Nơi đỗ xe",
+    "group": "chidan",
+    "image": "assets/images/signs/I_408.png",
+    "description": "Chỉ dẫn nơi được phép đỗ xe ô tô và các loại phương tiện (chữ P trắng trên nền xanh vuông).",
+    "is_in_exam": true,
+    "tips": "Chữ 'P' là Parking: Nơi đỗ xe hợp pháp."
+  },
+  {
+    "code": "I.408a",
+    "name": "Nơi đỗ xe một phần trên hè phố",
+    "group": "chidan",
+    "image": "assets/images/signs/I_408a.png",
+    "description": "Chỉ dẫn nơi cho phép đỗ xe một phần bánh xe trên vỉa hè hè phố.",
+    "is_in_exam": false,
+    "tips": "Chỉ đỗ xe theo đúng tư thế chỉ dẫn trên biển."
+  },
+  {
+    "code": "I.409",
+    "name": "Chỗ quay xe",
+    "group": "chidan",
+    "image": "assets/images/signs/I_409.png",
+    "description": "Chỉ dẫn vị trí được phép quay đầu xe.",
+    "is_in_exam": true,
+    "tips": "LƯU Ý THI SÁT HẠCH: Biển chỗ quay xe I.409 CHỈ CHO PHÉP QUAY ĐẦU XE, KHÔNG ĐƯỢC PHÉP RẼ TRÁI!"
+  },
+  {
+    "code": "I.410",
+    "name": "Khu vực quay xe",
+    "group": "chidan",
+    "image": "assets/images/signs/I_410.png",
+    "description": "Chỉ dẫn khu vực được phép quay đầu xe kiểu chữ U kéo dài.",
+    "is_in_exam": true,
+    "tips": "Có thể quay đầu xe trong phạm vi khoảng cách ghi trên biển phụ kèm theo."
+  },
+  {
+    "code": "I.413a",
+    "name": "Phía trước có làn đường dành cho ô tô khách",
+    "group": "chidan",
+    "image": "assets/images/signs/I_413a.png",
+    "description": "Chỉ dẫn cho người lái xe biết sắp đến làn đường ưu tiên cho xe ô tô khách chạy ngược chiều hoặc cùng chiều.",
+    "is_in_exam": false,
+    "tips": "Không lấn vào làn dành riêng của xe buýt."
+  },
+  {
+    "code": "I.423a",
+    "name": "Vị trí người đi bộ sang ngang",
+    "group": "chidan",
+    "image": "assets/images/signs/I_423a.png",
+    "description": "Chỉ dẫn cho người đi bộ và người lái xe biết vị trí dành cho người đi bộ sang đường.",
+    "is_in_exam": true,
+    "tips": "Khác với W.224 (biển tam giác vàng cảnh báo nguy hiểm trước), I.423a (biển vuông xanh) đặt NGAY TẠI VỊ TRÍ vạch qua đường!"
+  },
+  {
+    "code": "I.424a",
+    "name": "Cầu vượt qua đường cho người đi bộ",
+    "group": "chidan",
+    "image": "assets/images/signs/I_424a.png",
+    "description": "Chỉ dẫn vị trí cầu vượt bộ hành qua đường.",
+    "is_in_exam": true,
+    "tips": "MẸO THI A1: Người bước đi hướng LÊN BẬC THANG -> CẦU VƯỢT bộ hành!"
+  },
+  {
+    "code": "I.424b",
+    "name": "Hầm chui qua đường cho người đi bộ",
+    "group": "chidan",
+    "image": "assets/images/signs/I_424b.png",
+    "description": "Chỉ dẫn vị trí hầm chui an toàn cho người đi bộ qua đường.",
+    "is_in_exam": true,
+    "tips": "MẸO THI A1: Người bước đi hướng XUỐNG BẬC THANG -> HẦM CHUI bộ hành!"
+  },
+  {
+    "code": "I.425",
+    "name": "Bệnh viện",
+    "group": "chidan",
+    "image": "assets/images/signs/I_425.png",
+    "description": "Chỉ dẫn sắp đến cơ sở cấp cứu, bệnh viện.",
+    "is_in_exam": false,
+    "tips": "Không bóp còi, nhường đường tuyệt đối cho xe cứu thương ra vào."
+  },
+  {
+    "code": "I.426",
+    "name": "Trạm cấp cứu",
+    "group": "chidan",
+    "image": "assets/images/signs/I_426.png",
+    "description": "Chỉ dẫn vị trí trạm y tế cấp cứu ban đầu.",
+    "is_in_exam": false,
+    "tips": "Hình chữ thập đỏ trên nền trắng."
+  },
+  {
+    "code": "I.427a",
+    "name": "Trạm sửa chữa xe",
+    "group": "chidan",
+    "image": "assets/images/signs/I_427a.png",
+    "description": "Chỉ dẫn vị trí có xưởng sửa chữa xe máy, ô tô bên đường.",
+    "is_in_exam": false,
+    "tips": "Biểu tượng cờ-lê mỏ-lết."
+  },
+  {
+    "code": "I.428",
+    "name": "Trạm cung cấp nhiên liệu (Cây xăng)",
+    "group": "chidan",
+    "image": "assets/images/signs/I_428.png",
+    "description": "Chỉ dẫn vị trí cây xăng phục vụ tiếp nhiên liệu.",
+    "is_in_exam": false,
+    "tips": "Biểu tượng cột bơm xăng."
+  },
+  {
+    "code": "I.434a",
+    "name": "Bến xe buýt",
+    "group": "chidan",
+    "image": "assets/images/signs/I_434a.png",
+    "description": "Chỉ dẫn vị trí điểm dừng đón trả khách của xe buýt công cộng.",
+    "is_in_exam": false,
+    "tips": "Không được dừng đỗ xe cá nhân trong phạm vi trạm dừng xe buýt."
+  },
+  {
+    "code": "I.444",
+    "name": "Biển chỉ hướng đường / địa phận",
+    "group": "chidan",
+    "image": "assets/images/signs/I_444.png",
+    "description": "Chỉ dẫn địa phận xe bắt đầu đi vào tỉnh, thành phố hoặc danh lam thắng cảnh.",
+    "is_in_exam": false,
+    "tips": "Thông báo thông tin địa giới hành chính."
+  },
+  {
+    "code": "S.501",
+    "name": "Phạm vi tác dụng của biển",
+    "group": "phu",
+    "image": "assets/images/signs/S_501.png",
+    "description": "Chỉ rõ chiều dài đoạn đường nguy hiểm hoặc đoạn đường áp dụng hiệu lực của biển cấm (có 2 mũi tên đứng hai bên số mét).",
+    "is_in_exam": true,
+    "tips": "MẸO THI A1 QUAN TRỌNG: CÓ 2 MŨI TÊN KÈM THEO -> 'CHIỀU DÀI / PHẠM VI TÁC DỤNG' tính từ vị trí đặt biển trở đi!"
+  },
+  {
+    "code": "S.502",
+    "name": "Khoảng cách đến đối tượng báo hiệu",
+    "group": "phu",
+    "image": "assets/images/signs/S_502.png",
+    "description": "Chỉ rõ khoảng cách từ nơi đặt biển đến vị trí đối tượng nguy hiểm hoặc nơi bắt đầu áp dụng lệnh cấm (KHÔNG có mũi tên).",
+    "is_in_exam": true,
+    "tips": "MẸO THI A1 QUAN TRỌNG: KHÔNG CÓ MŨI TÊN -> 'KHOẢNG CÁCH ĐẾN ĐỐI TƯỢNG' (Ví dụ: Còn 500m nữa mới đến đoạn cấm)."
+  },
+  {
+    "code": "S.503a",
+    "name": "Hướng tác dụng của biển (Bên trái)",
+    "group": "phu",
+    "image": "assets/images/signs/S_503a.png",
+    "description": "Chỉ hướng tác dụng của biển chính là rẽ sang phía bên trái.",
+    "is_in_exam": true,
+    "tips": "Mũi tên chỉ sang trái: Biển chính chỉ có hiệu lực với hướng rẽ trái."
+  },
+  {
+    "code": "S.503b",
+    "name": "Hướng tác dụng của biển (Bên phải)",
+    "group": "phu",
+    "image": "assets/images/signs/S_503b.png",
+    "description": "Chỉ hướng tác dụng của biển chính là rẽ sang phía bên phải.",
+    "is_in_exam": true,
+    "tips": "Mũi tên chỉ sang phải: Biển chính chỉ áp dụng cho hướng rẽ phải."
+  },
+  {
+    "code": "S.503c",
+    "name": "Hướng tác dụng của biển (Hai hướng)",
+    "group": "phu",
+    "image": "assets/images/signs/S_503c.png",
+    "description": "Chỉ hướng tác dụng của biển chính về cả hai phía trái và phải.",
+    "is_in_exam": false,
+    "tips": "Mũi tên hai đầu ngang: Áp dụng cho cả 2 bên đường."
+  },
+  {
+    "code": "S.503d",
+    "name": "Hướng tác dụng của biển (Phía trước)",
+    "group": "phu",
+    "image": "assets/images/signs/S_503d.png",
+    "description": "Chỉ hướng tác dụng của biển chính là ở phía trước mặt.",
+    "is_in_exam": false,
+    "tips": "Mũi tên thẳng đứng hướng lên."
+  },
+  {
+    "code": "S.503e",
+    "name": "Hướng tác dụng của biển (Phía sau)",
+    "group": "phu",
+    "image": "assets/images/signs/S_503e.png",
+    "description": "Chỉ hướng tác dụng của biển chính là ở phía sau biển.",
+    "is_in_exam": false,
+    "tips": "Mũi tên thẳng đứng hướng xuống."
+  },
+  {
+    "code": "S.503f",
+    "name": "Hướng tác dụng của biển (Trước và sau)",
+    "group": "phu",
+    "image": "assets/images/signs/S_503f.png",
+    "description": "Chỉ hướng tác dụng của biển chính áp dụng cả khu vực phía trước và phía sau biển.",
+    "is_in_exam": false,
+    "tips": "Mũi tên hai đầu thẳng đứng."
+  },
+  {
+    "code": "S.504",
+    "name": "Làn đường áp dụng",
+    "group": "phu",
+    "image": "assets/images/signs/S_504.png",
+    "description": "Đặt bên dưới biển chính để chỉ rõ biển chính chỉ áp dụng riêng cho một làn đường cụ thể.",
+    "is_in_exam": true,
+    "tips": "Hình mũi tên chúc thẳng xuống làn đường chịu tác dụng của biển."
+  },
+  {
+    "code": "S.505a",
+    "name": "Loại xe áp dụng (Xe ô tô tải)",
+    "group": "phu",
+    "image": "assets/images/signs/S_505a.png",
+    "description": "Đặt dưới biển cấm hoặc biển hiệu lệnh để chỉ rõ biển chỉ áp dụng đối với xe ô tô tải.",
+    "is_in_exam": true,
+    "tips": "Nếu biển cấm đặt trên biển phụ này thì CHỈ CẤM XE TẢI, các phương tiện khác (xe con, xe máy) không bị cấm!"
+  },
+  {
+    "code": "S.505b",
+    "name": "Loại xe áp dụng (Xe ô tô con)",
+    "group": "phu",
+    "image": "assets/images/signs/S_505b.png",
+    "description": "Đặt dưới biển báo để chỉ rõ biển chỉ áp dụng riêng cho ô tô con.",
+    "is_in_exam": true,
+    "tips": "Biển chính chỉ có hiệu lực với xe con."
+  },
+  {
+    "code": "S.505c",
+    "name": "Loại xe áp dụng (Xe mô tô)",
+    "group": "phu",
+    "image": "assets/images/signs/S_505c.png",
+    "description": "Đặt dưới biển báo để chỉ rõ biển chỉ áp dụng riêng đối với xe mô tô hai bánh, ba bánh.",
+    "is_in_exam": true,
+    "tips": "BẪY THI A1: Khi biển cấm có biển phụ xe mô tô bên dưới -> CHỈ CẤM XE MÔ TÔ!"
+  },
+  {
+    "code": "S.506a",
+    "name": "Hướng đường ưu tiên (Ngã tư)",
+    "group": "phu",
+    "image": "assets/images/signs/S_506a.png",
+    "description": "Đặt dưới biển I.401 và W.208 để chỉ hướng đường ưu tiên tại nơi đường giao nhau ngã tư.",
+    "is_in_exam": true,
+    "tips": "CỰC KỲ QUAN TRỌNG TRONG GIẢI SA HÌNH: Nét vẽ đậm là HƯỚNG ĐƯỜNG ƯU TIÊN! Xe nào đang đi trên nét đậm sẽ được đi trước xe trên nét mảnh."
+  },
+  {
+    "code": "S.506b",
+    "name": "Hướng đường ưu tiên (Ngã ba)",
+    "group": "phu",
+    "image": "assets/images/signs/S_506b.png",
+    "description": "Đặt dưới biển chỉ dẫn đường ưu tiên tại nơi giao nhau hình ngã ba.",
+    "is_in_exam": true,
+    "tips": "Nét đậm rẽ hướng nào thì hướng đó là đường ưu tiên."
+  },
+  {
+    "code": "S.507",
+    "name": "Hướng rẽ",
+    "group": "phu",
+    "image": "assets/images/signs/S_507.png",
+    "description": "Sử dụng kết hợp với biển cấm hoặc biển hiệu lệnh để chỉ rõ hướng rẽ bắt buộc hoặc hướng cấm.",
+    "is_in_exam": false,
+    "tips": "Mũi tên uốn cong chỉ hướng đi."
+  },
+  {
+    "code": "S.508a",
+    "name": "Thời gian áp dụng",
+    "group": "phu",
+    "image": "assets/images/signs/S_508a.png",
+    "description": "Chỉ rõ khung giờ trong ngày mà biển chính có hiệu lực (ví dụ từ 6h00 - 9h00 và 16h30 - 19h30).",
+    "is_in_exam": false,
+    "tips": "Ngoài khung giờ ghi trên biển phụ, phương tiện được lưu thông bình thường."
+  },
+  {
+    "code": "S.509",
+    "name": "Thuyết minh biển chính",
+    "group": "phu",
+    "image": "assets/images/signs/S_509.png",
+    "description": "Bổ sung lời thuyết minh bằng chữ tiếng Việt để làm rõ hơn ý nghĩa của biển chính.",
+    "is_in_exam": false,
+    "tips": "Thường ghi rõ đối tượng cấm cụ thể hoặc khoảng cách."
+  }
+]

@@ -1,0 +1,2803 @@
+[
+  {
+    "id": 1,
+    "topicId": 1,
+    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+    "options": [
+      "Phần mặt đường và lề đường.",
+      "Phần đường xe chạy.",
+      "Phần đường xe cơ giới."
+    ],
+    "correctIndex": 1,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phần đường xe chạy là phần của đường bộ được sử dụng cho phương tiện giao thông qua lại."
+  },
+  {
+    "id": 2,
+    "topicId": 1,
+    "content": "Hành vi điều khiển xe cơ giới chạy quá tốc độ quy định, giành đường, vượt ẩu có bị nghiêm cấm hay không?",
+    "options": [
+      "Bị nghiêm cấm tuỳ từng trường hợp.",
+      "Không bị nghiêm cấm.",
+      "Bị nghiêm cấm."
+    ],
+    "correctIndex": 2,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Chạy quá tốc độ, giành đường vượt ẩu gây nguy hiểm trực tiếp đến tính mạng người tham gia giao thông nên bị nghiêm cấm tuyệt đối (Câu điểm liệt)."
+  },
+  {
+    "id": 3,
+    "topicId": 1,
+    "content": "Người điều khiển phương tiện tham gia giao thông đường bộ mà trong cơ thể có chất ma túy có bị nghiêm cấm hay không?",
+    "options": [
+      "Bị nghiêm cấm.",
+      "Không bị nghiêm cấm nếu nồng độ thấp.",
+      "Chỉ bị nhắc nhở."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện mà trong cơ thể có chất ma túy bị nghiêm cấm tuyệt đối (Câu điểm liệt)."
+  },
+  {
+    "id": 4,
+    "topicId": 1,
+    "content": "Người lái xe không được vượt xe khác khi gặp trường hợp nào dưới đây?",
+    "options": [
+      "Trên cầu hẹp có một làn xe; nơi đường vòng, đầu dốc và các vị trí có tầm nhìn hạn chế.",
+      "Trên cầu có từ hai làn xe trở lên.",
+      "Trên đoạn đường thẳng có tầm nhìn thoáng đãng."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Cấm vượt xe trên cầu hẹp có 1 làn xe, đường vòng, đầu dốc có tầm nhìn hạn chế (Câu điểm liệt)."
+  },
+  {
+    "id": 5,
+    "topicId": 1,
+    "content": "Khi điều khiển xe chạy trên đường, người lái xe phải mang theo các loại giấy tờ gì?",
+    "options": [
+      "Giấy phép lái xe phù hợp loại xe, Giấy đăng ký xe, Giấy chứng nhận bảo hiểm TNDS còn hiệu lực.",
+      "Chỉ cần Chứng minh nhân dân hoặc Căn cước công dân.",
+      "Hồ sơ gốc học lái xe máy."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người lái xe phải mang theo GPLX, Giấy đăng ký xe và Bảo hiểm TNDS bắt buộc của chủ xe cơ giới còn hiệu lực."
+  },
+  {
+    "id": 6,
+    "topicId": 1,
+    "content": "Hành vi đưa xe cơ giới, xe máy chuyên dùng không bảo đảm tiêu chuẩn an toàn kỹ thuật và bảo vệ môi trường vào tham gia giao thông đường bộ có bị nghiêm cấm không?",
+    "options": [
+      "Không bị nghiêm cấm.",
+      "Bị nghiêm cấm.",
+      "Bị nghiêm cấm tùy theo tuyến đường."
+    ],
+    "correctIndex": 1,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Hành vi đưa xe không đảm bảo an toàn kỹ thuật vào lưu thông bị nghiêm cấm tuyệt đối (Câu điểm liệt)."
+  },
+  {
+    "id": 7,
+    "topicId": 1,
+    "content": "Khi điều khiển xe mô tô hai bánh, người lái xe có được sử dụng điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính) hay không?",
+    "options": [
+      "Được phép sử dụng nếu có tai nghe.",
+      "Không được phép sử dụng.",
+      "Được sử dụng khi đi đường vắng."
+    ],
+    "correctIndex": 1,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Hành vi sử dụng điện thoại, thiết bị âm thanh khi đang điều khiển xe máy làm phân tâm và mất an toàn nên không được phép (Câu điểm liệt)."
+  },
+  {
+    "id": 8,
+    "topicId": 1,
+    "content": "Người đủ bao nhiêu tuổi trở lên thì được điều khiển xe mô tô hai bánh, xe mô tô ba bánh có dung tích xi-lanh từ 50 cm3 trở lên (Hạng A1)?",
+    "options": [
+      "16 tuổi.",
+      "17 tuổi.",
+      "18 tuổi.",
+      "20 tuổi."
+    ],
+    "correctIndex": 2,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đủ 18 tuổi trở lên được lái xe mô tô 2 bánh, 3 bánh dung tích từ 50 cm3 trở lên (Hạng A1)."
+  },
+  {
+    "id": 9,
+    "topicId": 1,
+    "content": "Cuộc đua xe chỉ được thực hiện khi nào?",
+    "options": [
+      "Diễn ra trên đường phố vắng người.",
+      "Được người dân địa phương ủng hộ.",
+      "Được cơ quan có thẩm quyền cấp phép."
+    ],
+    "correctIndex": 2,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Đua xe trái phép bị nghiêm cấm tuyệt đối, cuộc đua chỉ được diễn ra khi được cơ quan có thẩm quyền cấp phép (Câu điểm liệt)."
+  },
+  {
+    "id": 10,
+    "topicId": 1,
+    "content": "Người điều khiển phương tiện tham gia giao thông mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm hay không?",
+    "options": [
+      "Bị nghiêm cấm.",
+      "Không bị nghiêm cấm nếu nồng độ cồn thấp.",
+      "Chỉ bị phạt hành chính nhẹ."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Nghiêm cấm tuyệt đối điều khiển phương tiện mà trong máu hoặc hơi thở có nồng độ cồn (Câu điểm liệt)."
+  },
+  {
+    "id": 11,
+    "topicId": 1,
+    "content": "Hành vi buông cả hai tay khi đang điều khiển xe mô tô hai bánh có bị nghiêm cấm hay không?",
+    "options": [
+      "Bị nghiêm cấm.",
+      "Không bị nghiêm cấm trên đường cao tốc.",
+      "Được phép khi biểu diễn."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Buông cả 2 tay khi lái xe máy là hành vi nguy hiểm đặc biệt nghiêm trọng, bị nghiêm cấm (Câu điểm liệt)."
+  },
+  {
+    "id": 12,
+    "topicId": 1,
+    "content": "Hành vi chở quá số người quy định hoặc kéo, đẩy xe khác bằng xe mô tô có bị nghiêm cấm không?",
+    "options": [
+      "Được phép khi xe kia bị hết xăng.",
+      "Bị nghiêm cấm.",
+      "Tùy thuộc vào tay lái người điều khiển."
+    ],
+    "correctIndex": 1,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Người lái xe mô tô không được kéo, đẩy các phương tiện khác hoặc chở đồ cồng kềnh (Câu điểm liệt)."
+  },
+  {
+    "id": 13,
+    "topicId": 1,
+    "content": "Khi điều khiển xe qua đường ngang cầu chung với đường sắt, người lái xe phải nhường đường cho phương tiện nào?",
+    "options": [
+      "Xe buýt và xe khách.",
+      "Phương tiện giao thông đường sắt.",
+      "Xe con."
+    ],
+    "correctIndex": 1,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Phương tiện giao thông đường sắt luôn có quyền ưu tiên cao nhất tại đường ngang giao cắt (Câu điểm liệt)."
+  },
+  {
+    "id": 14,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 14)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 15,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 15)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 16,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 16)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 17,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 17)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 18,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông cơ giới đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 18)",
+    "options": [
+      "gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông cơ giới đường bộ gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy."
+  },
+  {
+    "id": 19,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông thô sơ đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 19)",
+    "options": [
+      "gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông thô sơ đường bộ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo."
+  },
+  {
+    "id": 20,
+    "topicId": 1,
+    "content": "Khái niệm 'Người điều khiển phương tiện' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 20)",
+    "options": [
+      "là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ."
+  },
+  {
+    "id": 21,
+    "topicId": 1,
+    "content": "Khái niệm 'Đường ưu tiên' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 21)",
+    "options": [
+      "là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau."
+  },
+  {
+    "id": 22,
+    "topicId": 1,
+    "content": "Khái niệm 'Vạch kẻ đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 22)",
+    "options": [
+      "là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Vạch kẻ đường là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn."
+  },
+  {
+    "id": 23,
+    "topicId": 1,
+    "content": "Khái niệm 'Đỗ xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 23)",
+    "options": [
+      "là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đỗ xe là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian."
+  },
+  {
+    "id": 24,
+    "topicId": 1,
+    "content": "Khái niệm 'Dừng xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 24)",
+    "options": [
+      "là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dừng xe là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa."
+  },
+  {
+    "id": 25,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 25)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 26,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 26)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 27,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 27)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 28,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 28)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 29,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông cơ giới đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 29)",
+    "options": [
+      "gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông cơ giới đường bộ gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy."
+  },
+  {
+    "id": 30,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông thô sơ đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 30)",
+    "options": [
+      "gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông thô sơ đường bộ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo."
+  },
+  {
+    "id": 31,
+    "topicId": 1,
+    "content": "Khái niệm 'Người điều khiển phương tiện' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 31)",
+    "options": [
+      "là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ."
+  },
+  {
+    "id": 32,
+    "topicId": 1,
+    "content": "Khái niệm 'Đường ưu tiên' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 32)",
+    "options": [
+      "là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau."
+  },
+  {
+    "id": 33,
+    "topicId": 1,
+    "content": "Khái niệm 'Vạch kẻ đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 33)",
+    "options": [
+      "là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Vạch kẻ đường là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn."
+  },
+  {
+    "id": 34,
+    "topicId": 1,
+    "content": "Khái niệm 'Đỗ xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 34)",
+    "options": [
+      "là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đỗ xe là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian."
+  },
+  {
+    "id": 35,
+    "topicId": 1,
+    "content": "Khái niệm 'Dừng xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 35)",
+    "options": [
+      "là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dừng xe là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa."
+  },
+  {
+    "id": 36,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 36)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 37,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 37)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 38,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 38)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 39,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 39)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 40,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông cơ giới đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 40)",
+    "options": [
+      "gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông cơ giới đường bộ gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy."
+  },
+  {
+    "id": 41,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông thô sơ đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 41)",
+    "options": [
+      "gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông thô sơ đường bộ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo."
+  },
+  {
+    "id": 42,
+    "topicId": 1,
+    "content": "Khái niệm 'Người điều khiển phương tiện' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 42)",
+    "options": [
+      "là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ."
+  },
+  {
+    "id": 43,
+    "topicId": 1,
+    "content": "Khái niệm 'Đường ưu tiên' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 43)",
+    "options": [
+      "là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau."
+  },
+  {
+    "id": 44,
+    "topicId": 1,
+    "content": "Khái niệm 'Vạch kẻ đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 44)",
+    "options": [
+      "là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Vạch kẻ đường là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn."
+  },
+  {
+    "id": 45,
+    "topicId": 1,
+    "content": "Khái niệm 'Đỗ xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 45)",
+    "options": [
+      "là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đỗ xe là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian."
+  },
+  {
+    "id": 46,
+    "topicId": 1,
+    "content": "Khái niệm 'Dừng xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 46)",
+    "options": [
+      "là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dừng xe là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa."
+  },
+  {
+    "id": 47,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 47)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 48,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 48)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 49,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 49)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 50,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 50)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 51,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông cơ giới đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 51)",
+    "options": [
+      "gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông cơ giới đường bộ gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy."
+  },
+  {
+    "id": 52,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông thô sơ đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 52)",
+    "options": [
+      "gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông thô sơ đường bộ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo."
+  },
+  {
+    "id": 53,
+    "topicId": 1,
+    "content": "Khái niệm 'Người điều khiển phương tiện' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 53)",
+    "options": [
+      "là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ."
+  },
+  {
+    "id": 54,
+    "topicId": 1,
+    "content": "Khái niệm 'Đường ưu tiên' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 54)",
+    "options": [
+      "là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau."
+  },
+  {
+    "id": 55,
+    "topicId": 1,
+    "content": "Khái niệm 'Vạch kẻ đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 55)",
+    "options": [
+      "là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Vạch kẻ đường là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn."
+  },
+  {
+    "id": 56,
+    "topicId": 1,
+    "content": "Khái niệm 'Đỗ xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 56)",
+    "options": [
+      "là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đỗ xe là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian."
+  },
+  {
+    "id": 57,
+    "topicId": 1,
+    "content": "Khái niệm 'Dừng xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 57)",
+    "options": [
+      "là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dừng xe là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa."
+  },
+  {
+    "id": 58,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 58)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 59,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 59)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 60,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 60)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 61,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 61)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 62,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông cơ giới đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 62)",
+    "options": [
+      "gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông cơ giới đường bộ gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy."
+  },
+  {
+    "id": 63,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông thô sơ đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 63)",
+    "options": [
+      "gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông thô sơ đường bộ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo."
+  },
+  {
+    "id": 64,
+    "topicId": 1,
+    "content": "Khái niệm 'Người điều khiển phương tiện' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 64)",
+    "options": [
+      "là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ."
+  },
+  {
+    "id": 65,
+    "topicId": 1,
+    "content": "Khái niệm 'Đường ưu tiên' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 65)",
+    "options": [
+      "là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau."
+  },
+  {
+    "id": 66,
+    "topicId": 1,
+    "content": "Khái niệm 'Vạch kẻ đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 66)",
+    "options": [
+      "là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Vạch kẻ đường là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn."
+  },
+  {
+    "id": 67,
+    "topicId": 1,
+    "content": "Khái niệm 'Đỗ xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 67)",
+    "options": [
+      "là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đỗ xe là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian."
+  },
+  {
+    "id": 68,
+    "topicId": 1,
+    "content": "Khái niệm 'Dừng xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 68)",
+    "options": [
+      "là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dừng xe là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa."
+  },
+  {
+    "id": 69,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 69)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 70,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 70)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 71,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 71)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 72,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 72)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 73,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông cơ giới đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 73)",
+    "options": [
+      "gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông cơ giới đường bộ gồm ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy."
+  },
+  {
+    "id": 74,
+    "topicId": 1,
+    "content": "Khái niệm 'Phương tiện giao thông thô sơ đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 74)",
+    "options": [
+      "gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phương tiện giao thông thô sơ đường bộ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo."
+  },
+  {
+    "id": 75,
+    "topicId": 1,
+    "content": "Khái niệm 'Người điều khiển phương tiện' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 75)",
+    "options": [
+      "là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người điều khiển phương tiện là người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng tham gia giao thông đường bộ."
+  },
+  {
+    "id": 76,
+    "topicId": 1,
+    "content": "Khái niệm 'Đường ưu tiên' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 76)",
+    "options": [
+      "là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đường ưu tiên là đường mà trên đó phương tiện tham gia giao thông được các phương tiện đến từ hướng khác nhường đường khi qua nơi đường giao nhau."
+  },
+  {
+    "id": 77,
+    "topicId": 1,
+    "content": "Khái niệm 'Vạch kẻ đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 77)",
+    "options": [
+      "là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Vạch kẻ đường là một dạng báo hiệu đường bộ để hướng dẫn, điều khiển giao thông nhằm nâng cao khả năng thông xe và bảo đảm an toàn."
+  },
+  {
+    "id": 78,
+    "topicId": 1,
+    "content": "Khái niệm 'Đỗ xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 78)",
+    "options": [
+      "là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đỗ xe là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian."
+  },
+  {
+    "id": 79,
+    "topicId": 1,
+    "content": "Khái niệm 'Dừng xe' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 79)",
+    "options": [
+      "là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dừng xe là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ để cho người lên, xuống hoặc xếp dỡ hàng hóa."
+  },
+  {
+    "id": 80,
+    "topicId": 1,
+    "content": "Khái niệm 'Làn đường' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 80)",
+    "options": [
+      "là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Làn đường là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+  },
+  {
+    "id": 81,
+    "topicId": 1,
+    "content": "Khái niệm 'Khổ giới hạn của đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 81)",
+    "options": [
+      "là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm để các xe đi qua an toàn."
+  },
+  {
+    "id": 82,
+    "topicId": 1,
+    "content": "Khái niệm 'Dải phân cách' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 82)",
+    "options": [
+      "là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Dải phân cách là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ."
+  },
+  {
+    "id": 83,
+    "topicId": 1,
+    "content": "Khái niệm 'Người tham gia giao thông đường bộ' được hiểu như thế nào là đúng theo Luật Giao thông đường bộ? (Câu 83)",
+    "options": [
+      "gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường.",
+      "Là khái niệm áp dụng riêng cho các tuyến đường cao tốc và đường đô thị lớn.",
+      "Cả hai ý nêu trên đều không chính xác."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người tham gia giao thông đường bộ gồm người điều khiển, người sử dụng phương tiện tham gia giao thông; người dẫn dắt súc vật; người đi bộ trên đường."
+  },
+  {
+    "id": 84,
+    "topicId": 2,
+    "content": "Người có văn hóa giao thông khi điều khiển xe cơ giới tham gia giao thông đường bộ phải đảm bảo các điều kiện nào sau đây?",
+    "options": [
+      "Có giấy phép lái xe phù hợp, đi đúng phần đường, làn đường quy định, đội mũ bảo hiểm đạt chuẩn có cài quai đúng quy cách.",
+      "Chỉ chấp hành tín hiệu giao thông khi có mặt lực lượng Cảnh sát giao thông.",
+      "Đi nhanh vượt ẩu khi đường vắng."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Văn hóa giao thông thể hiện ở sự tự giác chấp hành pháp luật: đi đúng làn, đội mũ bảo hiểm chuẩn, nhường nhịn và hỗ trợ người khác."
+  },
+  {
+    "id": 85,
+    "topicId": 2,
+    "content": "Khi xảy ra tai nạn giao thông, người lái xe và người có mặt tại hiện trường phải thực hiện các hành vi nào?",
+    "options": [
+      "Dừng ngay phương tiện; giữ nguyên hiện trường; trợ giúp người bị nạn và báo ngay cho cơ quan công an gần nhất.",
+      "Nhanh chóng rời khỏi hiện trường để tránh phiền phức.",
+      "Di dời ngay các phương tiện va chạm vào lề đường trước khi công an đến."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Quy tắc khi có tai nạn: dừng phương tiện, bảo vệ hiện trường, cứu chữa nạn nhân và báo cơ quan công an."
+  },
+  {
+    "id": 86,
+    "topicId": 2,
+    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+    "options": [
+      "Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đạt chuẩn, cài quai đúng quy cách.",
+      "Điều khiển xe đi trên vỉa hè khi đường bị ùn tắc giao thông.",
+      "Chở quá số người quy định khi người quen nhờ đi nhờ xe."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Lái xe có văn hóa luôn đi bên phải, đúng làn đường và đội mũ bảo hiểm đạt chuẩn."
+  },
+  {
+    "id": 87,
+    "topicId": 2,
+    "content": "Khi gặp người đi bộ đang sang đường tại nơi có vạch kẻ đường cho người đi bộ, người lái xe phải xử lý như thế nào?",
+    "options": [
+      "Giảm tốc độ, nhường đường cho người đi bộ qua đường an toàn.",
+      "Bấm còi liên tục để người đi bộ tránh đường cho xe đi trước.",
+      "Tăng tốc vượt qua trước mặt người đi bộ."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phải chủ động giảm tốc độ và nhường đường cho người đi bộ qua đường tại nơi có vạch kẻ đường."
+  },
+  {
+    "id": 88,
+    "topicId": 2,
+    "content": "Ý thức trách nhiệm của người lái xe đối với cộng đồng khi tham gia giao thông thể hiện qua việc gì?",
+    "options": [
+      "Tôn trọng và nhường nhịn người tham gia giao thông khác, sẵn sàng giúp đỡ người tàn tật, người già và trẻ em.",
+      "Cố gắng luồn lách để tiết kiệm thời gian của bản thân.",
+      "Bấm còi to để cảnh báo từ xa cho mọi người nhường đường."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Người lái xe có trách nhiệm luôn tôn trọng cộng đồng, nhường nhịn và hỗ trợ người yếu thế."
+  },
+  {
+    "id": 89,
+    "topicId": 3,
+    "content": "Khi điều khiển xe mô tô tay ga xuống dốc dài, độ dốc cao, người lái xe cần thực hiện thao tác nào để đảm bảo an toàn?",
+    "options": [
+      "Giữ ga ở mức độ phù hợp, sử dụng đồng thời cả phanh trước và phanh sau để giảm tốc độ, không tắt máy hoặc để xe trôi tự do.",
+      "Tắt khóa điện để tiết kiệm nhiên liệu và chỉ dùng phanh trước.",
+      "Nhả hết tay ga, bóp chặt cả hai phanh hết cỡ liên tục."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Xuống dốc cao tuyệt đối không tắt máy hoặc để xe trôi tự do; phải ghìm động cơ kết hợp phanh đều 2 bánh (Câu điểm liệt)."
+  },
+  {
+    "id": 90,
+    "topicId": 3,
+    "content": "Khi điều khiển xe mô tô rẽ trái tại nơi đường giao nhau, người lái xe cần thực hiện thao tác nào để an toàn?",
+    "options": [
+      "Bật đèn báo rẽ sớm, giảm tốc độ, quan sát an toàn xung quanh, nhường đường cho xe đi ngược chiều rồi mới cho xe rẽ.",
+      "Tăng ga nhanh chóng để cắt đầu xe đi ngược chiều.",
+      "Chỉ bật đèn xi-nhan khi đã bắt đầu rẽ."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": null,
+    "explanation": "Rẽ trái phải bật tín hiệu báo rẽ từ sớm, giảm tốc độ và nhường đường cho xe ngược chiều (Câu điểm liệt)."
+  },
+  {
+    "id": 91,
+    "topicId": 3,
+    "content": "Để giảm tốc độ khi xe mô tô đang chạy trên đường khô ráo, người lái xe cần thực hiện thao tác phanh như thế nào để an toàn nhất?",
+    "options": [
+      "Giảm ga, đạp/bóp phanh sau trước rồi mới kết hợp phanh trước một cách êm dịu.",
+      "Bóp phanh trước thật mạnh và gấp.",
+      "Chỉ dùng phanh sau hết cỡ."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Cần nhả ga, sử dụng phanh sau kết hợp phanh trước đồng thời và êm dịu để tránh bó cứng bánh xe."
+  },
+  {
+    "id": 92,
+    "topicId": 3,
+    "content": "Khi vào khúc cua gấp sang bên phải, người lái xe mô tô cần thực hiện thao tác nào dưới đây?",
+    "options": [
+      "Giảm tốc độ trước khi vào cua, quan sát chướng ngại vật, nghiêng xe theo chiều cua phù hợp.",
+      "Tăng tốc thật nhanh để nhanh chóng thoát cua.",
+      "Bóp chặt phanh trước ngay giữa khúc cua."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Luôn giảm tốc độ trước khi vào cua, không phanh gấp giữa khúc cua tránh trượt bánh ngã xe."
+  },
+  {
+    "id": 93,
+    "topicId": 3,
+    "content": "Khi điều khiển xe mô tô đi trên đường ngập nước, người lái xe cần thực hiện thao tác nào để tránh bị chết máy?",
+    "options": [
+      "Đi số thấp (số 1 hoặc số 2), giữ đều tay ga, không giảm ga đột ngột, phán đoán độ sâu của nước.",
+      "Tăng ga thật mạnh để vượt nhanh qua đoạn ngập.",
+      "Về số mo (N) và thả trôi xe qua đoạn ngập."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Đi số thấp và giữ đều ga để khí xả đẩy nước ra ngoài, tránh nước lọt vào ống xả làm chết máy."
+  },
+  {
+    "id": 94,
+    "topicId": 3,
+    "content": "Để đạt hiệu quả phanh cao nhất, người lái xe mô tô phải sử dụng các thao tác như thế nào?",
+    "options": [
+      "Sử dụng đồng thời cả phanh trước và phanh sau, đồng thời giảm hết ga.",
+      "Chỉ sử dụng phanh trước hết cỡ.",
+      "Chỉ sử dụng phanh sau và tăng ga."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Giảm hết ga và phối hợp nhịp nhàng cả phanh trước và phanh sau mang lại quãng đường phanh ngắn nhất và an toàn nhất."
+  },
+  {
+    "id": 95,
+    "topicId": 3,
+    "content": "Khi khởi hành xe mô tô trên đường bằng, người lái xe cần thực hiện thao tác nào?",
+    "options": [
+      "Nhả phanh, vào số 1, từ từ tăng ga kết hợp nhả ly hợp (xe côn) để xe chuyển bánh êm dịu.",
+      "Vào số 4 và tăng ga hết cỡ.",
+      "Đạp mạnh phanh trước rồi rồ ga."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khởi hành từ số thấp (số 1) và tăng ga từ từ để xe không bị giật hoặc chết máy."
+  },
+  {
+    "id": 96,
+    "topicId": 3,
+    "content": "Gương chiếu hậu của xe mô tô hai bánh có tác dụng gì trong các trường hợp dưới đây?",
+    "options": [
+      "Để quan sát an toàn phía sau cả bên trái và bên phải trước khi chuyển hướng hoặc dừng xe.",
+      "Để soi gương trang điểm khi dừng đèn đỏ.",
+      "Để quan sát phía trước mặt."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Gương chiếu hậu giúp người lái xe bao quát tầm nhìn phía sau 2 bên để phòng ngừa tai nạn khi chuyển làn/rẽ."
+  },
+  {
+    "id": 97,
+    "topicId": 3,
+    "content": "Khi điều khiển xe qua đường sắt không có rào chắn, người lái xe cần làm gì khi có chuông báo hoặc đèn tín hiệu đỏ?",
+    "options": [
+      "Dừng xe cách đường ray tối thiểu 5 mét, tắt máy nếu cần, đợi tàu đi qua hoàn toàn.",
+      "Nhanh chóng phóng xe qua đường sắt trước khi tàu đến.",
+      "Dừng sát mép đường ray để xem tàu chạy."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Quy chuẩn khoảng cách an toàn tối thiểu với đường ray đường sắt là 5 mét."
+  },
+  {
+    "id": 98,
+    "topicId": 3,
+    "content": "Khi điều khiển xe mô tô đi ban đêm, gặp xe đi ngược chiều, người lái xe cần chuyển đổi đèn như thế nào?",
+    "options": [
+      "Chuyển từ đèn chiếu xa (pha) sang đèn chiếu gần (cốt).",
+      "Chuyển từ đèn chiếu gần sang đèn chiếu xa.",
+      "Bật đèn ưu tiên khẩn cấp."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Phải chuyển sang đèn chiếu gần (cốt) khi tránh xe đi ngược chiều để không làm lóa mắt lái xe đối diện."
+  },
+  {
+    "id": 99,
+    "topicId": 3,
+    "content": "Khi xe mô tô bị trượt bánh sau trên đường trơn, người lái xe nên xử lý như thế nào?",
+    "options": [
+      "Giữ thăng bằng xe, nhả ga từ từ, không phanh gấp, đánh lái nhẹ theo hướng văng của đuôi xe để lấy lại độ bám.",
+      "Bóp chặt phanh trước thật mạnh.",
+      "Nhảy ngay ra khỏi xe."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Khi trượt bánh sau, không được phanh gấp; cần giảm ga êm dịu và giữ thăng bằng xe."
+  },
+  {
+    "id": 100,
+    "topicId": 3,
+    "content": "Kỹ thuật giữ thăng bằng khi lái xe mô tô ở tốc độ chậm (dưới 10 km/h) yêu cầu điều gì?",
+    "options": [
+      "Mắt nhìn thẳng về phía trước, hai đầu gối khép nhẹ vào bình xăng/thân xe, điều khiển ga đều.",
+      "Mắt nhìn chăm chú vào bánh trước của xe.",
+      "Xòe chân rộng sang hai bên."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": null,
+    "explanation": "Tầm nhìn xa và tư thế ôm gọn thân xe giúp trọng tâm ổn định khi đi chậm (như thi bài vòng số 8)."
+  },
+  {
+    "id": 101,
+    "topicId": 4,
+    "content": "Biển nào dưới đây báo hiệu 'Cấm xe mô tô hai bánh đi vào'?",
+    "options": [
+      "Biển 1 (Biển tròn viền đỏ vẽ xe mô tô).",
+      "Biển 2 (Biển tròn viền đỏ vẽ xe ô tô).",
+      "Biển 3 (Biển tròn viền đỏ vẽ xe tải)."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/P.104.png",
+    "explanation": "Biển P.104 hình tròn viền đỏ có vẽ hình xe mô tô hai bánh báo hiệu cấm xe mô tô đi vào."
+  },
+  {
+    "id": 102,
+    "topicId": 4,
+    "content": "Biển nào báo hiệu 'Giao nhau có tín hiệu đèn'?",
+    "options": [
+      "Biển tam giác vàng viền đỏ có hình 3 đèn tín hiệu giao thông.",
+      "Biển hình vuông nền xanh có chữ P.",
+      "Biển hình tròn nền xanh có mũi tên đi thẳng."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.209.png",
+    "explanation": "Biển tam giác màu vàng viền đỏ hình đèn giao thông là biển cảnh báo nơi giao nhau có đèn điều khiển giao thông."
+  },
+  {
+    "id": 103,
+    "topicId": 4,
+    "content": "Biển nào dưới đây là biển 'Dừng lại' (STOP)?",
+    "options": [
+      "Biển hình bát giác đều, viền đỏ, nền đỏ có chữ STOP màu trắng.",
+      "Biển hình tròn nền xanh có chữ STOP.",
+      "Biển tam giác ngược viền đỏ nền trắng."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/signs/P.122.png",
+    "explanation": "Biển bát giác chữ STOP buộc mọi phương tiện cơ giới và thô sơ phải dừng lại trước vạch quan sát an toàn mới được đi (Câu điểm liệt)."
+  },
+  {
+    "id": 104,
+    "topicId": 4,
+    "content": "Biển nào báo hiệu 'Đường dành cho người đi bộ'?",
+    "options": [
+      "Biển hình tròn nền xanh lam có hình người đi bộ màu trắng (R.305).",
+      "Biển tam giác vàng có hình người đi bộ.",
+      "Biển hình vuông có vạch kẻ đường người đi bộ qua đường."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.305.png",
+    "explanation": "Biển hiệu lệnh R.305 biểu thị đường dành riêng cho người đi bộ, các loại xe không được vào."
+  },
+  {
+    "id": 105,
+    "topicId": 4,
+    "content": "Biển nào dưới đây cấm quay đầu xe nhưng không cấm rẽ trái?",
+    "options": [
+      "Biển cấm quay đầu xe (mũi tên chữ U gạch chéo).",
+      "Biển cấm rẽ trái (mũi tên rẽ trái gạch chéo).",
+      "Cả hai biển đều cấm rẽ trái."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/P.124a.png",
+    "explanation": "Theo quy chuẩn QCVN 41:2019/BGTVT, biển cấm quay đầu xe không cấm rẽ trái."
+  },
+  {
+    "id": 106,
+    "topicId": 4,
+    "content": "Biển nào cảnh báo nguy hiểm 'Đường trơn trượt'?",
+    "options": [
+      "Biển tam giác viền đỏ nền vàng có vẽ hình ô tô đang trượt bánh ngoằn ngoèo.",
+      "Biển tam giác viền đỏ nền vàng có gồ nhấp nhô.",
+      "Biển hình tròn viền đỏ nền trắng có vạch nước."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.222a.png",
+    "explanation": "Biển cảnh báo đoạn đường trơn trượt do mưa, bùn đất hoặc rêu nhớt."
+  },
+  {
+    "id": 107,
+    "topicId": 4,
+    "content": "Biển nào dưới đây báo hiệu 'Cấm đi ngược chiều'?",
+    "options": [
+      "Biển hình tròn nền đỏ, ở giữa có vạch ngang màu trắng (P.102).",
+      "Biển hình tròn viền đỏ nền trắng có mũi tên đen gạch chéo.",
+      "Biển hình tam giác ngược viền đỏ."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/signs/P.102.png",
+    "explanation": "Biển P.102 cấm tất cả các loại xe đi vào theo chiều đặt biển, trừ xe ưu tiên (Câu điểm liệt)."
+  },
+  {
+    "id": 108,
+    "topicId": 4,
+    "content": "Biển nào báo hiệu 'Đường cấm tất cả các loại phương tiện cơ giới và thô sơ đi lại cả hai hướng'?",
+    "options": [
+      "Biển hình tròn viền đỏ, nền trắng hoàn toàn (P.101).",
+      "Biển hình bát giác chữ STOP.",
+      "Biển cấm xe mô tô."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/signs/P.101.png",
+    "explanation": "Biển P.101 cấm mọi phương tiện lưu thông cả hai chiều (Câu điểm liệt)."
+  },
+  {
+    "id": 109,
+    "topicId": 4,
+    "content": "Gặp biển nào dưới đây người lái xe bắt buộc phải giảm tốc độ tối đa không được vượt quá trị số ghi trên biển?",
+    "options": [
+      "Biển tròn viền đỏ có ghi con số tốc độ (Ví dụ: 50).",
+      "Biển tròn nền xanh ghi con số tốc độ.",
+      "Biển vuông nền xanh chỉ dẫn tốc độ khuyến nghị."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/signs/P.127.png",
+    "explanation": "Biển P.127 hạn chế tốc độ tối đa cho phép; vượt quá tốc độ bị xử phạt nặng (Câu điểm liệt)."
+  },
+  {
+    "id": 110,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.201a có tên gọi là gì và mang ý nghĩa gì? (Câu 110)",
+    "options": [
+      "Chỗ ngoặt nguy hiểm vòng bên trái — Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.201a.png",
+    "explanation": "Biển W.201a là biển Chỗ ngoặt nguy hiểm vòng bên trái: Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái."
+  },
+  {
+    "id": 111,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.205a có tên gọi là gì và mang ý nghĩa gì? (Câu 111)",
+    "options": [
+      "Đường giao nhau cùng cấp — Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.205a.png",
+    "explanation": "Biển W.205a là biển Đường giao nhau cùng cấp: Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên."
+  },
+  {
+    "id": 112,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.207a có tên gọi là gì và mang ý nghĩa gì? (Câu 112)",
+    "options": [
+      "Giao nhau với đường không ưu tiên — Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.207a.png",
+    "explanation": "Biển W.207a là biển Giao nhau với đường không ưu tiên: Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau."
+  },
+  {
+    "id": 113,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.208 có tên gọi là gì và mang ý nghĩa gì? (Câu 113)",
+    "options": [
+      "Giao nhau với đường ưu tiên — Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.208.png",
+    "explanation": "Biển W.208 là biển Giao nhau với đường ưu tiên: Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên."
+  },
+  {
+    "id": 114,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.221a có tên gọi là gì và mang ý nghĩa gì? (Câu 114)",
+    "options": [
+      "Đường có gồ giảm tốc — Báo trước sắp tới đoạn đường có gờ giảm tốc độ.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.221a.png",
+    "explanation": "Biển W.221a là biển Đường có gồ giảm tốc: Báo trước sắp tới đoạn đường có gờ giảm tốc độ."
+  },
+  {
+    "id": 115,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.224 có tên gọi là gì và mang ý nghĩa gì? (Câu 115)",
+    "options": [
+      "Người đi bộ cắt ngang — Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.224.png",
+    "explanation": "Biển W.224 là biển Người đi bộ cắt ngang: Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại."
+  },
+  {
+    "id": 116,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.225 có tên gọi là gì và mang ý nghĩa gì? (Câu 116)",
+    "options": [
+      "Trẻ em qua đường — Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.225.png",
+    "explanation": "Biển W.225 là biển Trẻ em qua đường: Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em."
+  },
+  {
+    "id": 117,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.227 có tên gọi là gì và mang ý nghĩa gì? (Câu 117)",
+    "options": [
+      "Công trường đang thi công — Cảnh báo đoạn đường đang sửa chữa hoặc thi công.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.227.png",
+    "explanation": "Biển W.227 là biển Công trường đang thi công: Cảnh báo đoạn đường đang sửa chữa hoặc thi công."
+  },
+  {
+    "id": 118,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301a có tên gọi là gì và mang ý nghĩa gì? (Câu 118)",
+    "options": [
+      "Hướng đi phải theo (Đi thẳng) — Chỉ dẫn các phương tiện chỉ được phép đi thẳng.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301a.png",
+    "explanation": "Biển R.301a là biển Hướng đi phải theo (Đi thẳng): Chỉ dẫn các phương tiện chỉ được phép đi thẳng."
+  },
+  {
+    "id": 119,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301c có tên gọi là gì và mang ý nghĩa gì? (Câu 119)",
+    "options": [
+      "Hướng đi phải theo (Rẽ phải) — Chỉ dẫn các phương tiện bắt buộc phải rẽ phải.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301c.png",
+    "explanation": "Biển R.301c là biển Hướng đi phải theo (Rẽ phải): Chỉ dẫn các phương tiện bắt buộc phải rẽ phải."
+  },
+  {
+    "id": 120,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.303 có tên gọi là gì và mang ý nghĩa gì? (Câu 120)",
+    "options": [
+      "Nơi giao nhau chạy theo vòng xuyến — Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.303.png",
+    "explanation": "Biển R.303 là biển Nơi giao nhau chạy theo vòng xuyến: Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến."
+  },
+  {
+    "id": 121,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.401 có tên gọi là gì và mang ý nghĩa gì? (Câu 121)",
+    "options": [
+      "Bắt đầu đường ưu tiên — Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.401.png",
+    "explanation": "Biển I.401 là biển Bắt đầu đường ưu tiên: Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này."
+  },
+  {
+    "id": 122,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.407a có tên gọi là gì và mang ý nghĩa gì? (Câu 122)",
+    "options": [
+      "Đường một chiều — Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.407a.png",
+    "explanation": "Biển I.407a là biển Đường một chiều: Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất."
+  },
+  {
+    "id": 123,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.201a có tên gọi là gì và mang ý nghĩa gì? (Câu 123)",
+    "options": [
+      "Chỗ ngoặt nguy hiểm vòng bên trái — Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.201a.png",
+    "explanation": "Biển W.201a là biển Chỗ ngoặt nguy hiểm vòng bên trái: Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái."
+  },
+  {
+    "id": 124,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.205a có tên gọi là gì và mang ý nghĩa gì? (Câu 124)",
+    "options": [
+      "Đường giao nhau cùng cấp — Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.205a.png",
+    "explanation": "Biển W.205a là biển Đường giao nhau cùng cấp: Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên."
+  },
+  {
+    "id": 125,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.207a có tên gọi là gì và mang ý nghĩa gì? (Câu 125)",
+    "options": [
+      "Giao nhau với đường không ưu tiên — Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.207a.png",
+    "explanation": "Biển W.207a là biển Giao nhau với đường không ưu tiên: Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau."
+  },
+  {
+    "id": 126,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.208 có tên gọi là gì và mang ý nghĩa gì? (Câu 126)",
+    "options": [
+      "Giao nhau với đường ưu tiên — Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.208.png",
+    "explanation": "Biển W.208 là biển Giao nhau với đường ưu tiên: Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên."
+  },
+  {
+    "id": 127,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.221a có tên gọi là gì và mang ý nghĩa gì? (Câu 127)",
+    "options": [
+      "Đường có gồ giảm tốc — Báo trước sắp tới đoạn đường có gờ giảm tốc độ.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.221a.png",
+    "explanation": "Biển W.221a là biển Đường có gồ giảm tốc: Báo trước sắp tới đoạn đường có gờ giảm tốc độ."
+  },
+  {
+    "id": 128,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.224 có tên gọi là gì và mang ý nghĩa gì? (Câu 128)",
+    "options": [
+      "Người đi bộ cắt ngang — Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.224.png",
+    "explanation": "Biển W.224 là biển Người đi bộ cắt ngang: Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại."
+  },
+  {
+    "id": 129,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.225 có tên gọi là gì và mang ý nghĩa gì? (Câu 129)",
+    "options": [
+      "Trẻ em qua đường — Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.225.png",
+    "explanation": "Biển W.225 là biển Trẻ em qua đường: Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em."
+  },
+  {
+    "id": 130,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.227 có tên gọi là gì và mang ý nghĩa gì? (Câu 130)",
+    "options": [
+      "Công trường đang thi công — Cảnh báo đoạn đường đang sửa chữa hoặc thi công.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.227.png",
+    "explanation": "Biển W.227 là biển Công trường đang thi công: Cảnh báo đoạn đường đang sửa chữa hoặc thi công."
+  },
+  {
+    "id": 131,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301a có tên gọi là gì và mang ý nghĩa gì? (Câu 131)",
+    "options": [
+      "Hướng đi phải theo (Đi thẳng) — Chỉ dẫn các phương tiện chỉ được phép đi thẳng.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301a.png",
+    "explanation": "Biển R.301a là biển Hướng đi phải theo (Đi thẳng): Chỉ dẫn các phương tiện chỉ được phép đi thẳng."
+  },
+  {
+    "id": 132,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301c có tên gọi là gì và mang ý nghĩa gì? (Câu 132)",
+    "options": [
+      "Hướng đi phải theo (Rẽ phải) — Chỉ dẫn các phương tiện bắt buộc phải rẽ phải.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301c.png",
+    "explanation": "Biển R.301c là biển Hướng đi phải theo (Rẽ phải): Chỉ dẫn các phương tiện bắt buộc phải rẽ phải."
+  },
+  {
+    "id": 133,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.303 có tên gọi là gì và mang ý nghĩa gì? (Câu 133)",
+    "options": [
+      "Nơi giao nhau chạy theo vòng xuyến — Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.303.png",
+    "explanation": "Biển R.303 là biển Nơi giao nhau chạy theo vòng xuyến: Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến."
+  },
+  {
+    "id": 134,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.401 có tên gọi là gì và mang ý nghĩa gì? (Câu 134)",
+    "options": [
+      "Bắt đầu đường ưu tiên — Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.401.png",
+    "explanation": "Biển I.401 là biển Bắt đầu đường ưu tiên: Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này."
+  },
+  {
+    "id": 135,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.407a có tên gọi là gì và mang ý nghĩa gì? (Câu 135)",
+    "options": [
+      "Đường một chiều — Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.407a.png",
+    "explanation": "Biển I.407a là biển Đường một chiều: Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất."
+  },
+  {
+    "id": 136,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.201a có tên gọi là gì và mang ý nghĩa gì? (Câu 136)",
+    "options": [
+      "Chỗ ngoặt nguy hiểm vòng bên trái — Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.201a.png",
+    "explanation": "Biển W.201a là biển Chỗ ngoặt nguy hiểm vòng bên trái: Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái."
+  },
+  {
+    "id": 137,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.205a có tên gọi là gì và mang ý nghĩa gì? (Câu 137)",
+    "options": [
+      "Đường giao nhau cùng cấp — Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.205a.png",
+    "explanation": "Biển W.205a là biển Đường giao nhau cùng cấp: Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên."
+  },
+  {
+    "id": 138,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.207a có tên gọi là gì và mang ý nghĩa gì? (Câu 138)",
+    "options": [
+      "Giao nhau với đường không ưu tiên — Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.207a.png",
+    "explanation": "Biển W.207a là biển Giao nhau với đường không ưu tiên: Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau."
+  },
+  {
+    "id": 139,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.208 có tên gọi là gì và mang ý nghĩa gì? (Câu 139)",
+    "options": [
+      "Giao nhau với đường ưu tiên — Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.208.png",
+    "explanation": "Biển W.208 là biển Giao nhau với đường ưu tiên: Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên."
+  },
+  {
+    "id": 140,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.221a có tên gọi là gì và mang ý nghĩa gì? (Câu 140)",
+    "options": [
+      "Đường có gồ giảm tốc — Báo trước sắp tới đoạn đường có gờ giảm tốc độ.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.221a.png",
+    "explanation": "Biển W.221a là biển Đường có gồ giảm tốc: Báo trước sắp tới đoạn đường có gờ giảm tốc độ."
+  },
+  {
+    "id": 141,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.224 có tên gọi là gì và mang ý nghĩa gì? (Câu 141)",
+    "options": [
+      "Người đi bộ cắt ngang — Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.224.png",
+    "explanation": "Biển W.224 là biển Người đi bộ cắt ngang: Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại."
+  },
+  {
+    "id": 142,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.225 có tên gọi là gì và mang ý nghĩa gì? (Câu 142)",
+    "options": [
+      "Trẻ em qua đường — Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.225.png",
+    "explanation": "Biển W.225 là biển Trẻ em qua đường: Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em."
+  },
+  {
+    "id": 143,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.227 có tên gọi là gì và mang ý nghĩa gì? (Câu 143)",
+    "options": [
+      "Công trường đang thi công — Cảnh báo đoạn đường đang sửa chữa hoặc thi công.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.227.png",
+    "explanation": "Biển W.227 là biển Công trường đang thi công: Cảnh báo đoạn đường đang sửa chữa hoặc thi công."
+  },
+  {
+    "id": 144,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301a có tên gọi là gì và mang ý nghĩa gì? (Câu 144)",
+    "options": [
+      "Hướng đi phải theo (Đi thẳng) — Chỉ dẫn các phương tiện chỉ được phép đi thẳng.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301a.png",
+    "explanation": "Biển R.301a là biển Hướng đi phải theo (Đi thẳng): Chỉ dẫn các phương tiện chỉ được phép đi thẳng."
+  },
+  {
+    "id": 145,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301c có tên gọi là gì và mang ý nghĩa gì? (Câu 145)",
+    "options": [
+      "Hướng đi phải theo (Rẽ phải) — Chỉ dẫn các phương tiện bắt buộc phải rẽ phải.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301c.png",
+    "explanation": "Biển R.301c là biển Hướng đi phải theo (Rẽ phải): Chỉ dẫn các phương tiện bắt buộc phải rẽ phải."
+  },
+  {
+    "id": 146,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.303 có tên gọi là gì và mang ý nghĩa gì? (Câu 146)",
+    "options": [
+      "Nơi giao nhau chạy theo vòng xuyến — Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.303.png",
+    "explanation": "Biển R.303 là biển Nơi giao nhau chạy theo vòng xuyến: Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến."
+  },
+  {
+    "id": 147,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.401 có tên gọi là gì và mang ý nghĩa gì? (Câu 147)",
+    "options": [
+      "Bắt đầu đường ưu tiên — Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.401.png",
+    "explanation": "Biển I.401 là biển Bắt đầu đường ưu tiên: Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này."
+  },
+  {
+    "id": 148,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.407a có tên gọi là gì và mang ý nghĩa gì? (Câu 148)",
+    "options": [
+      "Đường một chiều — Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.407a.png",
+    "explanation": "Biển I.407a là biển Đường một chiều: Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất."
+  },
+  {
+    "id": 149,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.201a có tên gọi là gì và mang ý nghĩa gì? (Câu 149)",
+    "options": [
+      "Chỗ ngoặt nguy hiểm vòng bên trái — Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.201a.png",
+    "explanation": "Biển W.201a là biển Chỗ ngoặt nguy hiểm vòng bên trái: Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái."
+  },
+  {
+    "id": 150,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.205a có tên gọi là gì và mang ý nghĩa gì? (Câu 150)",
+    "options": [
+      "Đường giao nhau cùng cấp — Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.205a.png",
+    "explanation": "Biển W.205a là biển Đường giao nhau cùng cấp: Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên."
+  },
+  {
+    "id": 151,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.207a có tên gọi là gì và mang ý nghĩa gì? (Câu 151)",
+    "options": [
+      "Giao nhau với đường không ưu tiên — Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.207a.png",
+    "explanation": "Biển W.207a là biển Giao nhau với đường không ưu tiên: Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau."
+  },
+  {
+    "id": 152,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.208 có tên gọi là gì và mang ý nghĩa gì? (Câu 152)",
+    "options": [
+      "Giao nhau với đường ưu tiên — Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.208.png",
+    "explanation": "Biển W.208 là biển Giao nhau với đường ưu tiên: Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên."
+  },
+  {
+    "id": 153,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.221a có tên gọi là gì và mang ý nghĩa gì? (Câu 153)",
+    "options": [
+      "Đường có gồ giảm tốc — Báo trước sắp tới đoạn đường có gờ giảm tốc độ.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.221a.png",
+    "explanation": "Biển W.221a là biển Đường có gồ giảm tốc: Báo trước sắp tới đoạn đường có gờ giảm tốc độ."
+  },
+  {
+    "id": 154,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.224 có tên gọi là gì và mang ý nghĩa gì? (Câu 154)",
+    "options": [
+      "Người đi bộ cắt ngang — Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.224.png",
+    "explanation": "Biển W.224 là biển Người đi bộ cắt ngang: Cảnh báo đoạn đường có người đi bộ thường xuyên qua lại."
+  },
+  {
+    "id": 155,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.225 có tên gọi là gì và mang ý nghĩa gì? (Câu 155)",
+    "options": [
+      "Trẻ em qua đường — Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.225.png",
+    "explanation": "Biển W.225 là biển Trẻ em qua đường: Cảnh báo khu vực gần trường học hoặc sân chơi có trẻ em."
+  },
+  {
+    "id": 156,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.227 có tên gọi là gì và mang ý nghĩa gì? (Câu 156)",
+    "options": [
+      "Công trường đang thi công — Cảnh báo đoạn đường đang sửa chữa hoặc thi công.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.227.png",
+    "explanation": "Biển W.227 là biển Công trường đang thi công: Cảnh báo đoạn đường đang sửa chữa hoặc thi công."
+  },
+  {
+    "id": 157,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301a có tên gọi là gì và mang ý nghĩa gì? (Câu 157)",
+    "options": [
+      "Hướng đi phải theo (Đi thẳng) — Chỉ dẫn các phương tiện chỉ được phép đi thẳng.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301a.png",
+    "explanation": "Biển R.301a là biển Hướng đi phải theo (Đi thẳng): Chỉ dẫn các phương tiện chỉ được phép đi thẳng."
+  },
+  {
+    "id": 158,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.301c có tên gọi là gì và mang ý nghĩa gì? (Câu 158)",
+    "options": [
+      "Hướng đi phải theo (Rẽ phải) — Chỉ dẫn các phương tiện bắt buộc phải rẽ phải.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.301c.png",
+    "explanation": "Biển R.301c là biển Hướng đi phải theo (Rẽ phải): Chỉ dẫn các phương tiện bắt buộc phải rẽ phải."
+  },
+  {
+    "id": 159,
+    "topicId": 4,
+    "content": "Biển báo mang mã số R.303 có tên gọi là gì và mang ý nghĩa gì? (Câu 159)",
+    "options": [
+      "Nơi giao nhau chạy theo vòng xuyến — Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/R.303.png",
+    "explanation": "Biển R.303 là biển Nơi giao nhau chạy theo vòng xuyến: Phương tiện phải đi vòng theo đảo an toàn tại vòng xuyến."
+  },
+  {
+    "id": 160,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.401 có tên gọi là gì và mang ý nghĩa gì? (Câu 160)",
+    "options": [
+      "Bắt đầu đường ưu tiên — Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.401.png",
+    "explanation": "Biển I.401 là biển Bắt đầu đường ưu tiên: Báo hiệu quyền ưu tiên của các phương tiện lưu thông trên tuyến đường này."
+  },
+  {
+    "id": 161,
+    "topicId": 4,
+    "content": "Biển báo mang mã số I.407a có tên gọi là gì và mang ý nghĩa gì? (Câu 161)",
+    "options": [
+      "Đường một chiều — Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/I.407a.png",
+    "explanation": "Biển I.407a là biển Đường một chiều: Chỉ dẫn đường chỉ cho phép phương tiện di chuyển theo một chiều duy nhất."
+  },
+  {
+    "id": 162,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.201a có tên gọi là gì và mang ý nghĩa gì? (Câu 162)",
+    "options": [
+      "Chỗ ngoặt nguy hiểm vòng bên trái — Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.201a.png",
+    "explanation": "Biển W.201a là biển Chỗ ngoặt nguy hiểm vòng bên trái: Báo trước sắp tới chỗ ngoặt nguy hiểm sang trái."
+  },
+  {
+    "id": 163,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.205a có tên gọi là gì và mang ý nghĩa gì? (Câu 163)",
+    "options": [
+      "Đường giao nhau cùng cấp — Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.205a.png",
+    "explanation": "Biển W.205a là biển Đường giao nhau cùng cấp: Báo trước ngã tư giao nhau của các tuyến đường cùng mức ưu tiên."
+  },
+  {
+    "id": 164,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.207a có tên gọi là gì và mang ý nghĩa gì? (Câu 164)",
+    "options": [
+      "Giao nhau với đường không ưu tiên — Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.207a.png",
+    "explanation": "Biển W.207a là biển Giao nhau với đường không ưu tiên: Báo hiệu xe trên tuyến này được quyền ưu tiên qua nơi giao nhau."
+  },
+  {
+    "id": 165,
+    "topicId": 4,
+    "content": "Biển báo mang mã số W.208 có tên gọi là gì và mang ý nghĩa gì? (Câu 165)",
+    "options": [
+      "Giao nhau với đường ưu tiên — Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên.",
+      "Biển chỉ dẫn vị trí cây xăng và trạm dừng nghỉ trên đường.",
+      "Biển cấm các loại phương tiện dừng đỗ xe vào ban đêm."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/signs/W.208.png",
+    "explanation": "Biển W.208 là biển Giao nhau với đường ưu tiên: Báo hiệu phải giảm tốc độ và nhường đường cho xe trên đường ưu tiên."
+  },
+  {
+    "id": 166,
+    "topicId": 5,
+    "content": "Tại ngã tư giao nhau, khi đèn tín hiệu chuyển sang màu đỏ, người lái xe xử lý thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Dừng lại trước vạch dừng xe.",
+      "Quan sát nếu không có cảnh sát giao thông thì vượt nhanh qua.",
+      "Bấm còi và đi tiếp."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/diagrams/sa_hinh_den_do.png",
+    "explanation": "Đèn đỏ bắt buộc tất cả phương tiện phải dừng lại trước vạch dừng, vượt đèn đỏ là hành vi nguy hiểm bị phạt nặng (Câu điểm liệt)."
+  },
+  {
+    "id": 167,
+    "topicId": 5,
+    "content": "Tại nơi đường giao nhau giữa đường sắt và đường bộ, khi chuông reo và cần chắn đang hạ xuống, người tham gia giao thông phải làm gì?",
+    "options": [
+      "Dừng lại ngay phía phần đường của mình và cách rào chắn an toàn tối thiểu 5 mét.",
+      "Cố gắng tăng ga vượt nhanh qua trước khi cần chắn đóng hẳn.",
+      "Cúi người lách qua thanh chắn để đi qua."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/diagrams/sa_hinh_duong_sat.png",
+    "explanation": "Tuyệt đối không vượt rào chắn đường sắt khi chuông đã reo hoặc cần chắn đang hạ (Câu điểm liệt)."
+  },
+  {
+    "id": 168,
+    "topicId": 5,
+    "content": "Xe nào được quyền đi trước trong trường hợp có xe Cứu hỏa và xe Cứu thương cùng đến ngã tư?",
+    "options": [
+      "Xe Cứu hỏa đi trước.",
+      "Xe Cứu thương đi trước.",
+      "Xe nào đến ngã tư trước thì đi trước."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/diagrams/sa_hinh_xe_uu_tien.png",
+    "explanation": "Thứ tự ưu tiên xe ưu tiên: Cứu hỏa -> Quân sự -> Công an -> Cứu thương (Câu điểm liệt)."
+  },
+  {
+    "id": 169,
+    "topicId": 5,
+    "content": "Theo tín hiệu đèn của cảnh sát giao thông (giơ một tay thẳng đứng lên trời), tất cả các phương tiện ở các hướng phải làm gì?",
+    "options": [
+      "Người tham gia giao thông ở các hướng đều phải dừng lại (trừ các xe đã ở trong khu vực giao nhau).",
+      "Phương tiện phía trước và phía sau cảnh sát giao thông được đi.",
+      "Phương tiện phía bên trái và bên phải cảnh sát giao thông được đi."
+    ],
+    "correctIndex": 0,
+    "isCritical": true,
+    "image": "assets/images/diagrams/sa_hinh_csgt_tay_dung.png",
+    "explanation": "Hiệu lệnh CSGT giơ tay thẳng đứng: người tham gia giao thông ở tất cả các hướng đều phải dừng lại (Câu điểm liệt)."
+  },
+  {
+    "id": 170,
+    "topicId": 5,
+    "content": "Tại ngã tư không có biển báo ưu tiên và không có tín hiệu đèn giao thông, xe nào được quyền đi trước?",
+    "options": [
+      "Xe có hướng đi bên phải không vướng (bên phải trống).",
+      "Xe to đi trước xe nhỏ.",
+      "Xe nào đi nhanh hơn thì đi trước."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_nga_tu_cung_cap.png",
+    "explanation": "Quy tắc nhường đường tại nơi giao nhau cùng mức: xe có hướng bên phải trống được quyền đi trước."
+  },
+  {
+    "id": 171,
+    "topicId": 5,
+    "content": "Trong một thế sa hình tại ngã tư cùng cấp: Xe tải rẽ phải, xe con đi thẳng, xe mô tô rẽ trái. Thứ tự đi như thế nào là đúng?",
+    "options": [
+      "Xe tải (rẽ phải) -> Xe con (đi thẳng) -> Xe mô tô (rẽ trái).",
+      "Xe mô tô -> Xe con -> Xe tải.",
+      "Xe con -> Xe tải -> Xe mô tô."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_thu_tu_huong_di.png",
+    "explanation": "Thứ tự hướng đi ưu tiên tại ngã tư cùng cấp: Rẽ phải đi trước -> Đi thẳng -> Rẽ trái đi sau cùng."
+  },
+  {
+    "id": 172,
+    "topicId": 5,
+    "content": "Tại vòng xuyến có biển báo hiệu đi theo vòng xuyến, người lái xe phải nhường đường cho xe nào?",
+    "options": [
+      "Nhường đường cho xe đi từ bên trái tới.",
+      "Nhường đường cho xe đi từ bên phải tới.",
+      "Không cần nhường đường."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_vong_xuyen.png",
+    "explanation": "Tại nơi giao nhau có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đến từ bên trái."
+  },
+  {
+    "id": 173,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi đè vạch liền? (Tình huống sa hình số 173)",
+    "options": [
+      "Xe con đè vạch liền phân chia làn đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_173.png",
+    "explanation": "Quy tắc sa hình: Xe con đè vạch liền phân chia làn đường."
+  },
+  {
+    "id": 174,
+    "topicId": 5,
+    "content": "Xe nào phải nhường đường khi gặp biển 'Giao nhau với đường ưu tiên'? (Tình huống sa hình số 174)",
+    "options": [
+      "Xe đi trên đường không ưu tiên phải nhường đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_174.png",
+    "explanation": "Quy tắc sa hình: Xe đi trên đường không ưu tiên phải nhường đường."
+  },
+  {
+    "id": 175,
+    "topicId": 5,
+    "content": "Xe tải quay đầu xe như hình vẽ có vi phạm quy tắc giao thông không? (Tình huống sa hình số 175)",
+    "options": [
+      "Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_175.png",
+    "explanation": "Quy tắc sa hình: Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường."
+  },
+  {
+    "id": 176,
+    "topicId": 5,
+    "content": "Xe nào được đi trước trong trường hợp xe con đã vào giao lộ trước? (Tình huống sa hình số 176)",
+    "options": [
+      "Xe con đã vào trong giao lộ được quyền đi trước.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_176.png",
+    "explanation": "Quy tắc sa hình: Xe con đã vào trong giao lộ được quyền đi trước."
+  },
+  {
+    "id": 177,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi vượt xe trên đoạn đường cong có vạch liền? (Tình huống sa hình số 177)",
+    "options": [
+      "Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_177.png",
+    "explanation": "Quy tắc sa hình: Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền."
+  },
+  {
+    "id": 178,
+    "topicId": 5,
+    "content": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông? (Tình huống sa hình số 178)",
+    "options": [
+      "Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_178.png",
+    "explanation": "Quy tắc sa hình: Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu."
+  },
+  {
+    "id": 179,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi đè vạch liền? (Tình huống sa hình số 179)",
+    "options": [
+      "Xe con đè vạch liền phân chia làn đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_179.png",
+    "explanation": "Quy tắc sa hình: Xe con đè vạch liền phân chia làn đường."
+  },
+  {
+    "id": 180,
+    "topicId": 5,
+    "content": "Xe nào phải nhường đường khi gặp biển 'Giao nhau với đường ưu tiên'? (Tình huống sa hình số 180)",
+    "options": [
+      "Xe đi trên đường không ưu tiên phải nhường đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_180.png",
+    "explanation": "Quy tắc sa hình: Xe đi trên đường không ưu tiên phải nhường đường."
+  },
+  {
+    "id": 181,
+    "topicId": 5,
+    "content": "Xe tải quay đầu xe như hình vẽ có vi phạm quy tắc giao thông không? (Tình huống sa hình số 181)",
+    "options": [
+      "Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_181.png",
+    "explanation": "Quy tắc sa hình: Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường."
+  },
+  {
+    "id": 182,
+    "topicId": 5,
+    "content": "Xe nào được đi trước trong trường hợp xe con đã vào giao lộ trước? (Tình huống sa hình số 182)",
+    "options": [
+      "Xe con đã vào trong giao lộ được quyền đi trước.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_182.png",
+    "explanation": "Quy tắc sa hình: Xe con đã vào trong giao lộ được quyền đi trước."
+  },
+  {
+    "id": 183,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi vượt xe trên đoạn đường cong có vạch liền? (Tình huống sa hình số 183)",
+    "options": [
+      "Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_183.png",
+    "explanation": "Quy tắc sa hình: Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền."
+  },
+  {
+    "id": 184,
+    "topicId": 5,
+    "content": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông? (Tình huống sa hình số 184)",
+    "options": [
+      "Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_184.png",
+    "explanation": "Quy tắc sa hình: Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu."
+  },
+  {
+    "id": 185,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi đè vạch liền? (Tình huống sa hình số 185)",
+    "options": [
+      "Xe con đè vạch liền phân chia làn đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_185.png",
+    "explanation": "Quy tắc sa hình: Xe con đè vạch liền phân chia làn đường."
+  },
+  {
+    "id": 186,
+    "topicId": 5,
+    "content": "Xe nào phải nhường đường khi gặp biển 'Giao nhau với đường ưu tiên'? (Tình huống sa hình số 186)",
+    "options": [
+      "Xe đi trên đường không ưu tiên phải nhường đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_186.png",
+    "explanation": "Quy tắc sa hình: Xe đi trên đường không ưu tiên phải nhường đường."
+  },
+  {
+    "id": 187,
+    "topicId": 5,
+    "content": "Xe tải quay đầu xe như hình vẽ có vi phạm quy tắc giao thông không? (Tình huống sa hình số 187)",
+    "options": [
+      "Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_187.png",
+    "explanation": "Quy tắc sa hình: Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường."
+  },
+  {
+    "id": 188,
+    "topicId": 5,
+    "content": "Xe nào được đi trước trong trường hợp xe con đã vào giao lộ trước? (Tình huống sa hình số 188)",
+    "options": [
+      "Xe con đã vào trong giao lộ được quyền đi trước.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_188.png",
+    "explanation": "Quy tắc sa hình: Xe con đã vào trong giao lộ được quyền đi trước."
+  },
+  {
+    "id": 189,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi vượt xe trên đoạn đường cong có vạch liền? (Tình huống sa hình số 189)",
+    "options": [
+      "Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_189.png",
+    "explanation": "Quy tắc sa hình: Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền."
+  },
+  {
+    "id": 190,
+    "topicId": 5,
+    "content": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông? (Tình huống sa hình số 190)",
+    "options": [
+      "Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_190.png",
+    "explanation": "Quy tắc sa hình: Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu."
+  },
+  {
+    "id": 191,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi đè vạch liền? (Tình huống sa hình số 191)",
+    "options": [
+      "Xe con đè vạch liền phân chia làn đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_191.png",
+    "explanation": "Quy tắc sa hình: Xe con đè vạch liền phân chia làn đường."
+  },
+  {
+    "id": 192,
+    "topicId": 5,
+    "content": "Xe nào phải nhường đường khi gặp biển 'Giao nhau với đường ưu tiên'? (Tình huống sa hình số 192)",
+    "options": [
+      "Xe đi trên đường không ưu tiên phải nhường đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_192.png",
+    "explanation": "Quy tắc sa hình: Xe đi trên đường không ưu tiên phải nhường đường."
+  },
+  {
+    "id": 193,
+    "topicId": 5,
+    "content": "Xe tải quay đầu xe như hình vẽ có vi phạm quy tắc giao thông không? (Tình huống sa hình số 193)",
+    "options": [
+      "Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_193.png",
+    "explanation": "Quy tắc sa hình: Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường."
+  },
+  {
+    "id": 194,
+    "topicId": 5,
+    "content": "Xe nào được đi trước trong trường hợp xe con đã vào giao lộ trước? (Tình huống sa hình số 194)",
+    "options": [
+      "Xe con đã vào trong giao lộ được quyền đi trước.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_194.png",
+    "explanation": "Quy tắc sa hình: Xe con đã vào trong giao lộ được quyền đi trước."
+  },
+  {
+    "id": 195,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi vượt xe trên đoạn đường cong có vạch liền? (Tình huống sa hình số 195)",
+    "options": [
+      "Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_195.png",
+    "explanation": "Quy tắc sa hình: Xe vượt vi phạm vì vượt nơi tầm nhìn hạn chế có vạch liền."
+  },
+  {
+    "id": 196,
+    "topicId": 5,
+    "content": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông? (Tình huống sa hình số 196)",
+    "options": [
+      "Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_196.png",
+    "explanation": "Quy tắc sa hình: Xe mô tô và xe con chấp hành đúng hướng mũi tên đèn tín hiệu."
+  },
+  {
+    "id": 197,
+    "topicId": 5,
+    "content": "Xe nào vi phạm quy tắc giao thông khi đè vạch liền? (Tình huống sa hình số 197)",
+    "options": [
+      "Xe con đè vạch liền phân chia làn đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_197.png",
+    "explanation": "Quy tắc sa hình: Xe con đè vạch liền phân chia làn đường."
+  },
+  {
+    "id": 198,
+    "topicId": 5,
+    "content": "Xe nào phải nhường đường khi gặp biển 'Giao nhau với đường ưu tiên'? (Tình huống sa hình số 198)",
+    "options": [
+      "Xe đi trên đường không ưu tiên phải nhường đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_198.png",
+    "explanation": "Quy tắc sa hình: Xe đi trên đường không ưu tiên phải nhường đường."
+  },
+  {
+    "id": 199,
+    "topicId": 5,
+    "content": "Xe tải quay đầu xe như hình vẽ có vi phạm quy tắc giao thông không? (Tình huống sa hình số 199)",
+    "options": [
+      "Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_199.png",
+    "explanation": "Quy tắc sa hình: Vi phạm vì quay đầu đè lên vạch người đi bộ qua đường."
+  },
+  {
+    "id": 200,
+    "topicId": 5,
+    "content": "Xe nào được đi trước trong trường hợp xe con đã vào giao lộ trước? (Tình huống sa hình số 200)",
+    "options": [
+      "Xe con đã vào trong giao lộ được quyền đi trước.",
+      "Tất cả các xe đều không vi phạm quy tắc giao thông.",
+      "Xe đi từ hướng bên phải được quyền vượt mọi quy định."
+    ],
+    "correctIndex": 0,
+    "isCritical": false,
+    "image": "assets/images/diagrams/sa_hinh_200.png",
+    "explanation": "Quy tắc sa hình: Xe con đã vào trong giao lộ được quyền đi trước."
+  }
+]

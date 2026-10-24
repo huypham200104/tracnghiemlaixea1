@@ -1,0 +1,136 @@
+# ============================================
+# OS junk
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+desktop.ini
+*~
+
+# ============================================
+# Editors / IDE / AI Tools
+# ============================================
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+# VS Code: Chia sẻ launch.json & extensions.json cho team, bỏ qua cấu hình cá nhân
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+.history/
+
+# AI Coding Assistants & Agent Scratch
+.cursor/
+.claude/
+.windsurf/
+.agents/scratch/
+.gemini/
+
+# ============================================
+# Dart & Flutter (Core)
+# ============================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+migrate_working_dir/
+
+# Symbolication & Obfuscation Output
+app.*.symbols
+app.*.map.json
+
+# ============================================
+# Testing & Coverage
+# ============================================
+coverage/
+*.lcov
+lcov.info
+test-results/
+
+# ============================================
+# Android
+# ============================================
+.gradle/
+.cxx/
+local.properties
+key.properties
+**/*.keystore
+**/*.jks
+*.apk
+*.aab
+captures/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ============================================
+# iOS & macOS Native
+# ============================================
+**/xcuserdata/
+**/DerivedData/
+**/Pods/
+**/.symlinks/
+*.ipa
+**/Flutter/ephemeral/
+**/Flutter/App.framework
+**/Flutter/Flutter.framework
+**/Flutter/Flutter.podspec
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/Flutter/flutter_assets/
+**/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/.last_build_id
+
+# ============================================
+# Windows Desktop
+# ============================================
+**/windows/flutter/ephemeral/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.opendb
+x64/
+x86/
+ARM/
+ARM64/
+Debug/
+Release/
+
+# ============================================
+# Linux Desktop
+# ============================================
+**/linux/flutter/ephemeral/
+
+# ============================================
+# Secrets & Credentials (Security First)
+# ============================================
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+
+# ============================================
+# Logs, Temp & Backups
+# ============================================
+*.log
+*.tmp
+*.bak
+.freebuff/
