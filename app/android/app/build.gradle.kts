@@ -49,7 +49,7 @@ android {
 
     defaultConfig {
         applicationId = "vn.huypham.gplx.a1"
-        minSdk = flutter.minSdkVersion
+        minSdk = 24
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
