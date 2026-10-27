@@ -8,6 +8,7 @@ import '../../study/state/study_provider.dart';
 import '../../study/domain/question_model.dart';
 import '../../study/presentation/study_session_screen.dart';
 import 'dialogs/reset_data_confirm_dialog.dart';
+import 'dialogs/government_source_dialog.dart';
 
 /// Màn hình Của tôi (Tab 4) — Tuân thủ SRP, OCP, LSP
 class ProfileScreen extends StatelessWidget {
@@ -118,6 +119,18 @@ class ProfileScreen extends StatelessWidget {
               questions: bookmarkedQuestions,
             ),
           ),
+          const SizedBox(height: 12),
+
+          // Thẻ Nguồn dữ liệu & Miễn trừ trách nhiệm (Tuân thủ Google Play Misleading Claims Policy)
+          _buildMenuCard(
+            context,
+            icon: Icons.policy_outlined,
+            iconColor: AppColors.primary,
+            bgColor: AppColors.primaryContainer,
+            title: 'Nguồn dữ liệu & Miễn trừ',
+            subtitle: 'Liên kết chính phủ (.gov.vn) & tuyên bố pháp lý',
+            onTap: () => GovernmentSourceDialog.show(context),
+          ),
           const SizedBox(height: 20),
 
           // Lịch sử thi sát hạch
@@ -173,6 +186,23 @@ class ProfileScreen extends StatelessWidget {
                   'Bộ 200 câu hỏi chuẩn Cục Đường bộ Việt Nam\nHoạt động 100% Offline',
                   textAlign: TextAlign.center,
                   style: AppTypography.bodySmall.copyWith(fontSize: 11),
+                ),
+                const SizedBox(height: 8),
+                InkWell(
+                  onTap: () => GovernmentSourceDialog.show(context),
+                  borderRadius: BorderRadius.circular(8),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    child: Text(
+                      'Ứng dụng phi chính phủ · Xem nguồn dữ liệu (.gov.vn)',
+                      style: AppTypography.bodySmall.copyWith(
+                        fontSize: 11,
+                        color: AppColors.primary,
+                        decoration: TextDecoration.underline,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),
