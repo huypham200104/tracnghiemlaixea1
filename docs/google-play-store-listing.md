@@ -13,73 +13,31 @@ GPLX A1 - 200 Câu
 
 ### 2. Mô tả ngắn (Short description) - *Tối đa 80 ký tự*
 ```text
-Ôn thi lý thuyết bằng lái xe máy A1 chuẩn Bộ GTVT 200 câu. Hoạt động 100% Offline.
+Ôn thi lý thuyết bằng lái xe máy A1 chuẩn 200 câu Cục Đường bộ VN. Học offline.
 ```
 
 ### 3. Mô tả chi tiết (Full description) - *Tối đa 4000 ký tự (Copy toàn bộ đoạn dưới)*
 ```text
-⚠️ TUYÊN BỐ TỪ CHỐI TRÁCH NHIỆM & NGUỒN DỮ LIỆU (DISCLAIMER):
-• Ứng dụng này là công cụ học tập độc lập, KHÔNG ĐẠI DIỆN VÀ KHÔNG LIÊN KẾT VỚI BẤT KỲ CƠ QUAN CHÍNH PHỦ NÀO (bao gồm Bộ Giao thông Vận tải hay Cục Đường bộ Việt Nam).
-• Dữ liệu câu hỏi và biển báo được tham khảo công khai từ các nguồn chính thức của Chính phủ Việt Nam:
-  - Cổng TTĐT Cục Đường bộ Việt Nam: https://drvn.gov.vn
-  - Cổng thông tin GPLX (Cục Đường bộ VN): https://gplx.gov.vn
-  - Cổng TTĐT Bộ Giao thông Vận tải: https://mt.gov.vn
+TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM & NGUỒN DỮ LIỆU CHÍNH PHỦ:
+1. Ứng dụng "GPLX A1 - 200 Câu" là phần mềm học tập độc lập, KHÔNG PHẢI LÀ ỨNG DỤNG CỦA CHÍNH PHỦ, KHÔNG ĐẠI DIỆN VÀ KHÔNG LIÊN KẾT VỚI BẤT KỲ CƠ QUAN CHÍNH PHỦ NÀO (bao gồm Bộ Giao thông Vận tải hay Cục Đường bộ Việt Nam).
+2. Nguồn thông tin chính phủ (Government Information Source):
+Bộ 200 câu hỏi sát hạch lý thuyết lái xe mô tô Hạng A1 và hệ thống biển báo hiệu đường bộ được tham khảo công khai từ cổng thông tin điện tử chính thức của Cục Đường bộ Việt Nam:
+https://drvn.gov.vn
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🏍️ GPLX A1 - 200 CÂU: ÔN THI LÝ THUYẾT BẰNG LÁI XE MÁY A1 DỄ HỌC, DỄ ĐỖ!
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Ứng dụng giúp bạn ôn luyện nhanh chóng, nắm vững 200 câu hỏi sát hạch lý thuyết lái xe mô tô Hạng A1 mới nhất.
-ĐẶC BIỆT: Hoạt động 100% OFFLINE — Không cần mạng Internet, không tốn 3G/4G, không cần đăng ký tài khoản!
+--------------------------------------------------
+GIỚI THIỆU ỨNG DỤNG
+--------------------------------------------------
+GPLX A1 - 200 Câu là ứng dụng hỗ trợ ôn luyện lý thuyết sát hạch cấp giấy phép lái xe mô tô Hạng A1. Ứng dụng hoạt động 100% ngoại tuyến (offline), không cần kết nối mạng Internet, không thu thập dữ liệu cá nhân.
 
-✨ TÍNH NĂNG NỔI BẬT:
+CÁC TÍNH NĂNG CHÍNH:
+- Thi thử sát hạch: Tạo đề thi ngẫu nhiên 25 câu với thời gian đếm ngược 19 phút theo đúng cấu trúc thi thật. Tự động chấm điểm và đánh giá Đạt/Không đạt (yêu cầu đúng từ 21/25 câu và không sai câu điểm liệt).
+- Ôn tập toàn bộ 200 câu hỏi: Phân loại theo 5 chương chuyên đề (khái niệm và quy tắc, văn hóa giao thông, kỹ thuật lái xe, hệ thống biển báo, giải thế sa hình) kèm giải thích chi tiết đáp án.
+- Luyện riêng 20 câu điểm liệt: Tập trung ôn luyện các câu hỏi tình huống mất an toàn giao thông nghiêm trọng.
+- Tra cứu biển báo đường bộ: Đầy đủ các nhóm biển báo cấm, biển hiệu lệnh, biển nguy hiểm, biển chỉ dẫn và biển phụ theo chuẩn QCVN 41:2019/BGTVT.
+- Sổ tay câu sai & Đánh dấu câu khó: Tự động lưu các câu làm sai để rà soát lại và cho phép đánh dấu các câu hỏi phức tạp.
+- Hướng dẫn mẹo thi: Tóm tắt mẹo nhớ nhanh câu hỏi lý thuyết và kỹ thuật thực hành sa hình (vòng số 8, đường gồ ghề, đường thăng bằng).
 
-🎯 1. THI THỬ SÁT HẠCH CHUẨN ĐỀ THI THẬT
-• Đề thi 25 câu hỏi ngẫu nhiên đúng cấu trúc chuẩn của Bộ GTVT.
-• Đồng hồ 19 phút đếm ngược chuẩn xác.
-• Chấm điểm tự động: Đạt tối thiểu 21/25 câu và không sai câu điểm liệt.
-• Áp dụng quy tắc điểm liệt nghiêm ngặt: Sai câu điểm liệt báo Trượt ngay để rút kinh nghiệm.
-• Lưu lịch sử các lần thi thử để theo dõi tiến độ.
-
-📚 2. ÔN TẬP TOÀN BỘ 200 CÂU THEO 5 CHƯƠNG
-• Chương 1: Khái niệm và quy tắc giao thông đường bộ (83 câu).
-• Chương 2: Văn hóa giao thông và đạo đức người lái xe (5 câu).
-• Chương 3: Kỹ thuật lái xe mô tô (12 câu).
-• Chương 4: Hệ thống biển báo hiệu đường bộ (65 câu).
-• Chương 5: Giải các thế sa hình và kỹ năng xử lý tình huống (35 câu).
-• Giải thích chi tiết đáp án và mẹo ghi nhớ nhanh cho từng câu.
-
-⚠️ 3. LUYỆN RIÊNG 20 CÂU ĐIỂM LIỆT
-• Tổng hợp đủ 20 câu hỏi về tình huống mất an toàn giao thông nghiêm trọng.
-• Gắn nhãn cảnh báo đỏ nổi bật, tránh mất điểm oan khi đi thi thật.
-
-🛑 4. TRA CỨU ĐẦY ĐỦ HỆ THỐNG BIỂN BÁO GIAO THÔNG
-• Đầy đủ 5 nhóm biển báo đường bộ chuẩn QCVN 41:2019/BGTVT: Biển cấm, Biển hiệu lệnh, Biển nguy hiểm, Biển chỉ dẫn và Biển phụ.
-• Tìm kiếm thông minh theo mã biển (ví dụ: P.102, W.205) hoặc theo tên biển.
-• Hình ảnh biển báo rõ nét, hỗ trợ xem chi tiết.
-
-🔖 5. SỔ TAY CÂU SAI & ĐÁNH DẤU CÂU HỎI KHÓ
-• Tự động lưu lại các câu làm sai trong bài thi để dễ dàng ôn tập lại.
-• Đánh dấu (Bookmark) câu hỏi phức tạp để xem lại nhanh trước giờ thi.
-
-💡 6. MẸO THI LÝ THUYẾT & THỰC HÀNH SA HÌNH
-• Mẹo giải nhanh câu hỏi chữ, biển báo và các thế sa hình ưu tiên.
-• Hướng dẫn mẹo thi thực hành sa hình vòng số 8, đường gồ ghề và đường thăng bằng.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚠️ TUYÊN BỐ PHÁP LÝ & MIỄN TRỪ TRÁCH NHIỆM
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. Tư cách pháp lý: Ứng dụng "GPLX A1 - 200 Câu" là phần mềm học tập độc lập, KHÔNG PHẢI LÀ ỨNG DỤNG CỦA CHÍNH PHỦ, KHÔNG ĐẠI DIỆN VÀ KHÔNG ĐƯỢC ỦY QUYỀN BỞI BỘ GIAO THÔNG VẬN TẢI, CỤC ĐƯỜNG BỘ VIỆT NAM HOẶC BẤT KỲ CƠ QUAN NHÀ NƯỚC NÀO.
-
-2. Nguồn thông tin chính phủ (Government Information Sources):
-Nội dung câu hỏi và biển báo hiệu đường bộ được tham khảo công khai từ các cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền:
-• Cục Đường bộ Việt Nam: https://drvn.gov.vn
-• Trang thông tin GPLX - Cục Đường bộ VN: https://gplx.gov.vn
-• Bộ Giao thông Vận tải: https://mt.gov.vn
-• Quy chuẩn kỹ thuật quốc gia về báo hiệu đường bộ QCVN 41:2019/BGTVT (Bộ GTVT).
-
-Ứng dụng phục vụ cộng đồng người học tự ôn luyện lý thuyết và nâng cao kiến thức an toàn giao thông.
-
-Chúc các bạn ôn tập tốt và thi đạt kết quả cao!
+Ứng dụng phục vụ cộng đồng người học tự ôn luyện kiến thức lý thuyết và nâng cao hiểu biết pháp luật an toàn giao thông đường bộ.
 ```
 
 ---
@@ -135,7 +93,7 @@ Trong mục **App content (Nội dung ứng dụng)** trên Google Play Console,
 | **6. News apps** | Có phải app tin tức không? | Chọn: **No** |
 | **7. COVID-19 contact tracing** | Có theo dõi tiếp xúc COVID không? | Chọn: **My app is not a publicly available COVID-19 app** |
 | **8. Data safety (An toàn dữ liệu)** | Ứng dụng có thu thập/chia sẻ dữ liệu không? | **Cực kỳ quan trọng:** Chọn **NO** (Does your app collect or share any user data? ➔ **No**). Ứng dụng 100% offline không truyền dữ liệu ra ngoài |
-| **9. Government apps** | Ứng dụng có đại diện chính phủ không? | **Cực kỳ quan trọng:** Chọn **NO** (*"My app is not developed by or on behalf of a government entity"*). Nếu Google hỏi app có cung cấp thông tin/dữ liệu chính phủ không, chọn cung cấp và điền các link nguồn: `https://drvn.gov.vn`, `https://gplx.gov.vn`, `https://mt.gov.vn` kèm xác nhận Disclaimer |
+| **9. Government apps** | Ứng dụng có đại diện chính phủ không? | **Cực kỳ quan trọng:** Chọn **NO** (*"My app is not developed by or on behalf of a government entity"*). Nếu Google hỏi app có cung cấp thông tin/dữ liệu chính phủ không, chọn cung cấp và điền link nguồn chính thức duy nhất: `https://drvn.gov.vn` kèm xác nhận Disclaimer |
 
 > [!IMPORTANT]
 > **Cách xử lý lỗi "Missing Source Link for Government Information / Misleading Claims" từ Google Play:**

@@ -110,24 +110,8 @@ class GovernmentSourceDialog extends StatelessWidget {
             _buildSourceItem(
               context,
               title: 'Cục Đường bộ Việt Nam',
-              description: 'Cơ quan ban hành bộ 200 câu hỏi sát hạch GPLX',
+              description: 'Cơ quan quản lý và ban hành bộ 200 câu hỏi sát hạch GPLX',
               url: 'https://drvn.gov.vn',
-            ),
-            const SizedBox(height: 8),
-
-            _buildSourceItem(
-              context,
-              title: 'Cổng thông tin GPLX - Cục Đường bộ VN',
-              description: 'Hệ thống quản lý và tra cứu GPLX toàn quốc',
-              url: 'https://gplx.gov.vn',
-            ),
-            const SizedBox(height: 8),
-
-            _buildSourceItem(
-              context,
-              title: 'Bộ Giao thông Vận tải',
-              description: 'Quy chuẩn kỹ thuật QCVN 41:2019/BGTVT về báo hiệu đường bộ',
-              url: 'https://mt.gov.vn',
             ),
           ],
         ),
