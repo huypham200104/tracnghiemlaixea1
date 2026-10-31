@@ -13,16 +13,25 @@ GPLX A1 - 200 Câu
 
 ### 2. Mô tả ngắn (Short description) - *Tối đa 80 ký tự*
 ```text
-Ôn thi lý thuyết bằng lái xe máy A1 chuẩn 200 câu Cục Đường bộ VN. Học offline.
+Ôn thi lý thuyết bằng lái xe máy A1 chuẩn 200 câu hỏi sát hạch. Học offline.
 ```
 
 ### 3. Mô tả chi tiết (Full description) - *Tối đa 4000 ký tự (Copy toàn bộ đoạn dưới)*
 ```text
-TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM & NGUỒN DỮ LIỆU CHÍNH PHỦ:
-1. Ứng dụng "GPLX A1 - 200 Câu" là phần mềm học tập độc lập, KHÔNG PHẢI LÀ ỨNG DỤNG CỦA CHÍNH PHỦ, KHÔNG ĐẠI DIỆN VÀ KHÔNG LIÊN KẾT VỚI BẤT KỲ CƠ QUAN CHÍNH PHỦ NÀO (bao gồm Bộ Giao thông Vận tải hay Cục Đường bộ Việt Nam).
-2. Nguồn thông tin chính phủ (Government Information Source):
-Bộ 200 câu hỏi sát hạch lý thuyết lái xe mô tô Hạng A1 và hệ thống biển báo hiệu đường bộ được tham khảo công khai từ cổng thông tin điện tử chính thức của Cục Đường bộ Việt Nam:
-https://drvn.gov.vn
+TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM & NGUỒN DỮ LIỆU CHÍNH PHỦ
+(DISCLAIMER & GOVERNMENT DATA SOURCES):
+
+1. TIẾNG VIỆT:
+- Ứng dụng "GPLX A1 - 200 Câu" là phần mềm học tập và ôn thi độc lập, KHÔNG PHẢI LÀ ỨNG DỤNG CỦA CHÍNH PHỦ, KHÔNG ĐẠI DIỆN VÀ KHÔNG LIÊN KẾT VỚI BẤT KỲ CƠ QUAN CHÍNH PHỦ NÀO (bao gồm Bộ Giao thông Vận tải hay Cục Đường bộ Việt Nam).
+- Nguồn thông tin chính phủ: Bộ 200 câu hỏi sát hạch lý thuyết lái xe mô tô Hạng A1 và hệ thống biển báo hiệu đường bộ được tham khảo công khai từ các cổng thông tin điện tử chính thức của Nhà nước:
+  + Cổng Dịch vụ công Quốc gia: https://dichvucong.gov.vn
+  + Cổng Thông tin điện tử Chính phủ: https://chinhphu.vn
+
+2. ENGLISH:
+- The "GPLX A1 - 200 Questions" application is an independent learning and test preparation tool. IT IS NOT A GOVERNMENT APPLICATION, AND DOES NOT REPRESENT OR AFFILIATE WITH ANY GOVERNMENT ENTITIES (including the Ministry of Transport or the Vietnam Road Administration).
+- Official Government Information Sources: The theoretical test questions and road sign systems are publicly referenced from official Vietnam government portals:
+  + National Public Service Portal: https://dichvucong.gov.vn
+  + Government Portal of Vietnam: https://chinhphu.vn
 
 --------------------------------------------------
 GIỚI THIỆU ỨNG DỤNG
@@ -93,7 +102,7 @@ Trong mục **App content (Nội dung ứng dụng)** trên Google Play Console,
 | **6. News apps** | Có phải app tin tức không? | Chọn: **No** |
 | **7. COVID-19 contact tracing** | Có theo dõi tiếp xúc COVID không? | Chọn: **My app is not a publicly available COVID-19 app** |
 | **8. Data safety (An toàn dữ liệu)** | Ứng dụng có thu thập/chia sẻ dữ liệu không? | **Cực kỳ quan trọng:** Chọn **NO** (Does your app collect or share any user data? ➔ **No**). Ứng dụng 100% offline không truyền dữ liệu ra ngoài |
-| **9. Government apps** | Ứng dụng có đại diện chính phủ không? | **Cực kỳ quan trọng:** Chọn **NO** (*"My app is not developed by or on behalf of a government entity"*). Nếu Google hỏi app có cung cấp thông tin/dữ liệu chính phủ không, chọn cung cấp và điền link nguồn chính thức duy nhất: `https://drvn.gov.vn` kèm xác nhận Disclaimer |
+| **9. Government apps** | Ứng dụng có đại diện chính phủ không? | **Cực kỳ quan trọng:** Chọn **NO** (*"My app is not developed by or on behalf of a government entity"*). Nếu Google hỏi app có cung cấp thông tin/dữ liệu chính phủ không, chọn cung cấp và điền link nguồn chính thức: `https://dichvucong.gov.vn` kèm xác nhận Disclaimer |
 
 > [!IMPORTANT]
 > **Cách xử lý lỗi "Missing Source Link for Government Information / Misleading Claims" từ Google Play:**
