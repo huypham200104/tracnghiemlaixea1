@@ -28,7 +28,8 @@ class _ExamScreenState extends State<ExamScreen> {
   @override
   void initState() {
     super.initState();
-    _pageController = PageController();
+    final initialPage = context.read<ExamProvider>().currentIndex;
+    _pageController = PageController(initialPage: initialPage);
   }
 
   @override
@@ -122,51 +123,103 @@ class _ExamScreenState extends State<ExamScreen> {
           child: SafeArea(
             top: false,
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-              child: Row(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 14),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
                 children: [
-                  IconButton.outlined(
-                    tooltip: 'Câu trước',
-                    onPressed: examProvider.currentIndex > 0
-                        ? () {
-                            _pageController.previousPage(
-                              duration: const Duration(milliseconds: 250),
-                              curve: Curves.easeInOut,
-                            );
-                          }
-                        : null,
-                    icon: const Icon(Icons.arrow_back, size: 20),
+                  // Tầng 1: Điều hướng chuyển câu [← Câu trước] [ x/25 ] [Câu sau →]
+                  Row(
+                    children: [
+                      Expanded(
+                        child: SizedBox(
+                          height: 44,
+                          child: OutlinedButton.icon(
+                            onPressed: examProvider.currentIndex > 0
+                                ? () {
+                                    _pageController.previousPage(
+                                      duration: const Duration(milliseconds: 250),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
+                                : null,
+                            icon: const Icon(Icons.arrow_back, size: 18),
+                            label: const Text('Câu trước'),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: AppColors.textPrimary,
+                              side: const BorderSide(color: AppColors.border),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 10),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                          decoration: BoxDecoration(
+                            color: AppColors.canvas,
+                            borderRadius: BorderRadius.circular(20),
+                            border: Border.all(color: AppColors.border),
+                          ),
+                          child: Text(
+                            '${examProvider.currentIndex + 1}/${questions.length}',
+                            style: AppTypography.labelLarge.copyWith(
+                              fontWeight: FontWeight.w700,
+                              color: AppColors.primary,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: SizedBox(
+                          height: 44,
+                          child: OutlinedButton.icon(
+                            onPressed: examProvider.currentIndex < questions.length - 1
+                                ? () {
+                                    _pageController.nextPage(
+                                      duration: const Duration(milliseconds: 250),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
+                                : null,
+                            icon: const Icon(Icons.arrow_forward, size: 18),
+                            label: const Text('Câu sau'),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: AppColors.textPrimary,
+                              side: const BorderSide(color: AppColors.border),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
-                  const SizedBox(width: 8),
-                  IconButton.outlined(
-                    tooltip: 'Câu sau',
-                    onPressed: examProvider.currentIndex < questions.length - 1
-                        ? () {
-                            _pageController.nextPage(
-                              duration: const Duration(milliseconds: 250),
-                              curve: Curves.easeInOut,
-                            );
-                          }
-                        : null,
-                    icon: const Icon(Icons.arrow_forward, size: 20),
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
+                  const SizedBox(height: 10),
+
+                  // Tầng 2: Nút nộp bài full-width to rõ, nổi bật
+                  SizedBox(
+                    width: double.infinity,
+                    height: 48,
                     child: ElevatedButton.icon(
                       onPressed: () => widget.coordinator.handleConfirmSubmit(context),
                       icon: const Icon(Icons.check_circle_outline, size: 20),
                       label: Text(
-                        'Nộp bài (${examProvider.answeredCount}/${questions.length})',
+                        'Nộp bài (${examProvider.answeredCount}/${questions.length} câu đã làm)',
                         style: AppTypography.labelLarge.copyWith(
                           color: Colors.white,
                           fontWeight: FontWeight.w700,
+                          fontSize: 15,
                         ),
                         overflow: TextOverflow.ellipsis,
                       ),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: AppColors.primary,
                         foregroundColor: Colors.white,
-                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        elevation: 0,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),

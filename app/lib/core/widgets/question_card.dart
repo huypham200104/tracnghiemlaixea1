@@ -31,7 +31,7 @@ class QuestionCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -83,7 +83,7 @@ class QuestionCard extends StatelessWidget {
                 );
               },
               child: Container(
-                constraints: const BoxConstraints(maxHeight: 200),
+                constraints: const BoxConstraints(minHeight: 160, maxHeight: 235),
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: AppColors.canvas,
@@ -196,15 +196,15 @@ class QuestionCard extends StatelessWidget {
             }
 
             return Padding(
-              padding: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.only(bottom: 14),
               child: InkWell(
                 onTap: isReviewMode ? null : () => onSelectOption?.call(index),
-                borderRadius: BorderRadius.circular(12),
+                borderRadius: BorderRadius.circular(14),
                 child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
                   decoration: BoxDecoration(
                     color: bgColor,
-                    borderRadius: BorderRadius.circular(12),
+                    borderRadius: BorderRadius.circular(14),
                     border: Border.all(
                       color: borderColor,
                       width: isSelected || (isReviewMode && isCorrect) ? 2 : 1,
@@ -215,8 +215,8 @@ class QuestionCard extends StatelessWidget {
                     children: [
                       // Vòng tròn ký tự A, B, C, D
                       Container(
-                        width: 32,
-                        height: 32,
+                        width: 36,
+                        height: 36,
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                           color: letterBg,
@@ -224,20 +224,22 @@ class QuestionCard extends StatelessWidget {
                         ),
                         child: Text(
                           optionLetter,
-                          style: AppTypography.labelLarge.copyWith(
+                          style: AppTypography.titleSmall.copyWith(
                             color: letterFg,
                             fontWeight: FontWeight.w700,
                           ),
                         ),
                       ),
-                      const SizedBox(width: 12),
+                      const SizedBox(width: 14),
                       // Nội dung đáp án
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.only(top: 4),
+                          padding: const EdgeInsets.only(top: 6),
                           child: Text(
                             optionText,
                             style: AppTypography.bodyMedium.copyWith(
+                              fontSize: 15,
+                              height: 1.4,
                               fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400,
                               color: AppColors.textPrimary,
                             ),
