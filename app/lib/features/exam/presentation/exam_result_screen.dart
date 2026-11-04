@@ -5,7 +5,7 @@ import '../../../../core/widgets/app_button.dart';
 import '../domain/exam_model.dart';
 import 'exam_coordinator.dart';
 
-/// Màn hình Kết quả thi sát hạch (ĐẠT / TRƯỢT) — Tuân thủ SRP và DIP
+/// Màn hình Kết quả thi sát hạch — Clean, Modern Material 3
 class ExamResultScreen extends StatelessWidget {
   final ExamResult result;
   final ExamCoordinator coordinator;
@@ -18,6 +18,9 @@ class ExamResultScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isPassed = result.isPassed;
+    final verdictColor = isPassed ? AppColors.success : AppColors.error;
+
     return PopScope(
       canPop: false,
       onPopInvokedWithResult: (didPop, _) {
@@ -32,7 +35,7 @@ class ExamResultScreen extends StatelessWidget {
           automaticallyImplyLeading: false,
           actions: [
             IconButton(
-              icon: const Icon(Icons.home),
+              icon: const Icon(Icons.close),
               tooltip: 'Về trang chủ',
               onPressed: () => coordinator.handleNavigateHome(context),
             ),
@@ -40,114 +43,130 @@ class ExamResultScreen extends StatelessWidget {
         ),
         body: SafeArea(
           child: ListView(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
             children: [
-            // Banner ĐẠT / TRƯỢT
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 28),
-              decoration: BoxDecoration(
-                color: result.isPassed ? AppColors.successContainer : AppColors.errorContainer,
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                  color: result.isPassed ? AppColors.success : AppColors.error,
-                  width: 1.5,
+              // Thẻ kết quả tinh gọn
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
+                decoration: BoxDecoration(
+                  color: AppColors.surface,
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(
+                    color: verdictColor.withValues(alpha: 0.35),
+                    width: 1.2,
+                  ),
+                ),
+                child: Column(
+                  children: [
+                    Text(
+                      isPassed ? 'KẾT QUẢ: ĐẠT' : 'KẾT QUẢ: KHÔNG ĐẠT',
+                      style: AppTypography.titleLarge.copyWith(
+                        color: verdictColor,
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 1.2,
+                        fontSize: 22,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.baseline,
+                      textBaseline: TextBaseline.alphabetic,
+                      children: [
+                        Text(
+                          '${result.score}',
+                          style: TextStyle(
+                            fontSize: 48,
+                            fontWeight: FontWeight.w900,
+                            color: verdictColor,
+                            height: 1,
+                          ),
+                        ),
+                        Text(
+                          ' / ${result.totalQuestions} câu',
+                          style: AppTypography.titleMedium.copyWith(
+                            color: AppColors.textSecondary,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+                    Text(
+                      isPassed
+                          ? 'Chúc mừng! Bạn đã đủ điều kiện vượt qua phần thi lý thuyết mô tô A1.'
+                          : result.isCriticalFailed
+                              ? 'Bạn đã trả lời sai câu điểm liệt — Bị đánh trượt bất kể tổng số điểm đạt được.'
+                              : 'Bạn chưa đạt yêu cầu tối thiểu (yêu cầu đúng từ 21/25 câu trở lên).',
+                      textAlign: TextAlign.center,
+                      style: AppTypography.bodyMedium.copyWith(
+                        color: AppColors.textPrimary,
+                        height: 1.4,
+                      ),
+                    ),
+                  ],
                 ),
               ),
-              child: Column(
-                children: [
-                  Icon(
-                    result.isPassed ? Icons.check_circle_rounded : Icons.cancel_rounded,
-                    size: 64,
-                    color: result.isPassed ? AppColors.success : AppColors.error,
-                  ),
-                  const SizedBox(height: 12),
-                  Text(
-                    result.isPassed ? 'ĐẠT' : 'TRƯỢT',
-                    style: AppTypography.headlineLarge.copyWith(
-                      color: result.isPassed ? AppColors.success : AppColors.error,
-                      fontWeight: FontWeight.w900,
-                      letterSpacing: 2,
+              const SizedBox(height: 16),
+
+              // Bảng thông số chi tiết phẳng
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                decoration: BoxDecoration(
+                  color: AppColors.surface,
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(color: AppColors.border),
+                ),
+                child: Row(
+                  children: [
+                    _buildStatItem(
+                      label: 'KẾT QUẢ ĐIỂM',
+                      value: '${result.score}/${result.totalQuestions}',
+                      valueColor: verdictColor,
                     ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    result.isPassed
-                        ? 'Chúc mừng bạn đã vượt qua bài thi lý thuyết sát hạch lái xe A1!'
-                        : result.isCriticalFailed
-                            ? 'Bạn đã trả lời sai CÂU ĐIỂM LIỆT — Bị đánh trượt bất kể tổng số điểm đạt được.'
-                            : 'Rất tiếc! Điểm của bạn chưa đạt yêu cầu tối thiểu (≥ 21/25 câu đúng).',
-                    textAlign: TextAlign.center,
-                    style: AppTypography.bodyMedium.copyWith(
-                      color: result.isPassed ? AppColors.success : AppColors.error,
-                      fontWeight: FontWeight.w600,
+                    Container(height: 36, width: 1, color: AppColors.divider),
+                    _buildStatItem(
+                      label: 'THỜI GIAN',
+                      value: result.formattedDuration,
+                      valueColor: AppColors.textPrimary,
                     ),
-                  ),
-                ],
+                    Container(height: 36, width: 1, color: AppColors.divider),
+                    _buildStatItem(
+                      label: 'CÂU ĐIỂM LIỆT',
+                      value: result.isCriticalFailed ? 'Sai câu liệt' : 'Chính xác',
+                      valueColor: result.isCriticalFailed ? AppColors.error : AppColors.success,
+                    ),
+                  ],
+                ),
               ),
-            ),
-            const SizedBox(height: 20),
+              const SizedBox(height: 24),
 
-            // Bảng thông số chi tiết
-            Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: AppColors.surface,
-                borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: AppColors.border),
+              // Các nút hành động chính
+              AppButton(
+                label: 'Xem lại bài thi chi tiết',
+                type: AppButtonType.primary,
+                onPressed: () => coordinator.handleReviewExam(context, result),
               ),
-              child: Row(
-                children: [
-                  _buildStatItem(
-                    label: 'Số câu đúng',
-                    value: '${result.score}/${result.totalQuestions}',
-                    valueColor: result.isPassed ? AppColors.success : AppColors.error,
-                  ),
-                  Container(height: 40, width: 1, color: AppColors.divider),
-                  _buildStatItem(
-                    label: 'Thời gian làm',
-                    value: result.formattedDuration,
-                    valueColor: AppColors.primary,
-                  ),
-                  Container(height: 40, width: 1, color: AppColors.divider),
-                  _buildStatItem(
-                    label: 'Điểm liệt',
-                    value: result.isCriticalFailed ? 'Sai' : 'Đạt',
-                    valueColor: result.isCriticalFailed ? AppColors.error : AppColors.success,
-                  ),
-                ],
+              const SizedBox(height: 10),
+
+              AppButton(
+                label: 'Thi lại đề ngẫu nhiên khác',
+                type: AppButtonType.outlined,
+                onPressed: () => coordinator.handleRetakeExam(context),
               ),
-            ),
-            const SizedBox(height: 24),
+              const SizedBox(height: 10),
 
-            // Các nút hành động chính (DIP qua Coordinator)
-            AppButton(
-              label: 'Xem lại bài thi vừa làm',
-              icon: Icons.assignment_outlined,
-              type: AppButtonType.primary,
-              onPressed: () => coordinator.handleReviewExam(context, result),
-            ),
-            const SizedBox(height: 12),
-
-            AppButton(
-              label: 'Thi lại đề khác',
-              icon: Icons.refresh,
-              type: AppButtonType.outlined,
-              onPressed: () => coordinator.handleRetakeExam(context),
-            ),
-            const SizedBox(height: 12),
-
-            AppButton(
-              label: 'Về trang chủ',
-              icon: Icons.home_outlined,
-              type: AppButtonType.secondary,
-              onPressed: () => coordinator.handleNavigateHome(context),
-            ),
-            const SizedBox(height: 24),
-          ],
+              AppButton(
+                label: 'Quay về trang chủ',
+                type: AppButtonType.secondary,
+                onPressed: () => coordinator.handleNavigateHome(context),
+              ),
+              const SizedBox(height: 20),
+            ],
+          ),
         ),
       ),
-    ),
-  );
+    );
   }
 
   Widget _buildStatItem({
@@ -160,15 +179,23 @@ class ExamResultScreen extends StatelessWidget {
         children: [
           Text(
             label,
-            style: AppTypography.bodySmall.copyWith(fontSize: 11),
+            style: AppTypography.labelSmall.copyWith(
+              color: AppColors.textSecondary,
+              fontSize: 10.5,
+              fontWeight: FontWeight.w700,
+              letterSpacing: 0.5,
+            ),
+            textAlign: TextAlign.center,
           ),
           const SizedBox(height: 4),
           Text(
             value,
-            style: AppTypography.titleMedium.copyWith(
-              fontWeight: FontWeight.w800,
+            style: AppTypography.titleSmall.copyWith(
               color: valueColor,
+              fontWeight: FontWeight.w800,
+              fontSize: 14,
             ),
+            textAlign: TextAlign.center,
           ),
         ],
       ),

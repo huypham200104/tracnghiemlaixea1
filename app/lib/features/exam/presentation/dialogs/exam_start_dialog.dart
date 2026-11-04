@@ -3,7 +3,7 @@ import '../../../../core/constants/app_constants.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
 
-/// Dialog xác nhận trước khi bắt đầu bài thi sát hạch (SRP)
+/// Dialog xác nhận trước khi bắt đầu bài thi sát hạch (Material 3 Native)
 class ExamStartDialog extends StatelessWidget {
   final VoidCallback onConfirm;
 
@@ -22,56 +22,38 @@ class ExamStartDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-      title: Row(
-        children: [
-          const Icon(Icons.assignment_outlined, color: AppColors.primary),
-          const SizedBox(width: 8),
-          Text(
-            'Bắt đầu bài thi?',
-            style: AppTypography.titleMedium.copyWith(fontWeight: FontWeight.w700),
-          ),
-        ],
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+      title: Text(
+        'Bắt đầu bài thi sát hạch?',
+        style: AppTypography.titleLarge.copyWith(
+          fontWeight: FontWeight.w700,
+          fontSize: 19,
+        ),
       ),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            '• Đề thi gồm ${AppConstants.examQuestionCount} câu hỏi ngẫu nhiên.',
-            style: AppTypography.bodyMedium,
-          ),
-          const SizedBox(height: 6),
-          Text(
-            '• Thời gian làm bài: ${AppConstants.examDurationMinutes} phút.',
-            style: AppTypography.bodyMedium,
-          ),
-          const SizedBox(height: 6),
-          Text(
-            '• Điều kiện ĐẠT: Đúng ≥ ${AppConstants.passingScore}/${AppConstants.examQuestionCount} câu.',
-            style: AppTypography.bodyMedium,
-          ),
+          _buildInfoRow('Số lượng câu hỏi', '${AppConstants.examQuestionCount} câu ngẫu nhiên'),
           const SizedBox(height: 8),
+          _buildInfoRow('Thời gian làm bài', '${AppConstants.examDurationMinutes} phút đếm ngược'),
+          const SizedBox(height: 8),
+          _buildInfoRow('Yêu cầu vượt qua', 'Đúng ≥ ${AppConstants.passingScore}/${AppConstants.examQuestionCount} câu'),
+          const SizedBox(height: 14),
           Container(
-            padding: const EdgeInsets.all(10),
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
             decoration: BoxDecoration(
-              color: AppColors.errorContainer,
-              borderRadius: BorderRadius.circular(8),
+              color: AppColors.canvas,
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: AppColors.border),
             ),
-            child: Row(
-              children: [
-                const Icon(Icons.warning_amber_rounded, color: AppColors.error, size: 20),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    'Cảnh báo: Trả lời sai 1 câu điểm liệt sẽ bị TRƯỢT ngay lập tức!',
-                    style: AppTypography.bodySmall.copyWith(
-                      color: AppColors.error,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                ),
-              ],
+            child: Text(
+              'Lưu ý: Trả lời sai bất kỳ câu điểm liệt nào sẽ bị kết luận KHÔNG ĐẠT ngay lập tức.',
+              style: AppTypography.bodySmall.copyWith(
+                color: AppColors.error,
+                fontWeight: FontWeight.w600,
+                height: 1.35,
+              ),
             ),
           ),
         ],
@@ -79,21 +61,37 @@ class ExamStartDialog extends StatelessWidget {
       actions: [
         TextButton(
           onPressed: () => Navigator.of(context).pop(),
-          child: Text(
-            'Để sau',
-            style: AppTypography.labelLarge.copyWith(color: AppColors.textSecondary),
-          ),
+          child: const Text('Để sau'),
         ),
-        ElevatedButton(
+        FilledButton(
           onPressed: () {
             Navigator.of(context).pop();
             onConfirm();
           },
-          style: ElevatedButton.styleFrom(
+          style: FilledButton.styleFrom(
             backgroundColor: AppColors.primary,
-            foregroundColor: Colors.white,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
           ),
           child: const Text('Bắt đầu làm bài'),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildInfoRow(String label, String value) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          label,
+          style: AppTypography.bodyMedium.copyWith(color: AppColors.textSecondary),
+        ),
+        Text(
+          value,
+          style: AppTypography.bodyMedium.copyWith(
+            fontWeight: FontWeight.w600,
+            color: AppColors.textPrimary,
+          ),
         ),
       ],
     );

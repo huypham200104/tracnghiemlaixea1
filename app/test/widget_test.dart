@@ -21,7 +21,7 @@ void main() {
 
     // Kiểm tra render Header ứng dụng
     expect(find.text('GPLX A1 - 200 Câu'), findsOneWidget);
-    expect(find.text('100% OFFLINE'), findsOneWidget);
+    expect(find.textContaining('100% OFFLINE'), findsOneWidget);
 
     // Kiểm tra 4 Navigation Tab
     expect(find.text('Trang chủ'), findsOneWidget);

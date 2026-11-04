@@ -12,7 +12,7 @@ import 'widgets/home_header.dart';
 import 'widgets/home_progress_card.dart';
 import 'widgets/quick_access_grid.dart';
 
-/// Màn hình Trang chủ (Tab 1) — Tuân thủ SRP, DIP và OCP
+/// Màn hình Trang chủ (Tab 1) — Clean, Flat, Modern Material 3
 class HomeScreen extends StatelessWidget {
   final ValueChanged<int> onNavigateTab;
 
@@ -41,81 +41,64 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // 1. Header (SRP)
+              // 1. Header tinh gọn
               const HomeHeader(),
               const SizedBox(height: 18),
 
-              // 2. Thẻ tiến độ tổng quan (SRP)
+              // 2. Thẻ tiến độ tổng quan phẳng
               HomeProgressCard(
                 totalQuestions: totalQ,
                 criticalQuestionsCount: AppConstants.criticalQuestionCount,
               ),
-              const SizedBox(height: 16),
+              const SizedBox(height: 14),
 
-              // 3. Hero CTA: Thi sát hạch (DIP)
+              // 3. Hero CTA: Thi sát hạch phẳng
               ExamCtaCard(onTapStart: () => coordinator.handleStartExam(context)),
-              const SizedBox(height: 20),
+              const SizedBox(height: 22),
 
               // 4. Tiêu đề Lối tắt
               Text(
                 'Danh mục chức năng',
                 style: AppTypography.titleMedium.copyWith(
-                  fontWeight: FontWeight.w700,
+                  fontWeight: FontWeight.w800,
                   color: AppColors.textPrimary,
+                  fontSize: 17,
                 ),
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 10),
 
-              // 5. Quick Access Grid (OCP)
+              // 5. Quick Access Grid tối giản
               QuickAccessGrid(
                 items: [
                   QuickAccessItem(
                     title: 'Ôn tập 5 chương',
                     subtitle: 'Toàn bộ 200 câu hỏi',
-                    icon: Icons.menu_book,
-                    iconColor: AppColors.primary,
-                    bgColor: AppColors.primaryContainer,
                     onTap: () => coordinator.handleNavigateTab(1),
                   ),
                   QuickAccessItem(
                     title: '20 Câu điểm liệt',
-                    subtitle: 'Sai 1 câu là trượt',
-                    icon: Icons.warning_rounded,
-                    iconColor: AppColors.error,
-                    bgColor: AppColors.errorContainer,
+                    subtitle: 'Bắt buộc làm đúng',
                     onTap: () => coordinator.handleNavigateTab(1),
                   ),
                   QuickAccessItem(
                     title: 'Biển báo đường bộ',
                     subtitle: '5 nhóm biển chuẩn',
-                    icon: Icons.traffic,
-                    iconColor: AppColors.primary,
-                    bgColor: AppColors.primaryContainer,
                     onTap: () => coordinator.handleNavigateTab(2),
                   ),
                   QuickAccessItem(
                     title: 'Sổ tay câu sai',
-                    subtitle: 'Luyện lại câu hay nhầm',
-                    icon: Icons.cancel_outlined,
-                    iconColor: AppColors.error,
-                    bgColor: AppColors.errorContainer,
+                    subtitle: 'Luyện lại câu nhầm',
                     badgeCount: wrongCount,
                     onTap: () => coordinator.handleNavigateTab(3),
                   ),
                   QuickAccessItem(
                     title: 'Mẹo thi A1',
-                    subtitle: 'Lý thuyết & sa hình',
-                    icon: Icons.lightbulb_outline,
-                    iconColor: AppColors.warning,
-                    bgColor: AppColors.warningContainer,
+                    subtitle: '5 quy tắc sa hình 3D',
                     onTap: () => coordinator.handleShowTips(context),
                   ),
                   QuickAccessItem(
                     title: 'Lịch sử thi',
-                    subtitle: 'Xem lại bài làm',
-                    icon: Icons.history,
-                    iconColor: AppColors.primary,
-                    bgColor: AppColors.primaryContainer,
+                    subtitle: 'Xem lại bài đã làm',
                     onTap: () => coordinator.handleNavigateTab(3),
                   ),
                 ],
@@ -127,12 +110,13 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   'Lần thi gần nhất',
                   style: AppTypography.titleMedium.copyWith(
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w800,
                     color: AppColors.textPrimary,
+                    fontSize: 17,
                   ),
                 ),
                 const SizedBox(height: 10),
-                _buildLatestExamCard(latestExam),
+                _buildLatestExamCard(latestExam, () => coordinator.handleNavigateTab(3)),
                 const SizedBox(height: 16),
               ],
             ],
@@ -142,36 +126,43 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildLatestExamCard(dynamic latestExam) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: AppColors.surface,
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.border),
-      ),
-      child: Row(
-        children: [
-          latestExam.isPassed ? StatusBadge.passed() : StatusBadge.failed(),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Kết quả: ${latestExam.score}/${latestExam.totalQuestions} câu đúng',
-                  style: AppTypography.labelLarge.copyWith(fontWeight: FontWeight.w700),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  'Thời gian: ${latestExam.formattedDuration} · ${latestExam.formattedDate}',
-                  style: AppTypography.bodySmall,
-                ),
-              ],
-            ),
+  Widget _buildLatestExamCard(dynamic latestExam, VoidCallback onTap) {
+    return Material(
+      color: AppColors.surface,
+      borderRadius: BorderRadius.circular(12),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(12),
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: AppColors.border),
           ),
-          const Icon(Icons.chevron_right, color: AppColors.textSecondary),
-        ],
+          child: Row(
+            children: [
+              latestExam.isPassed ? StatusBadge.passed() : StatusBadge.failed(),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Kết quả: ${latestExam.score}/${latestExam.totalQuestions} câu đúng',
+                      style: AppTypography.labelLarge.copyWith(fontWeight: FontWeight.w700),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      'Thời gian: ${latestExam.formattedDuration} · ${latestExam.formattedDate}',
+                      style: AppTypography.bodySmall.copyWith(color: AppColors.textSecondary),
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_right, color: AppColors.textSecondary, size: 20),
+            ],
+          ),
+        ),
       ),
     );
   }

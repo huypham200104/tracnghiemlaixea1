@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
 
-/// Header trên màn hình Trang chủ (SRP)
+/// Header trên màn hình Trang chủ (SRP & Clean Typography)
 class HomeHeader extends StatelessWidget {
   const HomeHeader({super.key});
 
@@ -11,7 +11,7 @@ class HomeHeader extends StatelessWidget {
     return Row(
       children: [
         ClipRRect(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(10),
           child: Image.asset(
             'assets/images/app_logo.png',
             width: 44,
@@ -30,35 +30,18 @@ class HomeHeader extends StatelessWidget {
                   color: AppColors.textPrimary,
                   fontWeight: FontWeight.w800,
                   fontSize: 20,
+                  letterSpacing: -0.3,
                 ),
               ),
               const SizedBox(height: 2),
-              Row(
-                children: [
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                    decoration: BoxDecoration(
-                      color: AppColors.successContainer,
-                      borderRadius: BorderRadius.circular(6),
-                    ),
-                    child: Text(
-                      '100% OFFLINE',
-                      style: AppTypography.labelSmall.copyWith(
-                        color: AppColors.success,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 10,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(width: 6),
-                  const Expanded(
-                    child: Text(
-                      'Hạng A1 · Bộ 200 câu Bộ GTVT',
-                      style: AppTypography.bodySmall,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                ],
+              Text(
+                'Hạng A1 · Bộ 200 câu Bộ GTVT · 100% OFFLINE',
+                style: AppTypography.bodySmall.copyWith(
+                  color: AppColors.textSecondary,
+                  fontSize: 12.5,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
             ],
           ),

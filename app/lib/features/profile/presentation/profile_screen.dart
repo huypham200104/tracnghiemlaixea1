@@ -10,7 +10,7 @@ import '../../study/presentation/study_session_screen.dart';
 import 'dialogs/reset_data_confirm_dialog.dart';
 import 'dialogs/government_source_dialog.dart';
 
-/// Màn hình Của tôi (Tab 4) — Tuân thủ SRP, OCP, LSP
+/// Màn hình Của tôi (Tab 4) — Clean, Modern Material 3
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 
@@ -85,14 +85,11 @@ class ProfileScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         children: [
-          // Thẻ Sổ tay câu sai (tái sử dụng StudySessionScreen)
+          // Thẻ Sổ tay câu sai
           _buildMenuCard(
             context,
-            icon: Icons.cancel_outlined,
-            iconColor: AppColors.error,
-            bgColor: AppColors.errorContainer,
             title: 'Sổ tay câu làm sai',
-            subtitle: '${wrongQuestions.length} câu đã trả lời sai',
+            subtitle: '${wrongQuestions.length} câu đã trả lời sai cần ôn lại',
             badgeText: wrongQuestions.isNotEmpty ? '${wrongQuestions.length}' : null,
             badgeColor: AppColors.error,
             onTap: () => _openStudySession(
@@ -101,16 +98,13 @@ class ProfileScreen extends StatelessWidget {
               questions: wrongQuestions,
             ),
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 10),
 
-          // Thẻ Câu đã đánh dấu (tái sử dụng StudySessionScreen)
+          // Thẻ Câu đã đánh dấu
           _buildMenuCard(
             context,
-            icon: Icons.bookmark_border,
-            iconColor: AppColors.warning,
-            bgColor: AppColors.warningContainer,
-            title: 'Câu đã đánh dấu',
-            subtitle: '${bookmarkedQuestions.length} câu đã lưu lại để ôn',
+            title: 'Câu hỏi đã đánh dấu',
+            subtitle: '${bookmarkedQuestions.length} câu đã lưu lại để ôn tập thêm',
             badgeText: bookmarkedQuestions.isNotEmpty ? '${bookmarkedQuestions.length}' : null,
             badgeColor: AppColors.warning,
             onTap: () => _openStudySession(
@@ -119,19 +113,16 @@ class ProfileScreen extends StatelessWidget {
               questions: bookmarkedQuestions,
             ),
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 10),
 
-          // Thẻ Nguồn dữ liệu & Miễn trừ trách nhiệm (Tuân thủ Google Play Misleading Claims Policy)
+          // Thẻ Nguồn dữ liệu & Miễn trừ trách nhiệm
           _buildMenuCard(
             context,
-            icon: Icons.policy_outlined,
-            iconColor: AppColors.primary,
-            bgColor: AppColors.primaryContainer,
             title: 'Nguồn dữ liệu & Miễn trừ',
-            subtitle: 'Liên kết chính phủ (.gov.vn) & tuyên bố pháp lý',
+            subtitle: 'Liên kết cổng Cục Đường bộ VN (.gov.vn) & tuyên bố pháp lý',
             onTap: () => GovernmentSourceDialog.show(context),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 22),
 
           // Lịch sử thi sát hạch
           Row(
@@ -140,8 +131,9 @@ class ProfileScreen extends StatelessWidget {
               Text(
                 'Lịch sử thi sát hạch',
                 style: AppTypography.titleMedium.copyWith(
-                  fontWeight: FontWeight.w700,
+                  fontWeight: FontWeight.w800,
                   color: AppColors.textPrimary,
+                  fontSize: 17,
                 ),
               ),
               if (examHistory.isNotEmpty)
@@ -149,7 +141,10 @@ class ProfileScreen extends StatelessWidget {
                   onPressed: () => userDataProvider.clearExamHistory(),
                   child: Text(
                     'Xóa lịch sử',
-                    style: AppTypography.bodySmall.copyWith(color: AppColors.error),
+                    style: AppTypography.bodySmall.copyWith(
+                      color: AppColors.error,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
             ],
@@ -159,47 +154,49 @@ class ProfileScreen extends StatelessWidget {
           if (examHistory.isEmpty)
             _buildEmptyHistoryCard()
           else
-            ...examHistory.map((item) => _buildExamHistoryItem(item)),
+            ...examHistory.map(_buildExamHistoryItem),
 
-          const SizedBox(height: 24),
+          const SizedBox(height: 16),
 
-          // Thông tin ứng dụng
-          Center(
+          // Khối miễn trừ trách nhiệm
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: AppColors.surface,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: AppColors.border),
+            ),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(16),
-                  child: Image.asset(
-                    'assets/images/app_logo.png',
-                    width: 56,
-                    height: 56,
-                    fit: BoxFit.cover,
+                Text(
+                  'Tuyên bố pháp lý & Miễn trừ trách nhiệm',
+                  style: AppTypography.labelLarge.copyWith(
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.textPrimary,
                   ),
                 ),
-                const SizedBox(height: 10),
+                const SizedBox(height: 6),
                 Text(
-                  'GPLX A1 - 200 Câu · v1.0.0',
-                  style: AppTypography.bodySmall.copyWith(fontWeight: FontWeight.w600),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  'Bộ 200 câu hỏi chuẩn Cục Đường bộ Việt Nam\nHoạt động 100% Offline',
-                  textAlign: TextAlign.center,
-                  style: AppTypography.bodySmall.copyWith(fontSize: 11),
+                  'Ứng dụng "Trắc nghiệm Lái xe A1" do nhà phát triển độc lập xây dựng nhằm hỗ trợ người học ôn luyện lý thuyết. Ứng dụng KHÔNG đại diện, không trực thuộc và không được ủy quyền bởi Bộ Giao thông Vận tải hay bất kỳ cơ quan chính phủ nào của Việt Nam.',
+                  style: AppTypography.bodySmall.copyWith(
+                    color: AppColors.textSecondary,
+                    height: 1.45,
+                    fontSize: 12,
+                  ),
                 ),
                 const SizedBox(height: 8),
                 InkWell(
                   onTap: () => GovernmentSourceDialog.show(context),
-                  borderRadius: BorderRadius.circular(8),
+                  borderRadius: BorderRadius.circular(6),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    padding: const EdgeInsets.symmetric(vertical: 4),
                     child: Text(
-                      'Ứng dụng phi chính phủ · Xem nguồn dữ liệu (.gov.vn)',
+                      'Xem chi tiết nguồn dữ liệu chính thức (.gov.vn) →',
                       style: AppTypography.bodySmall.copyWith(
-                        fontSize: 11,
+                        fontSize: 12,
                         color: AppColors.primary,
-                        decoration: TextDecoration.underline,
-                        fontWeight: FontWeight.w600,
+                        fontWeight: FontWeight.w700,
                       ),
                     ),
                   ),
@@ -215,26 +212,30 @@ class ProfileScreen extends StatelessWidget {
 
   Widget _buildEmptyHistoryCard() {
     return Container(
-      padding: const EdgeInsets.all(24),
+      padding: const EdgeInsets.all(28),
       decoration: BoxDecoration(
         color: AppColors.surface,
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(12),
         border: Border.all(color: AppColors.border),
       ),
       child: Center(
         child: Column(
           children: [
-            const Icon(Icons.history, size: 40, color: AppColors.textDisabled),
-            const SizedBox(height: 8),
             Text(
               'Chưa có bài thi nào',
-              style: AppTypography.bodyMedium.copyWith(color: AppColors.textSecondary),
+              style: AppTypography.titleSmall.copyWith(
+                fontWeight: FontWeight.w700,
+                color: AppColors.textPrimary,
+              ),
             ),
             const SizedBox(height: 4),
             Text(
-              'Hãy làm bài thi sát hạch để hệ thống lưu lịch sử và đánh giá kết quả.',
+              'Hãy bắt đầu bài thi sát hạch để lưu lịch sử và đánh giá tỷ lệ đỗ.',
               textAlign: TextAlign.center,
-              style: AppTypography.bodySmall.copyWith(fontSize: 11),
+              style: AppTypography.bodySmall.copyWith(
+                color: AppColors.textSecondary,
+                fontSize: 12,
+              ),
             ),
           ],
         ),
@@ -244,30 +245,30 @@ class ProfileScreen extends StatelessWidget {
 
   Widget _buildExamHistoryItem(dynamic item) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.only(bottom: 8),
       child: Container(
-        padding: const EdgeInsets.all(14),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
         decoration: BoxDecoration(
           color: AppColors.surface,
-          borderRadius: BorderRadius.circular(14),
+          borderRadius: BorderRadius.circular(12),
           border: Border.all(color: AppColors.border),
         ),
         child: Row(
           children: [
             item.isPassed ? StatusBadge.passed() : StatusBadge.failed(),
-            const SizedBox(width: 12),
+            const SizedBox(width: 14),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Đúng ${item.score}/${item.totalQuestions} câu',
+                    '${item.score}/${item.totalQuestions} câu đúng',
                     style: AppTypography.labelLarge.copyWith(fontWeight: FontWeight.w700),
                   ),
                   const SizedBox(height: 2),
                   Text(
-                    '${item.formattedDate} · Làm trong ${item.formattedDuration}',
-                    style: AppTypography.bodySmall,
+                    '${item.formattedDuration} · ${item.formattedDate}',
+                    style: AppTypography.bodySmall.copyWith(color: AppColors.textSecondary),
                   ),
                   if (item.isCriticalFailed) ...[
                     const SizedBox(height: 2),
@@ -290,68 +291,74 @@ class ProfileScreen extends StatelessWidget {
 
   Widget _buildMenuCard(
     BuildContext context, {
-    required IconData icon,
-    required Color iconColor,
-    required Color bgColor,
     required String title,
     required String subtitle,
     String? badgeText,
     Color? badgeColor,
     required VoidCallback onTap,
   }) {
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(14),
-      child: Container(
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: AppColors.surface,
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: AppColors.border),
-        ),
-        child: Row(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: bgColor,
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Icon(icon, color: iconColor, size: 22),
-            ),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: AppTypography.labelLarge.copyWith(fontWeight: FontWeight.w700),
-                  ),
-                  const SizedBox(height: 2),
-                  Text(subtitle, style: AppTypography.bodySmall),
-                ],
-              ),
-            ),
-            if (badgeText != null) ...[
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                decoration: BoxDecoration(
-                  color: badgeColor ?? AppColors.primary,
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Text(
-                  badgeText,
-                  style: AppTypography.labelSmall.copyWith(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
+    return Material(
+      color: AppColors.surface,
+      borderRadius: BorderRadius.circular(12),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(12),
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: AppColors.border),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: AppTypography.labelLarge.copyWith(
+                        fontWeight: FontWeight.w700,
+                        color: AppColors.textPrimary,
+                        fontSize: 15,
+                      ),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      subtitle,
+                      style: AppTypography.bodySmall.copyWith(
+                        color: AppColors.textSecondary,
+                        fontSize: 12.5,
+                      ),
+                    ),
+                  ],
                 ),
               ),
-              const SizedBox(width: 8),
+              if (badgeText != null) ...[
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                  decoration: BoxDecoration(
+                    color: badgeColor ?? AppColors.primary,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Text(
+                    badgeText,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 11,
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 8),
+              ],
+              const Icon(
+                Icons.chevron_right,
+                color: AppColors.textSecondary,
+                size: 20,
+              ),
             ],
-            const Icon(Icons.chevron_right, color: AppColors.textSecondary),
-          ],
+          ),
         ),
       ),
     );

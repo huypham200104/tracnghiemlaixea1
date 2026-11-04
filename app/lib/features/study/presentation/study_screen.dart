@@ -7,7 +7,7 @@ import '../state/study_provider.dart';
 import 'study_session_screen.dart';
 import 'widgets/topic_card.dart';
 
-/// Màn hình Ôn tập theo chương (Tab 2) — Tuân thủ SRP, OCP, LSP
+/// Màn hình Ôn tập theo chương (Tab 2) — Clean, Modern Material 3
 class StudyScreen extends StatelessWidget {
   const StudyScreen({super.key});
 
@@ -65,13 +65,14 @@ class StudyScreen extends StatelessWidget {
               children: [
                 // Khối Chuyên đề 20 Câu điểm liệt
                 _buildCriticalTopicCard(context, studyProvider),
-                const SizedBox(height: 18),
+                const SizedBox(height: 20),
 
                 Text(
                   '5 Chương lý thuyết A1',
                   style: AppTypography.titleMedium.copyWith(
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w800,
                     color: AppColors.textPrimary,
+                    fontSize: 17,
                   ),
                 ),
                 const SizedBox(height: 10),
@@ -101,56 +102,57 @@ class StudyScreen extends StatelessWidget {
 
   Widget _buildCriticalTopicCard(BuildContext context, StudyProvider studyProvider) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: AppColors.errorContainer.withValues(alpha: 0.6),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.error.withValues(alpha: 0.3)),
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: AppColors.error.withValues(alpha: 0.4), width: 1.2),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Container(
-                padding: const EdgeInsets.all(8),
-                decoration: const BoxDecoration(
+              Text(
+                '20 CÂU ĐIỂM LIỆT BẮT BUỘC',
+                style: AppTypography.labelLarge.copyWith(
                   color: AppColors.error,
-                  shape: BoxShape.circle,
-                ),
-                child: const Icon(
-                  Icons.warning_rounded,
-                  color: Colors.white,
-                  size: 20,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 0.5,
+                  fontSize: 14,
                 ),
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      '20 CÂU ĐIỂM LIỆT',
-                      style: AppTypography.titleMedium.copyWith(
-                        color: AppColors.error,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    Text(
-                      'Cực kỳ quan trọng · Sai 1 câu là TRƯỢT ngay',
-                      style: AppTypography.bodySmall.copyWith(
-                        color: AppColors.error,
-                      ),
-                    ),
-                  ],
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                decoration: BoxDecoration(
+                  color: AppColors.error,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Text(
+                  'QUAN TRỌNG',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w800,
+                    fontSize: 10,
+                  ),
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 14),
+          const SizedBox(height: 6),
+          Text(
+            'Tổng hợp toàn bộ các tình huống mất an toàn giao thông nghiêm trọng. Sai 1 câu là TRƯỢT ngay bài thi sát hạch.',
+            style: AppTypography.bodySmall.copyWith(
+              color: AppColors.textSecondary,
+              height: 1.35,
+              fontSize: 13,
+            ),
+          ),
+          const SizedBox(height: 16),
           SizedBox(
             width: double.infinity,
-            child: ElevatedButton.icon(
+            child: FilledButton(
               onPressed: () {
                 final criticalList = studyProvider.criticalQuestions;
                 _openStudySession(
@@ -159,15 +161,16 @@ class StudyScreen extends StatelessWidget {
                   questions: criticalList,
                 );
               },
-              icon: const Icon(Icons.school, size: 18),
-              label: const Text('Luyện câu điểm liệt ngay'),
-              style: ElevatedButton.styleFrom(
+              style: FilledButton.styleFrom(
                 backgroundColor: AppColors.error,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 12),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
+                padding: const EdgeInsets.symmetric(vertical: 12),
+              ),
+              child: const Text(
+                'Bắt đầu luyện 20 câu điểm liệt',
+                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
               ),
             ),
           ),
