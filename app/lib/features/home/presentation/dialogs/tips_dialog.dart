@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/widgets/app_dialog.dart';
 import '../../../../core/widgets/image_zoom_dialog.dart';
 
 /// Dialog hiển thị toàn bộ mẹo ghi nhớ nhanh & 5 quy tắc Sa hình 3D chuẩn Bộ GTVT
@@ -8,7 +9,7 @@ class TipsDialog extends StatefulWidget {
   const TipsDialog({super.key});
 
   static Future<void> show(BuildContext context) {
-    return showDialog(
+    return showAppDialog(
       context: context,
       barrierDismissible: true,
       builder: (_) => const TipsDialog(),
@@ -51,7 +52,11 @@ class _TipsDialogState extends State<TipsDialog> with SingleTickerProviderStateM
         horizontal: isTablet ? (mediaQuery.size.width - 560) / 2 : 12,
         vertical: 24,
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(24),
+        side: const BorderSide(color: AppColors.border, width: 0.8),
+      ),
+      elevation: 3,
       clipBehavior: Clip.antiAlias,
       backgroundColor: AppColors.canvas,
       child: ConstrainedBox(
@@ -103,7 +108,13 @@ class _TipsDialogState extends State<TipsDialog> with SingleTickerProviderStateM
                     ),
                   ),
                   IconButton(
-                    icon: const Icon(Icons.close_rounded, color: AppColors.textSecondary),
+                    icon: const Icon(Icons.close_rounded, size: 20),
+                    style: IconButton.styleFrom(
+                      backgroundColor: AppColors.canvas,
+                      foregroundColor: AppColors.textSecondary,
+                      padding: const EdgeInsets.all(8),
+                      minimumSize: const Size(36, 36),
+                    ),
                     onPressed: () => Navigator.of(context).pop(),
                     tooltip: 'Đóng',
                   ),

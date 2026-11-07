@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../../../../core/widgets/traffic_sign_avatar.dart';
 import '../state/traffic_signs_provider.dart';
 import 'dialogs/traffic_sign_detail_dialog.dart';
@@ -31,7 +32,9 @@ class TrafficSignsScreen extends StatelessWidget {
         title: const Text('Biển báo đường bộ'),
         elevation: 0,
       ),
-      body: Column(
+      body: ResponsiveContainer(
+        maxWidth: 600,
+        child: Column(
         children: [
           // Search Bar
           Padding(
@@ -211,6 +214,7 @@ class TrafficSignsScreen extends StatelessWidget {
           ),
         ],
       ),
-    );
+    ),
+  );
   }
 }

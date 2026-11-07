@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_typography.dart';
+import 'app_dialog.dart';
 
-/// Hộp thoại phóng to ảnh hỗ trợ vuốt, thu phóng đa điểm (InteractiveViewer)
+/// Hộp thoại phóng to ảnh hỗ trợ vuốt, thu phóng đa điểm (Modern Material 3 InteractiveViewer)
 class ImageZoomDialog extends StatelessWidget {
   final String imagePath;
   final String? title;
@@ -14,10 +15,14 @@ class ImageZoomDialog extends StatelessWidget {
   });
 
   /// Tiện ích hiển thị dialog phóng to ảnh
-  static Future<void> show(BuildContext context, {required String imagePath, String? title}) {
-    return showDialog<void>(
+  static Future<void> show(
+    BuildContext context, {
+    required String imagePath,
+    String? title,
+  }) {
+    return showAppDialog<void>(
       context: context,
-      barrierColor: Colors.black87,
+      barrierDismissible: true,
       builder: (ctx) => ImageZoomDialog(
         imagePath: imagePath,
         title: title,
@@ -29,17 +34,21 @@ class ImageZoomDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Dialog(
       backgroundColor: Colors.transparent,
-      insetPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 24),
+      insetPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 24),
       child: Stack(
         alignment: Alignment.center,
         children: [
           // Vùng thu phóng ảnh
           ClipRRect(
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(24),
             child: Container(
-              color: AppColors.surface,
+              decoration: BoxDecoration(
+                color: AppColors.surface,
+                borderRadius: BorderRadius.circular(24),
+                border: Border.all(color: AppColors.border, width: 0.8),
+              ),
               constraints: const BoxConstraints(
-                maxHeight: 520,
+                maxHeight: 540,
                 maxWidth: 480,
               ),
               child: Column(
@@ -47,21 +56,34 @@ class ImageZoomDialog extends StatelessWidget {
                 children: [
                   if (title != null)
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                      padding: const EdgeInsets.fromLTRB(16, 14, 48, 14),
                       decoration: const BoxDecoration(
                         border: Border(
-                          bottom: BorderSide(color: AppColors.border),
+                          bottom: BorderSide(color: AppColors.divider),
                         ),
                       ),
                       child: Row(
                         children: [
-                          const Icon(Icons.image, size: 20, color: AppColors.primary),
-                          const SizedBox(width: 8),
+                          Container(
+                            width: 32,
+                            height: 32,
+                            decoration: BoxDecoration(
+                              color: AppColors.primaryContainer,
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: const Icon(
+                              Icons.image_outlined,
+                              size: 18,
+                              color: AppColors.primary,
+                            ),
+                          ),
+                          const SizedBox(width: 10),
                           Expanded(
                             child: Text(
                               title!,
                               style: AppTypography.titleMedium.copyWith(
-                                fontWeight: FontWeight.w600,
+                                fontWeight: FontWeight.w700,
+                                fontSize: 16,
                               ),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
@@ -114,11 +136,12 @@ class ImageZoomDialog extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
+                    padding: const EdgeInsets.symmetric(vertical: 10),
                     child: Text(
                       'Dùng 2 ngón tay để phóng to / thu nhỏ',
                       style: AppTypography.bodySmall.copyWith(
                         color: AppColors.textSecondary,
+                        fontSize: 12,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
@@ -130,13 +153,13 @@ class ImageZoomDialog extends StatelessWidget {
 
           // Nút đóng ở góc trên bên phải
           Positioned(
-            top: 4,
-            right: 4,
+            top: 8,
+            right: 8,
             child: Material(
-              color: Colors.black54,
+              color: AppColors.canvas,
               shape: const CircleBorder(),
               child: IconButton(
-                icon: const Icon(Icons.close, color: Colors.white, size: 22),
+                icon: const Icon(Icons.close_rounded, color: AppColors.textPrimary, size: 20),
                 tooltip: 'Đóng',
                 onPressed: () => Navigator.of(context).pop(),
               ),

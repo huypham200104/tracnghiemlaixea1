@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../domain/question_model.dart';
 import '../state/study_provider.dart';
 import 'study_session_screen.dart';
 import 'widgets/topic_card.dart';
 
-/// Màn hình Ôn tập theo chương (Tab 2) — Clean, Modern Material 3
+/// Màn hình Ôn tập theo chương (Tab 2) — Thích ứng Responsive (Phone & Tablet)
 class StudyScreen extends StatelessWidget {
   const StudyScreen({super.key});
 
@@ -60,42 +61,46 @@ class StudyScreen extends StatelessWidget {
       ),
       body: studyProvider.isLoading
           ? const Center(child: CircularProgressIndicator())
-          : ListView(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-              children: [
-                // Khối Chuyên đề 20 Câu điểm liệt
-                _buildCriticalTopicCard(context, studyProvider),
-                const SizedBox(height: 20),
+          : ResponsiveContainer(
+              maxWidth: 600,
+              child: ListView(
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                children: [
+                  // Khối Chuyên đề 20 Câu điểm liệt
+                  _buildCriticalTopicCard(context, studyProvider),
+                  const SizedBox(height: 22),
 
-                Text(
-                  '5 Chương lý thuyết A1',
-                  style: AppTypography.titleMedium.copyWith(
-                    fontWeight: FontWeight.w800,
-                    color: AppColors.textPrimary,
-                    fontSize: 17,
+                  Text(
+                    '5 Chương lý thuyết A1',
+                    style: AppTypography.titleMedium.copyWith(
+                      fontWeight: FontWeight.w800,
+                      color: AppColors.textPrimary,
+                      fontSize: 17,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 10),
+                  const SizedBox(height: 12),
 
-                // Danh sách 5 chương qua TopicCard (SRP)
-                ...topics.map((topic) {
-                  final topicQuestions = studyProvider.getQuestionsByTopic(topic.id);
-                  final completedCount = studyProvider.getTopicCompletedCount(topic.id);
-                  return TopicCard(
-                    topic: topic,
-                    questionsCount: topicQuestions.length,
-                    completedCount: completedCount,
-                    onTap: () {
-                      _openStudySession(
-                        context,
-                        title: 'Chương ${topic.id}: ${topic.name}',
-                        questions: topicQuestions,
-                        topicId: topic.id,
-                      );
-                    },
-                  );
-                }),
-              ],
+                  // Danh sách 5 chương hiển thị dọc
+                  ...topics.map((topic) {
+                    final topicQuestions = studyProvider.getQuestionsByTopic(topic.id);
+                    final completedCount =
+                        studyProvider.getTopicCompletedCount(topic.id);
+                    return TopicCard(
+                      topic: topic,
+                      questionsCount: topicQuestions.length,
+                      completedCount: completedCount,
+                      onTap: () {
+                        _openStudySession(
+                          context,
+                          title: 'Chương ${topic.id}: ${topic.name}',
+                          questions: topicQuestions,
+                          topicId: topic.id,
+                        );
+                      },
+                    );
+                  }),
+                ],
+              ),
             ),
     );
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../../../../core/widgets/timer_widget.dart';
 import '../../../../core/widgets/question_card.dart';
 import '../state/exam_provider.dart';
@@ -9,7 +10,8 @@ import '../../profile/state/user_data_provider.dart';
 import 'exam_coordinator.dart';
 import 'exam_result_screen.dart';
 
-/// Màn hình làm bài thi sát hạch 25 câu / 19 phút (SRP & DIP)
+/// Màn hình làm bài thi sát hạch 25 câu / 19 phút
+/// Bố cục dọc chuẩn thiết bị di động (PageView vuốt câu + BottomBar điều hướng & nộp bài)
 class ExamScreen extends StatefulWidget {
   final ExamCoordinator coordinator;
 
@@ -91,29 +93,32 @@ class _ExamScreenState extends State<ExamScreen> {
             ),
           ],
         ),
-        body: PageView.builder(
-          controller: _pageController,
-          itemCount: questions.length,
-          onPageChanged: (index) {
-            examProvider.goToQuestion(index);
-          },
-          itemBuilder: (context, index) {
-            final q = questions[index];
-            final selected = examProvider.getAnswerForQuestion(q.id);
+        body: ResponsiveContainer(
+          maxWidth: 600,
+          child: PageView.builder(
+            controller: _pageController,
+            itemCount: questions.length,
+            onPageChanged: (index) {
+              examProvider.goToQuestion(index);
+            },
+            itemBuilder: (context, index) {
+              final q = questions[index];
+              final selected = examProvider.getAnswerForQuestion(q.id);
 
-            return QuestionCard(
-              question: q,
-              selectedIndex: selected,
-              isReviewMode: false,
-              questionNumber: index + 1,
-              totalQuestions: questions.length,
-              isBookmarked: userDataProvider.isBookmarked(q.id),
-              onToggleBookmark: () => userDataProvider.toggleBookmark(q.id),
-              onSelectOption: (optionIndex) {
-                examProvider.selectAnswerForQuestion(q.id, optionIndex);
-              },
-            );
-          },
+              return QuestionCard(
+                question: q,
+                selectedIndex: selected,
+                isReviewMode: false,
+                questionNumber: index + 1,
+                totalQuestions: questions.length,
+                isBookmarked: userDataProvider.isBookmarked(q.id),
+                onToggleBookmark: () => userDataProvider.toggleBookmark(q.id),
+                onSelectOption: (optionIndex) {
+                  examProvider.selectAnswerForQuestion(q.id, optionIndex);
+                },
+              );
+            },
+          ),
         ),
         bottomNavigationBar: Container(
           decoration: const BoxDecoration(
@@ -122,7 +127,8 @@ class _ExamScreenState extends State<ExamScreen> {
           ),
           child: SafeArea(
             top: false,
-            child: Padding(
+            child: ResponsiveContainer(
+              maxWidth: 600,
               padding: const EdgeInsets.fromLTRB(16, 12, 16, 14),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -157,7 +163,10 @@ class _ExamScreenState extends State<ExamScreen> {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 14,
+                            vertical: 8,
+                          ),
                           decoration: BoxDecoration(
                             color: AppColors.canvas,
                             borderRadius: BorderRadius.circular(20),
@@ -176,14 +185,17 @@ class _ExamScreenState extends State<ExamScreen> {
                         child: SizedBox(
                           height: 44,
                           child: OutlinedButton.icon(
-                            onPressed: examProvider.currentIndex < questions.length - 1
-                                ? () {
-                                    _pageController.nextPage(
-                                      duration: const Duration(milliseconds: 250),
-                                      curve: Curves.easeInOut,
-                                    );
-                                  }
-                                : null,
+                            onPressed:
+                                examProvider.currentIndex < questions.length - 1
+                                    ? () {
+                                        _pageController.nextPage(
+                                          duration: const Duration(
+                                            milliseconds: 250,
+                                          ),
+                                          curve: Curves.easeInOut,
+                                        );
+                                      }
+                                    : null,
                             icon: const Icon(Icons.arrow_forward, size: 18),
                             label: const Text('Câu sau'),
                             style: OutlinedButton.styleFrom(

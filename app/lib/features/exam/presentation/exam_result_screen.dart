@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../../../../core/widgets/app_button.dart';
 import '../domain/exam_model.dart';
 import 'exam_coordinator.dart';
@@ -42,9 +43,11 @@ class ExamResultScreen extends StatelessWidget {
           ],
         ),
         body: SafeArea(
-          child: ListView(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
-            children: [
+          child: ResponsiveContainer(
+            maxWidth: 640,
+            child: ListView(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
+              children: [
               // Thẻ kết quả tinh gọn
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
@@ -165,6 +168,7 @@ class ExamResultScreen extends StatelessWidget {
             ],
           ),
         ),
+      ),
       ),
     );
   }

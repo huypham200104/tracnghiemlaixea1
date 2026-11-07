@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../../../../core/constants/app_constants.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../../../../core/widgets/status_badge.dart';
 import '../../study/state/study_provider.dart';
 import '../../profile/state/user_data_provider.dart';
@@ -12,7 +13,7 @@ import 'widgets/home_header.dart';
 import 'widgets/home_progress_card.dart';
 import 'widgets/quick_access_grid.dart';
 
-/// Màn hình Trang chủ (Tab 1) — Clean, Flat, Modern Material 3
+/// Màn hình Trang chủ (Tab 1) — Bố cục dọc chuẩn di động (Clean, Flat, Modern Material 3)
 class HomeScreen extends StatelessWidget {
   final ValueChanged<int> onNavigateTab;
 
@@ -33,82 +34,68 @@ class HomeScreen extends StatelessWidget {
         ? studyProvider.totalQuestions
         : AppConstants.totalQuestions;
 
+    final quickAccessItems = [
+      QuickAccessItem(
+        title: 'Ôn tập 5 chương',
+        subtitle: 'Toàn bộ 200 câu hỏi',
+        onTap: () => coordinator.handleNavigateTab(1),
+      ),
+      QuickAccessItem(
+        title: '20 Câu điểm liệt',
+        subtitle: 'Bắt buộc làm đúng',
+        onTap: () => coordinator.handleNavigateTab(1),
+      ),
+      QuickAccessItem(
+        title: 'Biển báo đường bộ',
+        subtitle: '5 nhóm biển chuẩn',
+        onTap: () => coordinator.handleNavigateTab(2),
+      ),
+      QuickAccessItem(
+        title: 'Sổ tay câu sai',
+        subtitle: 'Luyện lại câu nhầm',
+        badgeCount: wrongCount,
+        onTap: () => coordinator.handleNavigateTab(3),
+      ),
+      QuickAccessItem(
+        title: 'Mẹo thi A1',
+        subtitle: '5 quy tắc sa hình 3D',
+        onTap: () => coordinator.handleShowTips(context),
+      ),
+      QuickAccessItem(
+        title: 'Lịch sử thi',
+        subtitle: 'Xem lại bài đã làm',
+        onTap: () => coordinator.handleNavigateTab(3),
+      ),
+    ];
+
     return Scaffold(
       backgroundColor: AppColors.canvas,
       body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // 1. Header tinh gọn
-              const HomeHeader(),
-              const SizedBox(height: 18),
+        child: ResponsiveContainer(
+          maxWidth: 600,
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // 1. Header tinh gọn
+                const HomeHeader(),
+                const SizedBox(height: 18),
 
-              // 2. Thẻ tiến độ tổng quan phẳng
-              HomeProgressCard(
-                totalQuestions: totalQ,
-                criticalQuestionsCount: AppConstants.criticalQuestionCount,
-              ),
-              const SizedBox(height: 14),
-
-              // 3. Hero CTA: Thi sát hạch phẳng
-              ExamCtaCard(onTapStart: () => coordinator.handleStartExam(context)),
-              const SizedBox(height: 22),
-
-              // 4. Tiêu đề Lối tắt
-              Text(
-                'Danh mục chức năng',
-                style: AppTypography.titleMedium.copyWith(
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.textPrimary,
-                  fontSize: 17,
+                // 2. Thẻ tiến độ tổng quan phẳng
+                HomeProgressCard(
+                  totalQuestions: totalQ,
+                  criticalQuestionsCount: AppConstants.criticalQuestionCount,
                 ),
-              ),
-              const SizedBox(height: 10),
+                const SizedBox(height: 14),
 
-              // 5. Quick Access Grid tối giản
-              QuickAccessGrid(
-                items: [
-                  QuickAccessItem(
-                    title: 'Ôn tập 5 chương',
-                    subtitle: 'Toàn bộ 200 câu hỏi',
-                    onTap: () => coordinator.handleNavigateTab(1),
-                  ),
-                  QuickAccessItem(
-                    title: '20 Câu điểm liệt',
-                    subtitle: 'Bắt buộc làm đúng',
-                    onTap: () => coordinator.handleNavigateTab(1),
-                  ),
-                  QuickAccessItem(
-                    title: 'Biển báo đường bộ',
-                    subtitle: '5 nhóm biển chuẩn',
-                    onTap: () => coordinator.handleNavigateTab(2),
-                  ),
-                  QuickAccessItem(
-                    title: 'Sổ tay câu sai',
-                    subtitle: 'Luyện lại câu nhầm',
-                    badgeCount: wrongCount,
-                    onTap: () => coordinator.handleNavigateTab(3),
-                  ),
-                  QuickAccessItem(
-                    title: 'Mẹo thi A1',
-                    subtitle: '5 quy tắc sa hình 3D',
-                    onTap: () => coordinator.handleShowTips(context),
-                  ),
-                  QuickAccessItem(
-                    title: 'Lịch sử thi',
-                    subtitle: 'Xem lại bài đã làm',
-                    onTap: () => coordinator.handleNavigateTab(3),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 20),
+                // 3. Hero CTA: Thi sát hạch phẳng
+                ExamCtaCard(onTapStart: () => coordinator.handleStartExam(context)),
+                const SizedBox(height: 22),
 
-              // 6. Khối lần thi gần nhất
-              if (latestExam != null) ...[
+                // 4. Tiêu đề Lối tắt
                 Text(
-                  'Lần thi gần nhất',
+                  'Danh mục chức năng',
                   style: AppTypography.titleMedium.copyWith(
                     fontWeight: FontWeight.w800,
                     color: AppColors.textPrimary,
@@ -116,10 +103,30 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 10),
-                _buildLatestExamCard(latestExam, () => coordinator.handleNavigateTab(3)),
-                const SizedBox(height: 16),
+
+                // 5. Quick Access Grid tối giản 2 cột
+                QuickAccessGrid(items: quickAccessItems),
+                const SizedBox(height: 20),
+
+                // 6. Khối lần thi gần nhất
+                if (latestExam != null) ...[
+                  Text(
+                    'Lần thi gần nhất',
+                    style: AppTypography.titleMedium.copyWith(
+                      fontWeight: FontWeight.w800,
+                      color: AppColors.textPrimary,
+                      fontSize: 17,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  _buildLatestExamCard(
+                    latestExam,
+                    () => coordinator.handleNavigateTab(3),
+                  ),
+                  const SizedBox(height: 16),
+                ],
               ],
-            ],
+            ),
           ),
         ),
       ),

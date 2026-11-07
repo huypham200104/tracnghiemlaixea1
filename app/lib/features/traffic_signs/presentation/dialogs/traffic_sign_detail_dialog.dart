@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/widgets/app_dialog.dart';
 import '../../../../core/widgets/image_zoom_dialog.dart';
 import '../../../../core/widgets/traffic_sign_avatar.dart';
 import '../../domain/traffic_sign_model.dart';
 
-/// Modal dialog chi tiết biển báo giao thông (SRP)
+/// Modal dialog chi tiết biển báo giao thông (Modern Material 3 Content Dialog)
 class TrafficSignDetailDialog extends StatelessWidget {
   final TrafficSign sign;
 
@@ -15,7 +16,7 @@ class TrafficSignDetailDialog extends StatelessWidget {
   });
 
   static Future<void> show(BuildContext context, TrafficSign sign) {
-    return showDialog(
+    return showAppDialog(
       context: context,
       builder: (_) => TrafficSignDetailDialog(sign: sign),
     );
@@ -23,37 +24,30 @@ class TrafficSignDetailDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AlertDialog(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-      title: Row(
-        children: [
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-            decoration: BoxDecoration(
-              color: AppColors.primaryContainer,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Text(
-              sign.code,
-              style: AppTypography.labelLarge.copyWith(
-                color: AppColors.primary,
-                fontWeight: FontWeight.w800,
-              ),
-            ),
+    return AppContentDialog(
+      leadingIcon: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+        decoration: BoxDecoration(
+          color: AppColors.primaryContainer,
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Text(
+          sign.code,
+          style: AppTypography.labelSmall.copyWith(
+            color: AppColors.primary,
+            fontWeight: FontWeight.w800,
+            fontSize: 11,
           ),
-          const SizedBox(width: 8),
-          Expanded(
-            child: Text(
-              sign.name,
-              style: AppTypography.titleMedium.copyWith(fontWeight: FontWeight.w700),
-            ),
-          ),
-        ],
+        ),
       ),
-      content: SingleChildScrollView(
+      title: sign.name,
+      subtitle: sign.groupName,
+      maxWidth: 480,
+      contentPadding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
+      body: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // Đồ họa nhận diện biển báo
             GestureDetector(
@@ -68,103 +62,124 @@ class TrafficSignDetailDialog extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
                   color: AppColors.canvas,
-                  borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: AppColors.border),
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(color: AppColors.border, width: 0.8),
                 ),
                 child: Column(
                   children: [
                     TrafficSignAvatar(sign: sign, size: 84),
                     if (sign.image != null) ...[
                       const SizedBox(height: 8),
-                      Text(
-                        'Chạm để phóng to ảnh',
-                        style: AppTypography.bodySmall.copyWith(
-                          fontSize: 11,
-                          color: AppColors.textSecondary,
-                        ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(
+                            Icons.zoom_in_rounded,
+                            size: 14,
+                            color: AppColors.textSecondary,
+                          ),
+                          const SizedBox(width: 4),
+                          Text(
+                            'Chạm để phóng to ảnh',
+                            style: AppTypography.bodySmall.copyWith(
+                              fontSize: 11,
+                              color: AppColors.textSecondary,
+                            ),
+                          ),
+                        ],
                       ),
                     ],
                   ],
                 ),
               ),
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 14),
 
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Wrap(
-                spacing: 8,
-                runSpacing: 6,
-                crossAxisAlignment: WrapCrossAlignment.center,
-                children: [
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                    decoration: BoxDecoration(
-                      color: AppColors.canvas,
-                      borderRadius: BorderRadius.circular(6),
-                      border: Border.all(color: AppColors.border),
-                    ),
-                    child: Text(
-                      sign.groupName,
-                      style: AppTypography.labelSmall.copyWith(
-                        color: AppColors.textSecondary,
-                        fontWeight: FontWeight.w600,
-                      ),
+            // Chips thông tin nhóm & thẻ thi
+            Wrap(
+              spacing: 8,
+              runSpacing: 6,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: AppColors.canvas,
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: AppColors.border, width: 0.8),
+                  ),
+                  child: Text(
+                    sign.groupName,
+                    style: AppTypography.labelSmall.copyWith(
+                      color: AppColors.textSecondary,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
-                  if (sign.isInExam)
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                      decoration: BoxDecoration(
-                        color: AppColors.warningContainer,
-                        borderRadius: BorderRadius.circular(6),
-                        border: Border.all(
-                          color: AppColors.warning.withValues(alpha: 0.6),
-                        ),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const Icon(Icons.star, size: 13, color: AppColors.warning),
-                          const SizedBox(width: 4),
-                          Text(
-                            'Có trong đề thi A1',
-                            style: AppTypography.labelSmall.copyWith(
-                              color: AppColors.warning,
-                              fontWeight: FontWeight.w800,
-                            ),
-                          ),
-                        ],
+                ),
+                if (sign.isInExam)
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    decoration: BoxDecoration(
+                      color: AppColors.warningContainer,
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                        color: AppColors.warning.withValues(alpha: 0.5),
+                        width: 0.8,
                       ),
                     ),
-                ],
-              ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(
+                          Icons.stars_rounded,
+                          size: 14,
+                          color: AppColors.warning,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          'Có trong đề thi A1',
+                          style: AppTypography.labelSmall.copyWith(
+                            color: AppColors.warning,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+              ],
             ),
-            const SizedBox(height: 12),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                'Ý nghĩa biển báo:',
-                style: AppTypography.labelLarge.copyWith(fontWeight: FontWeight.w700),
+            const SizedBox(height: 14),
+
+            // Ý nghĩa biển báo
+            Text(
+              'Ý nghĩa biển báo:',
+              style: AppTypography.labelLarge.copyWith(
+                fontWeight: FontWeight.w700,
+                color: AppColors.textPrimary,
               ),
             ),
             const SizedBox(height: 4),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                sign.description,
-                style: AppTypography.bodyMedium.copyWith(height: 1.4),
+            Text(
+              sign.description,
+              style: AppTypography.bodyMedium.copyWith(
+                height: 1.45,
+                color: AppColors.textPrimary,
               ),
             ),
+
+            // Mẹo thi nếu có
             if (sign.tips != null && sign.tips!.isNotEmpty) ...[
               const SizedBox(height: 14),
               Container(
                 width: double.infinity,
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFFFF8E1),
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(color: const Color(0xFFFFB300), width: 1.2),
+                  color: AppColors.warningContainer.withValues(alpha: 0.6),
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(
+                    color: AppColors.warning.withValues(alpha: 0.5),
+                    width: 0.8,
+                  ),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -172,16 +187,18 @@ class TrafficSignDetailDialog extends StatelessWidget {
                     Row(
                       children: [
                         const Icon(
-                          Icons.lightbulb_outline,
+                          Icons.lightbulb_rounded,
                           size: 18,
-                          color: Color(0xFFE65100),
+                          color: AppColors.warning,
                         ),
                         const SizedBox(width: 6),
-                        Text(
-                          'Lưu ý thi A1 & Mẹo ghi nhớ',
-                          style: AppTypography.labelLarge.copyWith(
-                            color: const Color(0xFFBF360C),
-                            fontWeight: FontWeight.w800,
+                        Expanded(
+                          child: Text(
+                            'Lưu ý thi A1 & Mẹo ghi nhớ',
+                            style: AppTypography.labelLarge.copyWith(
+                              color: AppColors.warning,
+                              fontWeight: FontWeight.w800,
+                            ),
                           ),
                         ),
                       ],
@@ -190,7 +207,7 @@ class TrafficSignDetailDialog extends StatelessWidget {
                     Text(
                       sign.tips!,
                       style: AppTypography.bodySmall.copyWith(
-                        color: const Color(0xFF3E2723),
+                        color: AppColors.textPrimary,
                         height: 1.45,
                         fontWeight: FontWeight.w500,
                       ),
@@ -203,11 +220,12 @@ class TrafficSignDetailDialog extends StatelessWidget {
         ),
       ),
       actions: [
-        ElevatedButton(
+        FilledButton(
           onPressed: () => Navigator.of(context).pop(),
-          style: ElevatedButton.styleFrom(
+          style: FilledButton.styleFrom(
             backgroundColor: AppColors.primary,
-            foregroundColor: Colors.white,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 10),
           ),
           child: const Text('Đóng'),
         ),

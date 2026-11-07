@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../../../../core/widgets/status_badge.dart';
 import '../state/user_data_provider.dart';
 import '../../study/state/study_provider.dart';
@@ -82,9 +83,11 @@ class ProfileScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: ListView(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        children: [
+      body: ResponsiveContainer(
+        maxWidth: 680,
+        child: ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          children: [
           // Thẻ Sổ tay câu sai
           _buildMenuCard(
             context,
@@ -207,7 +210,8 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(height: 20),
         ],
       ),
-    );
+    ),
+  );
   }
 
   Widget _buildEmptyHistoryCard() {

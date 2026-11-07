@@ -30,6 +30,8 @@ class HomeProgressCard extends StatelessWidget {
               children: [
                 Text(
                   'NGÂN HÀNG ĐỀ THI',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: AppTypography.labelSmall.copyWith(
                     color: AppColors.textSecondary,
                     fontWeight: FontWeight.w700,
@@ -51,11 +53,15 @@ class HomeProgressCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 4),
-                    Text(
-                      'câu chuẩn',
-                      style: AppTypography.bodySmall.copyWith(
-                        color: AppColors.textSecondary,
-                        fontSize: 13,
+                    Flexible(
+                      child: Text(
+                        'câu chuẩn',
+                        style: AppTypography.bodySmall.copyWith(
+                          color: AppColors.textSecondary,
+                          fontSize: 13,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ),
                   ],
@@ -71,6 +77,8 @@ class HomeProgressCard extends StatelessWidget {
               children: [
                 Text(
                   'CÂU ĐIỂM LIỆT',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: AppTypography.labelSmall.copyWith(
                     color: AppColors.error,
                     fontWeight: FontWeight.w700,
@@ -92,11 +100,15 @@ class HomeProgressCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 4),
-                    Text(
-                      'bắt buộc đúng',
-                      style: AppTypography.bodySmall.copyWith(
-                        color: AppColors.textSecondary,
-                        fontSize: 13,
+                    Flexible(
+                      child: Text(
+                        'bắt buộc đúng',
+                        style: AppTypography.bodySmall.copyWith(
+                          color: AppColors.textSecondary,
+                          fontSize: 13,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ),
                   ],

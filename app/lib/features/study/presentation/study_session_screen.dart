@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_typography.dart';
+import '../../../../core/utils/responsive_utils.dart';
 import '../../../../core/widgets/question_card.dart';
 import '../domain/question_model.dart';
 import '../../profile/state/user_data_provider.dart';
@@ -96,28 +97,31 @@ class _StudySessionScreenState extends State<StudySessionScreen> {
           final q = widget.questions[index];
           final selected = _selectedAnswers[q.id];
 
-          return QuestionCard(
-            question: q,
-            selectedIndex: selected,
-            isReviewMode: widget.isReviewModeImmediately && selected != null,
-            questionNumber: index + 1,
-            totalQuestions: widget.questions.length,
-            isBookmarked: userDataProvider.isBookmarked(q.id),
-            onToggleBookmark: () => userDataProvider.toggleBookmark(q.id),
-            onSelectOption: (optIndex) {
-              setState(() {
-                _selectedAnswers[q.id] = optIndex;
-              });
-              widget.onAnswerSelected?.call(q.id, optIndex);
+          return ResponsiveContainer(
+            maxWidth: 860,
+            child: QuestionCard(
+              question: q,
+              selectedIndex: selected,
+              isReviewMode: widget.isReviewModeImmediately && selected != null,
+              questionNumber: index + 1,
+              totalQuestions: widget.questions.length,
+              isBookmarked: userDataProvider.isBookmarked(q.id),
+              onToggleBookmark: () => userDataProvider.toggleBookmark(q.id),
+              onSelectOption: (optIndex) {
+                setState(() {
+                  _selectedAnswers[q.id] = optIndex;
+                });
+                widget.onAnswerSelected?.call(q.id, optIndex);
 
-              if (optIndex != q.correctIndex) {
-                userDataProvider.addWrongQuestion(q.id);
-              } else {
-                if (userDataProvider.isWrong(q.id)) {
-                  userDataProvider.removeWrongQuestion(q.id);
+                if (optIndex != q.correctIndex) {
+                  userDataProvider.addWrongQuestion(q.id);
+                } else {
+                  if (userDataProvider.isWrong(q.id)) {
+                    userDataProvider.removeWrongQuestion(q.id);
+                  }
                 }
-              }
-            },
+              },
+            ),
           );
         },
       ),
@@ -128,7 +132,8 @@ class _StudySessionScreenState extends State<StudySessionScreen> {
         ),
         child: SafeArea(
           top: false,
-          child: Padding(
+          child: ResponsiveContainer(
+            maxWidth: 860,
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 14),
             child: Row(
               children: [

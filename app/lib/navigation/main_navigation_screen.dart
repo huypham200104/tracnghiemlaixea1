@@ -4,7 +4,7 @@ import '../features/study/presentation/study_screen.dart';
 import '../features/traffic_signs/presentation/traffic_signs_screen.dart';
 import '../features/profile/presentation/profile_screen.dart';
 
-/// Navigation Shell 4 Tab theo chuẩn Material 3
+/// Navigation Shell 4 Tab hiển thị dọc chuẩn mực cho thiết bị di động
 class MainNavigationScreen extends StatefulWidget {
   const MainNavigationScreen({super.key});
 
